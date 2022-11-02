@@ -11,6 +11,37 @@
 ### 关闭iCloud
 如果需要关闭iCloud功能，可以前往系统设置的界面，进入账号，在那里关闭ToMemo的iCloud权限。
 
+### iCloud未正常开启
+设置中iCloud状态会有以下几种情况：
+- iCloud同步已开启
+    - 表示已经开启了iCloud同步的功能，本机上的操作可以同步到其他设备上
+- iCloud未登录，同步不可用
+- iCloud使用受限
+- 无法确认iCloud状态
+- iCloud暂时不可用
+
+#### iCloud未登录，同步不可用
+通过点击【前往设置】按钮，跳转到设置界面。
+
+::: details 操作如下
+![icloud-failed-step1.webp](/images/settings/icloud-failed-step1.webp)
+
+![icloud-failed-step1.webp](/images/settings/icloud-signin-button.webp)
+
+![icloud-failed-step1.webp](/images/settings/icloud-signin-ok-back.webp)
+:::
+按照上面的步骤，完成了iCloud的登录操作，重新打开设置页面，会刷新iCloud的状态。
+
+#### iCloud使用受限
+如果这个情况，并且已经登录，等需要进入到Apple ID页面进行设置。
+::: details 操作如下
+![icloud-failed-step1.webp](/images/settings/icloud-apple-id.webp)
+
+![icloud-failed-step1.webp](/images/settings/icloud-apple-id-enable.webp)
+:::
+
+#### iCloud状态不明
+如果处于`无法确认iCloud状态`和`iCloud暂时不可用`这两种情况，属于iCloud状态不明，需要**重新登录后重试**，或者**重启手机**。
 
 ## 视图
 

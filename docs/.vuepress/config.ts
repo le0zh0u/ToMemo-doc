@@ -1,7 +1,7 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
-  base: '/ToMemo-doc/',
+//   base: '/ToMemo-doc/',
   lang: 'zh-CN',
   title: 'ToMemo',
   description: 'ToMemo的使用说明',
