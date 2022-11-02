@@ -18,11 +18,11 @@ features:
     details: 桌面添加新版小组件，指定Memo，展示、复制两不误
 
 actions:
-  - text: 产品介绍
-    link: /guide
-    type: primary
   - text: 快速上手
     link: /guide/getting-started.html
+    type: primary
+  - text: 产品介绍
+    link: /guide
     type: secondary
 footer: Copyright © 2022-Present Leozhou
 ---
