@@ -4,7 +4,7 @@
 
 完成添加后可以看到如下的键盘界面
 ::: details ToMemo键盘
-![keyboard-setup-finished.jpg](images/keyboard/keyboard-setup-finished.jpg)
+![keyboard-setup-finished.jpg](/images/keyboard/keyboard-setup-finished.jpg)
 :::
 
 ## 键盘设置基础
