@@ -27,6 +27,12 @@ actions:
 footer: Copyright © 2022-Present Leozhou
 ---
 
+## 最近特色
+### 短时记忆 - V1.2.0
+通过捷径快速添加短时记忆DEMO
+
+![short-term-memory-basic-demo0.gif](/images/short-term-memory/short-term-memory-basic-demo0.gif)
+
 ## 安装
 [![Download on the Mac App Store](/images/download/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/tomemo/id1610843304)
 
