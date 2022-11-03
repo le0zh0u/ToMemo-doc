@@ -11,7 +11,7 @@
 - 自动触发保存快捷指令操作
 
 ::: details 演示如下
-![short-term-memory-shortcuts-demo.gif](/images/short-term-memory/short-term-memory-shortcuts-demo.gif)
+![short-term-memory-basic-demo2.gif](/images/short-term-memory/short-term-memory-basic-demo2.gif)
 :::
 
 ## 添加快捷指令
