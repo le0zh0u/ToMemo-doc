@@ -2,7 +2,6 @@
 home: true
 heroImage: /images/logo-corner.png
 tagline: 超好用的常用内容备忘、短时内容记录的便签应用
-# 的声音
 features:
   - title: 极简便签
     details: 让信息录入、管理、提取和分享更便捷
