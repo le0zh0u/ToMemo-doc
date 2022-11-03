@@ -1,4 +1,5 @@
 ---
+title: ToMemo
 home: true
 heroImage: /images/logo-corner.png
 tagline: 超好用的常用内容备忘、短时内容记录的便签应用
