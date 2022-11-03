@@ -101,9 +101,9 @@ ToMemo键盘中展示的内容较多，且为了展示更多有效信息，所�
 #### 当前键盘
 需要用户点击「键盘高度」输入框后，将键盘切换成需要参考高度的键盘。然后点击「当前键盘」按钮，此时会自动计算需要调节的键盘高度，使得ToMemo键盘与对应键盘高度一致。
 
-::: details 键盘高度设置
-TODO
-:::
-
 #### 默认
 这个按钮是将键盘重置回默认的高度值。
+
+::: details 键盘高度设置
+![keyboard-height-demo.gif](/images/keyboard/keyboard-height-demo.gif)
+:::
