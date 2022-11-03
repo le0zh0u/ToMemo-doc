@@ -20,9 +20,13 @@
 ![globe.badge.chevron.backward](/images/keyboard/globe.badge.chevron.backward@2x.png)
 表示启用自动切换回上个输入法，点击Memo、剪切板或短时记忆后会自动切换回上个输入法。
 
-两只手的功能主要用于
+**举手的功能代表是否`Hold on`自动切换功能。**
+
 ![hand.raised@2x.png](/images/keyboard/hand.raised@2x.png)
-表示未
+表示没有暂停自动切换，会点击输入后，自动跳转回上一个输入法
+
+![hand.raised.fill@2x.png](/images/keyboard/hand.raised.fill@2x.png)
+表示暂停自动切换，本次点击输入不触发输入法跳转。
 
 ::: details 演示视频
 ![keyboard-auto-switch-demo.gif](/images/keyboard/keyboard-auto-switch-demo.gif)
