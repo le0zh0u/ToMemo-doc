@@ -93,13 +93,13 @@ export default defineUserConfig({
                 '/en/guide': [
                     {
                         text: '指南',
-                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
+                        children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/settings', '/en/guide/keyboard', '/en/guide/keyboard-settings', '/en/guide/short-term-memory', '/en/guide/advance'],
                     },
                 ],
                 '/en/keyboard-advance/': [
                     {
                         text: '键盘进阶',
-                        children: ['/keyboard-advance/README.md'],
+                        children: ['/en/keyboard-advance/README.md'],
                     },
                 ],
                 '/en/short-term-memory-advance/': [
