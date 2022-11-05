@@ -39,13 +39,13 @@ export default defineUserConfig({
         '/guide': [
             {
                 text: '指南',
-                children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/short-term-memory', '/guide/advance'],
+                children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
             },
         ],
         '/keyboard-advance/': [
             {
                 text: '键盘进阶',
-                children: ['/keyboard-advance/README.md','/keyboard-advance/keyboard-demo.md'],
+                children: ['/keyboard-advance/README.md'],
             },
         ],
         '/short-term-memory-advance/': [
