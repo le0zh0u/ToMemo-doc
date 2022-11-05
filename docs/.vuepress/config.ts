@@ -120,10 +120,10 @@ export default defineUserConfig({
       title: 'ToMemo',
       description: 'ToMemo是超好用的备忘管理工具'
     },
-    '/en/': {
-      lang: 'en-US',
-      title: 'ToMemo',
-      description: 'ToMemo is a handy memo management tool'
-    }
+    // '/en/': {
+    //   lang: 'en-US',
+    //   title: 'ToMemo',
+    //   description: 'ToMemo is a handy memo management tool'
+    // }
   }
 })
