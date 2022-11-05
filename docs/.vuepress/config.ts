@@ -15,11 +15,11 @@ export default defineUserConfig({
             link: '/guide',
         },
         {
-            text: '键盘进阶',
+            text: '键盘',
             link: '/keyboard-advance/',
         },
         {
-            text: '短时记忆进阶',
+            text: '短时记忆+快捷指令',
             link: '/short-term-memory-advance/',
         },
         {
