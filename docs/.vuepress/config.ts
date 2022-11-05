@@ -44,13 +44,13 @@ export default defineUserConfig({
                 '/guide': [
                     {
                         text: '指南',
-                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/short-term-memory', '/guide/advance'],
+                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
                     },
                 ],
                 '/keyboard-advance/': [
                     {
                         text: '键盘进阶',
-                        children: ['/keyboard-advance/README.md','/keyboard-advance/keyboard-demo.md'],
+                        children: ['/keyboard-advance/README.md'],
                     },
                 ],
                 '/short-term-memory-advance/': [
@@ -93,13 +93,21 @@ export default defineUserConfig({
                 '/en/guide': [
                     {
                         text: '指南',
+<<<<<<< HEAD
                         children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
+=======
+                        children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/settings', '/en/guide/keyboard', '/en/guide/short-term-memory', '/en/guide/advance'],
+>>>>>>> dfd6598 (feat: add en lan)
                     },
                 ],
                 '/en/keyboard-advance/': [
                     {
                         text: '键盘进阶',
+<<<<<<< HEAD
                         children: ['/keyboard-advance/README.md'],
+=======
+                        children: ['/en/keyboard-advance/README.md','/en/keyboard-advance/keyboard-demo.md'],
+>>>>>>> dfd6598 (feat: add en lan)
                     },
                 ],
                 '/en/short-term-memory-advance/': [
