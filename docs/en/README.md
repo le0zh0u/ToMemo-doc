@@ -5,11 +5,11 @@ tagline: Super useful sticky note App for frequently used content memo and short
 features:
   - title: Minimalist sticky notes
     details: Make it easier to enter, manage, extract and share information
-  - title: 短时记忆
-    details: 收集平时临时内容，快速复制多个内容，一次快速输入。
-  - title: 快速录入
-    details: 配合捷径，收集内容，效率翻倍
-  - title: 键盘加强
+  - title: Short-term Memory
+    details: Collect the usual temporary contents, quickly copy multiple contents, and enter them quickly at once.
+  - title: Quick Entry
+    details: Work with Shortcuts to collect content, and double your efficiency
+  - title: Keyboard Enhancement
     details: 第三方键盘扩展，常用内容、临时剪切板内容一应俱全
   - title: 云端同步
     details: iCloud多设备同步，一次添加，便捷使用
