@@ -20,6 +20,10 @@ export default defineUserConfig({
                     link: '/guide',
                 },
                 {
+                    text: '常见案例',
+                    link: '/cases/',
+                },
+                {
                     text: '键盘',
                     link: '/keyboard-advance/',
                 },

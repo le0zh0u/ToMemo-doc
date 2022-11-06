@@ -1,5 +1,7 @@
 # 键盘使用演示
 
+此章节需要先行完成扩展键盘的安装，相关可以跳转到[「指南/添加假盘」](/guide/keyboard)查看
+
 **键盘中图标**
 ![keyboard-icons-description.jpg](/images/keyboard/keyboard-icons-description.jpg)
 

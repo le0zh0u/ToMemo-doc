@@ -5,7 +5,7 @@ title: Introduction
 
 ToMemo is a superb note app for frequently used content notes and short-time content recording.
 
-## 产品来源 
+## Idea
 
 ToMemo's core point: `digital content management`.
 

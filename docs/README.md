@@ -14,8 +14,8 @@ features:
     details: 第三方键盘扩展，常用内容、临时剪切板内容一应俱全
   - title: 云端同步
     details: iCloud多设备同步，一次添加，便捷使用
-  - title: 新小组件
-    details: 桌面添加新版小组件，指定Memo，展示、复制两不误
+  - title: 支持组件
+    details: 桌面添加小组件，指定Memo，展示、复制两不误
 
 actions:
   - text: 快速上手
