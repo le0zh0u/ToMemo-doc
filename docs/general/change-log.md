@@ -1,6 +1,6 @@
 # 更新记录
 
-## 1.2.4 <Badge type="warnning" text="2022年11月6日" vertical="middle" />
+## 1.2.4 <Badge type="warning" text="2022年11月6日" vertical="middle" />
 1. 短时记忆转Memo
 2. 短时记忆识别内容并批量转Memo
 3. 短时记忆编辑
