@@ -20,16 +20,20 @@ export default defineUserConfig({
                     link: '/guide',
                 },
                 {
-                    text: '常见案例',
-                    link: '/cases/',
+                    text: '经典案例',
+                    link: '/cases',
                 },
                 {
                     text: '键盘',
                     link: '/keyboard-advance/',
                 },
                 {
-                    text: '短时记忆+快捷指令',
+                    text: '短时记忆',
                     link: '/short-term-memory-advance/',
+                },
+                {
+                    text: '常见疑问',
+                    link: '/questions/',
                 },
                 {
                     text: '联系我',
