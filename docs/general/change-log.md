@@ -1,5 +1,9 @@
 # 更新记录
 
+## 1.2.5 <Badge type="danger" text="DEV" vertical="middle" />
+1. 修复小组件配置中英文问题
+2. 短时记忆智能归档
+
 ## 1.2.4 <Badge type="warning" text="2022年11月6日" vertical="middle" />
 1. 短时记忆转Memo
 2. 短时记忆识别内容并批量转Memo
