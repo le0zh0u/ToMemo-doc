@@ -40,13 +40,24 @@ export default defineUserConfig({
                     link: '/general/contact',
                 },
                 {
-                    text: '使用条款',
-                    link: '/general/terms',
-                }, 
-                {
-                    text: '隐私政策',
-                    link: '/general/privacy',
+                    text: '更多',
+                    children: [
+                        {
+                            text: '更新历史',
+                            link: '/general/change-log',
+                        }, 
+                        {
+                            text: '使用条款',
+                            link: '/general/terms',
+                        }, 
+                        {
+                            text: '隐私政策',
+                            link: '/general/privacy',
+                        },
+                    ]
+                    
                 },
+                
             ],
             sidebar: {
                 '/guide': [

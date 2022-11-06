@@ -103,7 +103,7 @@ ToMemo的核心能力：`数字化内容管理`。
     - 键盘单行列数 
     - 自定义键盘高度
     - 输入后自动切回上一个输入法 
-    - 按键音效
+    - 按键音效 <Badge type="danger" text="LAB" vertical="middle" /> 
     - 放大显示 <Badge type="danger" text="LAB" vertical="middle" /> 
     - 键盘记忆留存时长 <Badge type="danger" text="LAB" vertical="middle" /> 
 - Spotlight搜索 
