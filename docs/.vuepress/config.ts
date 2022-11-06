@@ -63,7 +63,7 @@ export default defineUserConfig({
                 '/guide': [
                     {
                         text: '指南',
-                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
+                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/memo','/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
                     },
                 ],
                 '/keyboard-advance/': [
