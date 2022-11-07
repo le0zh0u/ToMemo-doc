@@ -18,7 +18,6 @@ Sometimes, I think and try to figure out what to do with the content.
 - Deal with it afterwards? You forget about it as time passes, and when you remember it again, you're stuck in a cycle.
 - Where can I put them? Memo? All kinds of note taking software? Drafting software of any kind? Clipboard management tools?
 
-
 经过尝试，并不能找到适合自己方式的使用方式。同时也感知到，不同类型的（不同用处）的内容，背后的使用动机是不太一致的。如同我们大脑处理不同的信息时，使用的分类也不一样。
 - 瞬时内容：来自复制粘贴，用完就可以遗忘。
 - 短时内容：来自不同的渠道，但是需要隔一段时间再次使用，是需要清空和管理的。

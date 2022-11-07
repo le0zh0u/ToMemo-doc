@@ -1,10 +1,25 @@
 # 更新记录
 
-## 1.2.5 <Badge type="danger" text="DEV" vertical="middle" />
-1. 修复小组件配置中英文问题
-2. 短时记忆智能归档
+## 构思中 <Badge type="danger" text="Design" vertical="middle" />
+- 短时记忆智能归档
+- MacOS应用
+- 优化分词界面和能力
 
-## 1.2.4 <Badge type="warning" text="2022年11月6日" vertical="middle" />
+::: tip 温馨提示
+如果有想要的功能，可以私聊我。
+
+如果对功能有想法，赶紧私聊我。
+
+如果自己的使用方法棒极了，请立即告诉我。
+:::
+
+## 1.2.5 <Badge type="warning" text="2022年11月7日" vertical="middle" />
+1. 修复小组件配置中英文问题
+2. 增加短时记忆详情页I8n内容
+3. 调整短时记忆面板留存时长文案
+4. 添加留存时长说明地址
+
+## 1.2.4 <Badge type="tip" text="2022年11月6日" vertical="middle" />
 1. 短时记忆转Memo
 2. 短时记忆识别内容并批量转Memo
 3. 短时记忆编辑
