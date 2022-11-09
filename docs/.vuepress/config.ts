@@ -24,7 +24,7 @@ export default defineUserConfig({
                     link: '/cases',
                 },
                 {
-                    text: '键盘',
+                    text: '键盘使用',
                     link: '/keyboard-advance/',
                 },
                 {
