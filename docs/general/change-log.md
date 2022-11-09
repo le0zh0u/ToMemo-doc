@@ -13,7 +13,19 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
-## 1.2.5 <Badge type="warning" text="2022年11月7日" vertical="middle" />
+
+## 1.2.7 <Badge type="warning" text="2022年11月8日" vertical="middle" /> <Badge type="danger" text="TF" vertical="middle" />
+1. 短时记忆搜索
+2. 扩展键盘添加emoji
+3. 修改扩展键盘名称
+4. 修复整行删除bug
+5. 优化聚合模式样式
+6. 优化详情页分词后样式
+
+## 1.2.6 <Badge type="tip" text="2022年11月8日" vertical="middle" />
+1. 键盘支持换行符
+
+## 1.2.5 <Badge type="tip" text="2022年11月7日" vertical="middle" />
 1. 键盘扩展 - 当前日期 & 当前时间
 2. 修复小组件配置中英文问题
 3. 增加短时记忆详情页I8n内容
