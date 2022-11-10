@@ -14,7 +14,7 @@
 :::
 
 
-## 1.2.7 <Badge type="warning" text="2022年11月8日" vertical="middle" /> <Badge type="danger" text="TF" vertical="middle" />
+## 1.2.7 <Badge type="warning" text="2022年11月9日" vertical="middle" /> <Badge type="danger" text="TF" vertical="middle" />
 1. 短时记忆搜索
 2. 扩展键盘添加emoji
 3. 修改扩展键盘名称
