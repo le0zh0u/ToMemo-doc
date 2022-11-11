@@ -13,8 +13,18 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
+## 1.2.8  <Badge type="warning" text="2022年11月12日" vertical="middle" />
+- 配置显示最近剪切板
+- 底部面板滑动移动光标
+    - 移动速度
+    - 移动计算模型
+- Memo双击内容进入编辑
+- 优化输入法切换图标展示
+- 优化Memo编辑后保存
+- 优化进阶版买断判断
+- 优化键盘按钮大小
 
-## 1.2.7 <Badge type="warning" text="2022年11月9日" vertical="middle" /> <Badge type="danger" text="TF" vertical="middle" />
+## 1.2.7 <Badge type="tip" text="2022年11月9日" vertical="middle" /> <Badge type="danger" text="TF" vertical="middle" />
 1. 短时记忆搜索
 2. 扩展键盘添加emoji
 3. 修改扩展键盘名称
