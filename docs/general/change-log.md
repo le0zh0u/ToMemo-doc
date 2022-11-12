@@ -13,6 +13,13 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
+## 1.2.9  <Badge type="danger" text="DEV" vertical="middle" />
+- Memo长按操作按钮
+- 短时记忆长按增加网址、邮箱识别跳转
+- 键盘样式优化
+- 修复顶部键盘触控问题
+- 修复部分页面顶部空白
+
 ## 1.2.8  <Badge type="warning" text="2022年11月12日" vertical="middle" />
 - 配置显示最近剪切板
 - 底部面板滑动移动光标
