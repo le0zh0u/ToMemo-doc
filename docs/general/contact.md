@@ -24,4 +24,3 @@
 
 也可以在QQ群中联系我。
 
-如果图片没有加载出来，请访问[【腾讯文档】海螺笔记 - 加入社区](https://docs.qq.com/doc/DUm9RaXRqbURUUVFx)
