@@ -1,7 +1,6 @@
 # 更新记录
 
 ## 构思中 <Badge type="danger" text="Design" vertical="middle" />
-- 短时记忆智能归档
 - MacOS应用
 - 优化分词界面和能力
 
