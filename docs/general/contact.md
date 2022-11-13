@@ -6,7 +6,9 @@
 
 提供一个公开链接：[https://testflight.apple.com/join/8ukHjYtR](https://testflight.apple.com/join/8ukHjYtR)
 
-按需自行下载体验，如果有问题随时联系我。最近加的人较多，达到人数上限，等后续再陆续解开。
+按需自行下载体验，如果有问题随时联系我。
+
+最近加的人较多，达到人数上限，等后续再陆续解开。
 
 ## 问题反馈
 
