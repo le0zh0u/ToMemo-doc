@@ -16,7 +16,7 @@
 
 扫下方二维码加入 QQ 群 `590460568`
 
-![QQ交流群](/images/contact/qq_group.JPG)
+![QQ交流群](/images/contact/qq_group.jpg)
 
 ## 单独联系我
 
