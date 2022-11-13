@@ -12,6 +12,12 @@
 
 应用已经上架iOS App Store，如果有使用上的问题或者建议**请优先在 GitHub 提 issue**，👉 点击此处跳转 [GitHub issue](https://github.com/le0zh0u/ToMemo-doc/issues)。
 
+## TG交流群
+
+可以加入[ToMemo Friends](tg://resolve?domain=tomemoapp)
+
+同时订阅[ToMemo Channel](tg://resolve?domain=tomemochannel)
+
 ## QQ交流群
 
 扫下方二维码加入 QQ 群 `590460568`
