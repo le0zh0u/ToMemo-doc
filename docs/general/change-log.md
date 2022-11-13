@@ -13,7 +13,7 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
-## 1.2.9  <Badge type="danger" text="DEV" vertical="middle" />
+## 1.2.9  <Badge type="warning" text="2022年11月13日" vertical="middle" />
 - Memo长按操作按钮
 - 短时记忆长按增加网址、邮箱识别跳转
 - 修复Memo变更后键盘展示延迟问题
