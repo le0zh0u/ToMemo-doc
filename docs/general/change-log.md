@@ -21,7 +21,7 @@
 - 修复部分页面顶部空白
 - 增加联系方式
 
-## 1.2.8  <Badge type="warning" text="2022年11月12日" vertical="middle" />
+## 1.2.8  <Badge type="warning" text="2022年11月11日" vertical="middle" />
 - 配置显示最近剪切板
 - 底部面板滑动移动光标
     - 移动速度
