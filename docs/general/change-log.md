@@ -12,7 +12,7 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
-## 1.2.9  <Badge type="warning" text="2022年11月13日" vertical="middle" />
+## 1.2.9  <Badge type="tip" text="2022年11月13日" vertical="middle" />
 - Memo长按操作按钮
 - 短时记忆长按增加网址、邮箱识别跳转
 - 修复Memo变更后键盘展示延迟问题
@@ -21,7 +21,7 @@
 - 修复部分页面顶部空白
 - 增加联系方式
 
-## 1.2.8  <Badge type="warning" text="2022年11月11日" vertical="middle" />
+## 1.2.8  <Badge type="tip" text="2022年11月11日" vertical="middle" />
 - 配置显示最近剪切板
 - 底部面板滑动移动光标
     - 移动速度
