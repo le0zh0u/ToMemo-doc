@@ -1,8 +1,10 @@
 # 更新记录
 
 ## 构思中 <Badge type="danger" text="Design" vertical="middle" />
-- MacOS应用
+- UI界面调整
 - 优化分词界面和能力
+- 演示demo制作
+- MacOS应用
 
 ::: tip 温馨提示
 如果有想要的功能，可以私聊我。
