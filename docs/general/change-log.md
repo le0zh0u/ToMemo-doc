@@ -14,6 +14,16 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
+## 1.2.10  <Badge type="warning" text="2022年11月16日" vertical="middle" />
+- 当前时间、当前日期自定义格式化
+- Memo详情页导航栏添加Actions
+- 优化Sheet中列表页面
+- 优化Footer和Header
+- 修复短时记忆关闭后数量未得问题
+- 更新键盘中滑动底部震动
+- 更新Spotlight搜索内容
+- 更新自动切换键盘描述
+
 ## 1.2.9  <Badge type="tip" text="2022年11月13日" vertical="middle" />
 - Memo长按操作按钮
 - 短时记忆长按增加网址、邮箱识别跳转
