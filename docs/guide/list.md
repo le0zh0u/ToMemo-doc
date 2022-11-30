@@ -6,13 +6,13 @@
 
 ## 批量添加
 
-在列表的详情页的右下角。
+在列表详情页的扩展菜单栏中。
 
 通过批量导入模板，将自己的内容填充进去，然后进行预览，确认没有问题后，直接保存。
 
-::: details 
+<!-- ::: details 
 ![import-memo-in-list-demo.gif](/images/list/import-memo-in-list-demo.gif)
-:::
+::: -->
 
 模板样例
 ```
@@ -33,8 +33,8 @@ If title is empty, will be filled with content
 
 如果从电脑上根据模板编辑好批量导入的内容。然后在电脑上复制，ToMemo自动识别到，保存到短时记忆中。
 
-从ToMemo应用中进入短时记忆，找到保存进来的内容，点击进入短时记忆详情页，能找到「批量导入到List」功能。点击后进入批量导入页面，选择列表，进行预览，确认没有问题，点击保存后，会自动添加到对应列表中。
+从ToMemo应用中进入短时记忆，找到保存进来的内容，点击进入短时记忆详情页，在右上角扩展菜单栏中找到「批量导入到List」功能。点击后进入批量导入页面，选择列表，进行预览，确认没有问题，点击保存后，会自动添加到对应列表中。
 
-::: details
+<!-- ::: details
 ![import-memo-from-memory-demo.gif](/images/list/import-memo-from-memory-demo.gif)
-:::
+::: -->

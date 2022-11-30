@@ -28,7 +28,7 @@ export default defineUserConfig({
                     link: '/keyboard-advance/',
                 },
                 {
-                    text: '短时记忆',
+                    text: '短时记忆进阶',
                     link: '/short-term-memory-advance/',
                 },
                 {
@@ -63,13 +63,13 @@ export default defineUserConfig({
                 '/guide': [
                     {
                         text: '指南',
-                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/memo','/guide/list','/guide/settings', '/guide/keyboard', '/guide/keyboard-settings', '/guide/short-term-memory', '/guide/advance'],
+                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/memo','/guide/list','/guide/short-term-memory', '/guide/settings', '/guide/advance'],
                     },
                 ],
                 '/keyboard-advance/': [
                     {
                         text: '键盘进阶',
-                        children: ['/keyboard-advance/README.md'],
+                        children: ['/keyboard-advance/README.md','/keyboard-advance/keyboard-settings'],
                     },
                 ],
                 '/short-term-memory-advance/': [

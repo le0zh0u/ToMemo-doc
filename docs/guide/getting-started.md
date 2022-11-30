@@ -2,9 +2,9 @@
 
 ## 首次使用
 应用下载完成后首次打开应用，可以打开应用参照着使用。
-::: details 展示如下
+<!-- ::: details 展示如下
 ![首次加载主页](/images/getting-started/first-load-homepage.png)
-:::
+::: -->
 
 ### 新建列表
 每一条Memo需要有一个列表进行归类，所以首先需要创建一条列表。
@@ -32,9 +32,9 @@
 
 回到首页，可以看到已经创建的Memo，只要点击右侧的复制图标，即可复制Memo的内容。
 
-::: details 展示如下
+<!-- ::: details 展示如下
 ![homepage-memo-rows](/images/getting-started/homepage-memo-rows.jpg)
-:::
+::: -->
 
 点击复制后，手机会有震动反馈，告知内容已经成功复制到剪切板。
 

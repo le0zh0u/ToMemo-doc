@@ -2,7 +2,7 @@
 title: ToMemo
 home: true
 heroImage: /images/logo-corner.png
-tagline: 超好用的常用内容备忘、短时内容记录的便签应用
+tagline: 多功能快捷键盘 + 剪切内容记录 + 懒人短语的便签应用
 features:
   - title: 极简便签
     details: 让信息录入、管理、提取和分享更便捷
@@ -28,6 +28,14 @@ footer: Copyright © 2022-Present Leozhou
 ---
 
 ## 最近特色
+### 布局变化 - V1.3.0
+- 重新调整ToMemo的功能界面，增加三个tab栏——「Memo」、「短时记忆」、「设置」
+- 针对Memo和短时记忆增加多选功能：
+  - Memo：移动、复制、删除
+  - 短时记忆：合并、删除
+- 优化记录的操作方式，操作按钮都放到页面上方
+
+
 ### 短时记忆 - V1.2.0
 通过捷径快速添加短时记忆DEMO
 

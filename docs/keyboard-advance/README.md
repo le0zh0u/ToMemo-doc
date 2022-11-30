@@ -1,6 +1,6 @@
 # 键盘使用演示
 
-此章节需要先行完成扩展键盘的安装，相关可以跳转到[「指南/添加键盘」](/guide/keyboard)查看
+此章节需要先行完成扩展键盘的安装，相关可以跳转到[「指南/应用设置/添加键盘」](/guide/settings)查看
 
 **键盘中图标**
 ![keyboard-icons-description.jpg](/images/keyboard/keyboard-icons-description.jpg)
@@ -15,27 +15,25 @@
 ![globe.badge.chevron.backward](/images/keyboard/globe.badge.chevron.backward@2x.png)
 表示启用自动切换回上个输入法，点击Memo、剪切板或短时记忆后会自动切换回上个输入法。
 
-### 等等再切换
-**举手的功能代表是否`Hold on`自动切换功能。** 让切换等一等。
+### 锁住界面
+**键盘左下角锁的功能代表是否锁住ToMemo键盘的功能。** 让自动切换停一停。
 
-![hand.raised@2x.png](/images/keyboard/hand.raised@2x.png)
-表示没有暂停自动切换，会点击输入后，自动跳转回上一个输入法
+打开的锁表示，会点击输入后，自动跳转回上一个输入法
 
-![hand.raised.fill@2x.png](/images/keyboard/hand.raised.fill@2x.png)
-表示暂停自动切换，本次点击输入不触发输入法跳转。
+锁住的锁表示ToMemo键盘上锁，本次点击输入不触发输入法跳转。
 
-::: details 演示视频
+<!-- ::: details 演示视频
 ![keyboard-auto-switch-demo.gif](/images/keyboard/keyboard-auto-switch-demo.gif)
-:::
+::: -->
 
 ## 分词
 在键盘中开启分词后，点击Memo、剪切板或者短时记忆的内容，可以出发分词的动作，在键盘的功能结果栏中会展示分词结果。
 
 选完需要的词组后，点击功能结果栏最右侧的向上输入的按钮后，会自动将选中的内容输入。
 
-::: details 演示视频
+<!-- ::: details 演示视频
 ![keyboard-participles-demo.gif](/images/keyboard/keyboard-participles-demo.gif)
-:::
+::: -->
 
 ## 自动读取剪切板
 在键盘设置中有一个「自动读取剪切板」的选项。
@@ -62,9 +60,9 @@
     - 可能是内容与最新的一条「短时记忆」重复 
     - 可能是短时记忆没有开启
 
-::: details 演示视频
+<!-- ::: details 演示视频
 ![keyboard-short-term-memory-debo.gif](/images/keyboard/keyboard-short-term-memory-debo.gif)
-:::
+::: -->
 
 ::: tip 提示
 - 短时记忆功能的关闭不会影响自动读取剪切板的功能。只是无法将读取到内容自动保存到短时记忆中。
