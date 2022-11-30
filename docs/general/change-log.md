@@ -13,7 +13,13 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
-## 1.3.0 <Badge type="warning" text="2022年11月30日" vertical="middle" />
+## 1.3.1 <Badge type="warning" text="2022年12月1日" vertical="middle" />
+# Better #
+- 进一步优化布局按钮
+- 取消列表弹窗
+- 处理文本展示问题
+
+## 1.3.0 <Badge type="tip" text="2022年11月30日" vertical="middle" />
 - 布局改变，Memo与短时记忆相辅相成
 - 支持多选操作
 - 优化记录长按后操作
