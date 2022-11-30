@@ -13,7 +13,7 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
-## 1.3.0 <Badge type="warning" text="2022年11月16日" vertical="middle" />
+## 1.3.0 <Badge type="warning" text="2022年11月30日" vertical="middle" />
 - 布局改变，Memo与短时记忆相辅相成
 - 支持多选操作
 - 优化记录长按后操作
