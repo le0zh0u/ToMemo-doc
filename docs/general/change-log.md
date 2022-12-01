@@ -13,7 +13,7 @@
 如果自己的使用方法棒极了，请立即告诉我。
 :::
 
-## 1.3.1 <Badge type="danger" text="2022年12月1日" vertical="middle" />
+## 1.3.2 <Badge type="danger" text="2022年12月1日" vertical="middle" />
 - 短时记忆过滤星标
 - 空页面图标点击后添加
 - 处理Sheet隐藏后按钮失效问题
