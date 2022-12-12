@@ -15,7 +15,7 @@
 🎈 - 功能 💪 - 优化 🐛 - BUG ⌨️ - 键盘部分 🤗 - 功能放开 
 :::
 
-## 1.3.7 <Badge type="warning" text="2022年12月??日" vertical="middle" />
+## 1.3.7 <Badge type="warning" text="DEV" vertical="middle" />
 - 🎈键盘顶部工具栏自定义顺序
 - 🐛修复分词最后符号消失
 
