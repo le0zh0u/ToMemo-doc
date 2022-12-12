@@ -12,8 +12,6 @@
 
 如果自己的使用方法棒极了，请立即告诉我。
 
-https://www.youtube.com/watch?v=2iML7ZNSJL8&ab_channel=KitLangton
-
 🎈 - 功能 💪 - 优化 🐛 - BUG ⌨️ - 键盘部分 🤗 - 功能放开 
 :::
 
