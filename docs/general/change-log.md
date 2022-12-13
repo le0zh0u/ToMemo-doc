@@ -15,9 +15,14 @@
 🎈 - 功能 💪 - 优化 🐛 - BUG ⌨️ - 键盘部分 🤗 - 功能放开 
 :::
 
-## 1.3.7 <Badge type="warning" text="DEV" vertical="middle" />
+## 1.3.7 <Badge type="warning" text="2022年12月13日" vertical="middle" />
 - 🎈键盘顶部工具栏自定义顺序
+- 💪增加版本号
 - 🐛修复分词最后符号消失
+- 🐛设置键盘当前日期格式为空的问题
+- 🐛键盘列表模式下阴影不一致
+- 🐛分词后内容最后的符号消失
+- 🐛修复键盘中列表点击后未回到顶部
 
 ## 1.3.6 <Badge type="tip" text="2022年12月11日" vertical="middle" />
 - 🎈自定义主题色
