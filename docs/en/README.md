@@ -40,4 +40,4 @@ Quickly add short-term memory through Shortcuts.app.
 
 The app is now available on the iOS App Store, so if you have any questions or suggestions **please feel free to raise an issue on GitHub** 👉 Click here to jump [GitHub issue](https://github.com/le0zh0u/ToMemo-doc/issues).
 
-Other contacts can be found at[Contact Me](/general/contact.html).
+Other contacts can be found at[Contact Me](/en/general/contact.html).
