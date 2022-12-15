@@ -77,48 +77,32 @@ ToMemo的核心能力：`数字化内容管理`。
 
 应用核心目标：`效率`。
 
-## 当前功能
-- Memo
-    - 按模板批量添加
-- Memo List
-- iCloud多设备同步
-- 短时记忆 <Badge type="danger" text="LAB" vertical="middle" />
-    - 聚集剪切板历史
-    - 键盘快速添加
-    - 捷径快速添加
-    - 历史管理
-    - 键盘中短时记忆留存时长
-        - 键盘优先打开短时记忆
-    - 短时记忆转化为Memo
-        - 短时记忆批量导入
-    - 短时记忆内容编辑
+## 核心功能
+- Memo - 懒人短语
+- 短时记忆 - 剪切板历史
 - 第三方扩展键盘
-    - 展示类型 - 聚合Memo | 所有列表 <Badge type="danger" text="LAB" vertical="middle" />
-    - 自动读取剪切板 <Badge type="danger" text="LAB" vertical="middle" /> 
-    - 自定义列表留存时长
-    - 左右滑动切换列表 
-    - 键盘单行列数 
-    - 自定义键盘高度
+    - Memo
+    - 短时记忆
+    - 自动读取剪切板
     - 输入后自动切回上一个输入法 
-    - 按键音效 <Badge type="danger" text="LAB" vertical="middle" /> 
-    - 放大显示 <Badge type="danger" text="LAB" vertical="middle" /> 
-    - 键盘记忆留存时长 <Badge type="danger" text="LAB" vertical="middle" /> 
+    - 个性化键盘布局
 - Spotlight搜索 
 - 支持小组件
+- 快捷指令
+    - 添加短时记忆
+
 
 ## 功能规划
-- Memo
+- 长期内容
     - 加强内容类型支持，支持文件类、图片类存储
     - 支持动态变量自动替换
     - 加强内容扩展动作
-        - 导出图片
-        - 系统导出
 - 特色功能
-    - 分词功能优化
     - 增加动态属性，例如时间、日期等
     - 参考Drafts加强内容输出能力
     - 输入导入与导出
 - 长时效内容
+    - 短时记忆内容编辑
     - 短时记忆智能归档
 - 主要版本
     - Mac应用开发

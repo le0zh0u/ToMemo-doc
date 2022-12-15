@@ -5,7 +5,7 @@
 
 ## 输入法切换
 
-此功能需要在设置中开启[「输入后自动切回上个输入法」](/guide/keyboard-settings)。
+此功能需要在设置中开启[「输入后自动切回上个输入法」](/guide/keyboard)。
 
 ![globe](/images/keyboard/globe@2x.png)
 表示未启用自动切换回上个输入法，需要点击此图标进行输入法切换

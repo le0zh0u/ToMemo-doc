@@ -50,29 +50,19 @@ Sometimes, I think and try to figure out what to do with the content.
 
 应用核心目标：`效率`。
 
-## 当前功能
-- Memo
-    - 按模板批量添加
-- Memo List
-- 首屏自定义内容展示 
-    - 所有Memo | Memo按列表聚合
-    - 所有列表
-- iCloud多设备同步
-- 短时记忆 <Badge type="danger" text="LAB" vertical="middle" />
-    - 聚集剪切板历史
-    - 键盘快速添加
-    - 捷径快速添加
-    - 历史管理
+## 核心功能
+- Memo - 懒人短语
+- 短时记忆 - 剪切板历史
 - 第三方扩展键盘
-    - 键盘内容 - 聚合Memo | 所有列表 <Badge type="danger" text="LAB" vertical="middle" />
-    - 自动读取剪切板 <Badge type="danger" text="LAB" vertical="middle" /> 
-    - 自定义列表留存时长
-    - 左右滑动切换列表 
-    - 键盘单行列数 
-    - 自定义键盘高度
+    - Memo
+    - 短时记忆
+    - 自动读取剪切板
     - 输入后自动切回上一个输入法 
+    - 个性化键盘布局
 - Spotlight搜索 
 - 支持小组件
+- 快捷指令
+    - 添加短时记忆
 
 
 ## 功能规划
@@ -81,13 +71,10 @@ Sometimes, I think and try to figure out what to do with the content.
     - 支持动态变量自动替换
     - 加强内容扩展动作
 - 特色功能
-    - 分词功能优化
     - 增加动态属性，例如时间、日期等
     - 参考Drafts加强内容输出能力
     - 输入导入与导出
-    - 按键声音
-- 高价值内容
-    - 短时记忆转化为Memo
+- 长时效内容
     - 短时记忆内容编辑
     - 短时记忆智能归档
 - 主要版本
