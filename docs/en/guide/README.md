@@ -48,7 +48,7 @@ For myself, I hope I can deal with low-frequency and long-lasting content as eff
 At the same time, for the information that comes to us, we also need to be able to efficiently divide the weight of high-frequency content and assign different attention to it.
 
 ### Usage Scenes
-- **Adresses** (company address, home address, takeaway address, girlfriend's home address) and long and stinky, although they can remember but inadvertently need to use
+- **Addresses** (company address, home address, takeaway address, girlfriend's home address) and long and stinky, although they can remember but inadvertently need to use
 - **Bank card numbers**, although all payments are made electronically, but the card numbers that are rarely used and not kept with you in case you need them
 - **Certificate**, don’t worry about your own ID number, except that it is longer, but girlfriend’s, parents’, father-in-law’s, etc., these are urgent when you need them, and it’s a pity to throw them away when you don’t need them.
 - Not recommended - **simple password**, the passwords on the Internet are no longer 123456 can handle, basically all are uppercase and lowercase plus characters, it is troublesome to switch between input methods on mobile phones, non-core passwords can also be stored and used here. However, Alipay, WeChat and other passwords are strongly not recommended to be stored, it is best to keep them in your own mind.
