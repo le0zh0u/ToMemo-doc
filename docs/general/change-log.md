@@ -21,7 +21,7 @@
 -->
 
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
-## 1.3.8 <Badge type="warning" text="2022年12月14日" vertical="middle" />
+## 1.3.8 <Badge type="tip" text="2022年12月14日" vertical="middle" />
 - 🌟 短时记忆自定义过期时间
 - 🌟 短时记忆按照时间分组展示
 - 💪⌨️ 键盘顶部工具栏增加 Emoji、时间、日期
