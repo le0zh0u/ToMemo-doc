@@ -2,9 +2,9 @@
 
 ## 首次使用
 应用下载完成后首次打开应用，可以打开应用参照着使用。
-::: details 展示如下
+<!-- ::: details 展示如下
 ![首次加载主页](/images/getting-started/first-load-homepage.png)
-:::
+::: -->
 
 ### 新建列表
 每一条Memo需要有一个列表进行归类，所以首先需要创建一条列表。
@@ -32,9 +32,9 @@
 
 回到首页，可以看到已经创建的Memo，只要点击右侧的复制图标，即可复制Memo的内容。
 
-::: details 展示如下
+<!-- ::: details 展示如下
 ![homepage-memo-rows](/images/getting-started/homepage-memo-rows.jpg)
-:::
+::: -->
 
 点击复制后，手机会有震动反馈，告知内容已经成功复制到剪切板。
 
@@ -45,5 +45,10 @@
 :::
 
 
+## 多设备同步
+如果已经有一个设备添加了Memo，在另一台设备中下载了ToMemo。
 
+需要确认第一台设备中ToMemo的设置是否开启了iCloud功能，需要确认一下。
+
+然后，在另一台设备中，确认ToMemo设置中iCloud状态是否正常。如果没有问题，点击「刷新ToMemo数据」按钮。会自动刷新Memo列表的数据。
 

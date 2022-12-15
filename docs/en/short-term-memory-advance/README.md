@@ -11,11 +11,11 @@
 - 自动触发保存快捷指令操作
 
 ::: details 演示如下
-![](../.vuepress/public/images/short-term-memory/short-term-memory-shortcuts-demo.gif)
+![short-term-memory-basic-demo1.gif](/images/short-term-memory/short-term-memory-basic-demo0.gif)
 :::
 
 ## 添加快捷指令
-快捷指令下载地址：https://www.icloud.com/shortcuts/b26617615d714266b4c8e45bf3fb553e
+[快捷指令下载地址](https://www.icloud.com/shortcuts/3f4943cad31c4607889d1502caed4c75)
 
 从这个页面中下载分享的快捷指令，并导入到「快捷指令」应用中。
 

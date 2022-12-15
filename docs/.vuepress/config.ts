@@ -88,7 +88,7 @@ export default defineUserConfig({
                     link: '/en/guide',
                 },
                 {
-                    text: 'Advanced Keyboard',
+                    text: 'Keyboard Guide',
                     link: '/en/keyboard-guide/',
                 },
                 {
@@ -96,34 +96,52 @@ export default defineUserConfig({
                     link: '/en/short-term-memory-advance/',
                 },
                 {
+                    text: 'Q & A',
+                    link: '/questions/',
+                },
+                {
+                    text: 'Cases',
+                    link: '/cases',
+                },
+                {
                     text: 'Contact',
                     link: '/en/general/contact',
                 },
                 {
-                    text: 'Terms',
-                    link: '/en/general/terms',
-                }, 
-                {
-                    text: 'Privacy',
-                    link: '/en/general/privacy',
+                    text: 'More',
+                    children: [
+                        {
+                            text: 'Change Log',
+                            link: '/general/change-log',
+                        }, 
+                        {
+                            text: 'Terms',
+                            link: '/en/general/terms',
+                        }, 
+                        {
+                            text: 'Privacy',
+                            link: '/en/general/privacy',
+                        },
+                    ]
+                    
                 },
             ],
             sidebar: {
                 '/en/guide': [
                     {
-                        text: '指南',
-                        children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/settings', '/en/guide/keyboard', '/en/guide/keyboard-settings', '/en/guide/short-term-memory', '/en/guide/advance'],
+                        text: 'Guide',
+                        children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/memo','/en/guide/list','/en/guide/short-term-memory', '/en/guide/settings', '/en/guide/advance'],
                     },
                 ],
                 '/en/keyboard-guide/': [
                     {
-                        text: '键盘进阶',
-                        children: ['/en/keyboard-guide/README.md'],
+                        text: 'Keyboard Guide',
+                        children: ['/en/keyboard-guide/README.md','/en/keyboard-guide/keyboard'],
                     },
                 ],
                 '/en/short-term-memory-advance/': [
                     {
-                        text: '短时记忆进阶',
+                        text: 'Advanced ST Memory',
                         children: ['/en/short-term-memory-advance/README.md'],
                     },
                 ],

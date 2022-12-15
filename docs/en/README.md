@@ -18,10 +18,10 @@ features:
 
 actions:
   - text: Get Started
-    link: /guide/getting-started.html
+    link: /en/guide/getting-started.html
     type: primary
   - text: Introduction
-    link: /guide
+    link: /en/guide
     type: secondary
 footer: Copyright © 2022-Present Leozhou
 ---
