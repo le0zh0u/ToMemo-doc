@@ -96,7 +96,7 @@ export default defineUserConfig({
                     link: '/en/short-term-memory-advance/',
                 },
                 {
-                    text: 'Q & A',
+                    text: 'FAQs',
                     link: '/questions/',
                 },
                 {

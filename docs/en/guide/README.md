@@ -9,7 +9,18 @@ ToMemo is a superb note app for frequently used content notes and short-time con
 
 ToMemo's core point: `digital content management`.
 
-This product is, as its name suggests, a memo (sticky note) application. In the process of using a cell phone, sometimes you suddenly need to keyboard some content, such as `email address`, `delivery address`, `ID card`, `daily template`, `notify others text`. Although the frequency of occurrence is not high every day, every time we encounter it, we either interrupt the text greatly, switch input methods and punctuation; or we can't think of it and need to find the original to continue the operation. This interrupts our sustained concentration while also silently killing time again and again.
+This product is, as its name suggests, a memo application. Functionally, it is divided into three parts.
+- The first part, which efficiently organizes high-frequency and long-lasting content for later use in work life, is functionally classified as **Memos**.
+- The second part is to receive unknown categories of content and organize them afterwards, and also to clear the low-lived content, which is functionally classified as **Short-term memory**.
+- The third part is for efficiency
+    - needs to send the above two types of content efficiently to those who need it, providing an **extended keyboard**.
+    - Efficient entry of uncategorized content on the phone, providing linkage with the Shortcut app to enable copying followed by double-clicking on the auxiliary touch to quickly add records.
+
+The ultimate expectation is to improve the efficiency of our work life through the management of content input and output.
+
+### Background
+
+In the process of using a cell phone, sometimes you suddenly need to keyboard some content, such as `email address`, `delivery address`, `ID card`, `daily template`, `notify others text`. Although the frequency of occurrence is not high every day, every time we encounter it, we either interrupt the text greatly, switch input methods and punctuation; or we can't think of it and need to find the original to continue the operation. This interrupts our sustained concentration while also silently killing time again and again.
 
 Sometimes, I think and try to figure out what to do with the content.
 
@@ -18,64 +29,67 @@ Sometimes, I think and try to figure out what to do with the content.
 - Deal with it afterwards? You forget about it as time passes, and when you remember it again, you're stuck in a cycle.
 - Where can I put them? Memo? All kinds of note taking software? Drafting software of any kind? Clipboard management tools?
 
-经过尝试，并不能找到适合自己方式的使用方式。同时也感知到，不同类型的（不同用处）的内容，背后的使用动机是不太一致的。如同我们大脑处理不同的信息时，使用的分类也不一样。
-- 瞬时内容：来自复制粘贴，用完就可以遗忘。
-- 短时内容：来自不同的渠道，但是需要隔一段时间再次使用，是需要清空和管理的。
-- 长期内容：来自积累和整理，了解自己会用到哪些，并在合适的场景直接使用。
+If we refer to the four quadrant model of work (importance + priority) and construct four quadrants of content value (frequency of use + content timeliness) to classify the content we receive.
+- Low frequency & short duration 
+- Low frequency & long duration
+- High frequency & short duration 
+- High frequency & long duration 
 
-同时参考了工作的四象限模型（重要性+优先级）将我们接受到的内容进行分类：
-- 低频低权重
-- 低频高权重
-- 高频低权重
-- 高频高权重
+Combined with the scenes in my own life, I would be troubled by the main focus on
+- Low frequency and long duration
+    - Contractual documents, which if not saved digitally, would need to be flipped all over the place every time and are extremely important when needed.
+    - Personal information, addresses, photo IDs, family information, etc. The action of filling out forms makes us stop to remember or ask questions before we can continue, and the text is long and difficult to remember.
+- High frequency and long duration 
+    - Lack of a suitable place to store frequently used content that has long-term value, and the need to recall where it was sent each time to copy it.
+    - Cannot quickly filter out long-lasting content from high-frequency messages, and need to recall them item by item
 
-对于我自己而言，我希望自己能尽可能高效地处理低频高权重的内容，高质量地处理高频高权重的内容。每个人对于内容分类归属会不同，但对于高权重这个属性相似度都会比较高。自己后续会针对这一方向去思考和设计应用。
+For myself, I hope I can deal with low-frequency and long-lasting content as efficiently as possible, and high-frequency and long-lasting content with high quality. Everyone's classification of content will be different, but the similarity of the attribute of long duration will be relatively high. I will think about and design applications for this direction.
 
-与此同时，对于扑面而来的信息，也需要能高效地将高频出现的内容分出权重，并分配不同的关注度。
+At the same time, for the information that comes to us, we also need to be able to efficiently divide the weight of high-frequency content and assign different attention to it.
 
-### 使用场景
-- **各种地址**（公司地址，家庭地址，外卖地址，老家地址，女朋友家地址）又臭又长，虽然都能记住但是时不时导航啊，寄快递啊需要用到
-- **各种银行卡号**，虽然付钱都用电子支付，但是万年难得一用的卡号万一需要用到却又没有呆在身边
-- **各种证件**，自己的身份证号不用担心，除了长一些，但是女朋友的，爸妈的，岳父岳母的等等，这些都是需要时急切，不用时扔之可惜，需要一个地方记录一下
-- 不推荐 - **简单的密码**，现在网上的密码已经不是123456能应付的，基本都是大小写加字符，手机上输入法中切换麻烦，非核心的密码也可以在这里存储使用，比如临时注册的账号用一个统一的密码。但是支付宝、微信等密码强烈不建议存储，最好放在自己脑子中
-- **各种邮箱地址**，用到地方不多，但是用到了需要输入一串的字符，然后切换面板的内容到符号页，再切回来，太麻烦了。
-- **各种模板**，工作邮件回复的模板、客户通知模板、审批流模板。电脑中都有存，但手机中还真一下子找不到
-- **信息传递**，常见问题形成末班回复，工作信息传达给不同来咨询的人等等，数字世界中每个人都会有信息需要重复传播给其他人。
-- **其他杂项**，一些平时用不到，但会用到，且容易忘记的东西，比如社保卡号，公司营业执照等等
+### Usage Scenes
+- **ddresses** (company address, home address, takeaway address, girlfriend's home address) and long and stinky, although they can remember but inadvertently need to use
+- **Bank card numbers**, although all payments are made electronically, but the card numbers that are rarely used and not kept with you in case you need them
+- **Certificate**, don’t worry about your own ID number, except that it is longer, but girlfriend’s, parents’, father-in-law’s, etc., these are urgent when you need them, and it’s a pity to throw them away when you don’t need them.
+- Not recommended - **simple password**, the passwords on the Internet are no longer 123456 can handle, basically all are uppercase and lowercase plus characters, it is troublesome to switch between input methods on mobile phones, non-core passwords can also be stored and used here. However, Alipay, WeChat and other passwords are strongly not recommended to be stored, it is best to keep them in your own mind.
+- **Email addresses**, are not used in many places, but when they are used, you need to enter a string of characters, then switch the content of the panel to the symbol page, and then switch back, which is too troublesome.
+- **Templates**, templates for work email replies, customer notification templates, approval flow templates. All of them are stored in the computer, but I can't find them in the phone at once.
+- **Messaging**, FAQs form last shift replies, work information is communicated to different people who come to consult, etc. Everyone in the digital world has information that needs to be repeatedly disseminated to others.
+- **Other miscellaneous**, some things that are not usually used, but will be used and easy to forget, such as social security card number, company business license, etc.
 
-### 名称来源
-以备忘录`Memo`为核心，从形状上参考了`potato`，最终合成`ToMemo`。
+### Naming
+Taking the `Memorandum` as the core, referring to `potato` from the shape, and finally synthesizing `ToMemo`.
 
-### 目标
+### Goals
 
-应用核心目标：`效率`。
+Application Core Goal: `Efficiency`.
 
-## 核心功能
-- Memo - 懒人短语
-- 短时记忆 - 剪切板历史
-- 第三方扩展键盘
+## Core functions
+- Memo - Lazy Phrase
+- short-term memory - clipboard history
+- Third-party extension keyboards
     - Memo
-    - 短时记忆
-    - 自动读取剪切板
-    - 输入后自动切回上一个输入法 
-    - 个性化键盘布局
-- Spotlight搜索 
-- 支持小组件
-- 快捷指令
-    - 添加短时记忆
+    - short-term memory
+    - Automatically read the clipboard
+    - Automatically switch back to the previous input method after input
+    - Personalized keyboard layout
+- Spotlight search
+- Support widgets
+- Shortcuts
+    - Add short-term memory
 
 
-## 功能规划
-- 长期内容
-    - 加强内容类型支持，支持文件类、图片类存储
-    - 支持动态变量自动替换
-    - 加强内容扩展动作
-- 特色功能
-    - 增加动态属性，例如时间、日期等
-    - 参考Drafts加强内容输出能力
-    - 输入导入与导出
-- 长时效内容
-    - 短时记忆内容编辑
-    - 短时记忆智能归档
-- 主要版本
-    - Mac应用开发
+## Planning
+- long-term content
+     - Enhance content type support, support file and image storage
+     - Support dynamic variable automatic replacement
+     - Enhanced content expansion action
+- special function
+     - Add dynamic attributes, such as time, date, etc.
+     - Refer to Drafts to enhance content output capabilities
+     - Import import and export
+- Long-term content
+     - short-term memory content editing
+     - Intelligent filing of short-term memory
+- major version
+     - Mac application development
