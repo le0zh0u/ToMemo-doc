@@ -1,7 +1,7 @@
-# 快速上手
+# Getting Started
 
-## 首次使用
-应用下载完成后首次打开应用，可以打开应用参照着使用。
+## First time
+Open the application for the first time after the application download is complete, you can open the application and then operate step by step
 <!-- ::: details 展示如下
 ![首次加载主页](/images/getting-started/first-load-homepage.png)
 ::: -->
