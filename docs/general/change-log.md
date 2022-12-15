@@ -19,8 +19,13 @@
 ［增强］增强了某某功能 💪
 ［修复］修复了某某错误 👉 
 -->
-
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
+
+## 1.3.9 <Badge type="warning" text="2022年12月15日" vertical="middle" />
+- 🌟⌨️ Memo和短时记忆长按增加扩展能力
+- 👉 Memo详情页内容显示问题
+- 👉 自定义键盘顶部菜单栏设置页面重复进入后展示问题
+
 ## 1.3.8 <Badge type="tip" text="2022年12月14日" vertical="middle" />
 - 🌟 短时记忆自定义过期时间
 - 🌟 短时记忆按照时间分组展示
