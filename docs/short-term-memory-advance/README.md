@@ -15,7 +15,7 @@
 :::
 
 ## 添加快捷指令
-[快捷指令下载地址](https://www.icloud.com/shortcuts/b26617615d714266b4c8e45bf3fb553e)
+[快捷指令下载地址](https://www.icloud.com/shortcuts/3f4943cad31c4607889d1502caed4c75)
 
 从这个页面中下载分享的快捷指令，并导入到「快捷指令」应用中。
 
