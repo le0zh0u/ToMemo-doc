@@ -21,7 +21,18 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.3.9 <Badge type="warning" text="2022年12月15日" vertical="middle" />
+## 1.4.0 <Badge type="warning" text="2022年1230日" vertical="middle" />
+- 🌟⌨️ 新增键盘皮肤 - 初心
+- 💪⌨️ 优化iPad下键盘按钮大小
+- 💪 短时记忆部分功能收拢至进阶版
+- 💪 优化短时记忆聚合展示
+
+## 1.3.10 <Badge type="tip" text="2022年12月19日" vertical="middle" />
+- 💪⌨️ 优化键盘中长按后文字阴影问题
+- 💪⌨️ 键盘中，切换到短时记忆下，隐藏最新一条剪切板记录
+- 💪⌨️ 优化键盘切换后未读取剪切板问题
+
+## 1.3.9 <Badge type="tip" text="2022年12月15日" vertical="middle" />
 - 🌟⌨️ Memo和短时记忆长按增加扩展能力
 - 👉 Memo详情页内容显示问题
 - 👉 自定义键盘顶部菜单栏设置页面重复进入后展示问题
