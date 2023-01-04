@@ -21,7 +21,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.0 <Badge type="warning" text="2022年1230日" vertical="middle" />
+## 1.4.0 <Badge type="tip" text="2022年12月30日" vertical="middle" />
 - 🌟 新增键盘皮肤 - 初心 👍🏻👍🏻👍🏻
 - 🌟 进阶版订阅后可再次买断，需要自己去订阅管理中取消订阅
 - 💪 短时记忆部分功能收拢至进阶版
