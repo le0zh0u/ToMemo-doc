@@ -21,6 +21,14 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.1 <Badge type="tip" text="2023年01月07日" vertical="middle" />
+- 🌟 进阶版设置自动恢复
+- 🌟 短时记忆自动保存
+- 💪 初心主题优化
+- 💪 键盘主题适配深浅模式切换
+- 👉 修复皮肤页面布局问题
+- 👉 修复spotlight下键盘颜色问题
+
 ## 1.4.0 <Badge type="tip" text="2022年12月30日" vertical="middle" />
 - 🌟 新增键盘皮肤 - 初心 👍🏻👍🏻👍🏻
 - 🌟 进阶版订阅后可再次买断，需要自己去订阅管理中取消订阅
