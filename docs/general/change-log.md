@@ -21,6 +21,10 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.3 <Badge type="warning" text="2023年01月13日" vertical="middle" />
+- 🌟 应用内增加代码兑换、订阅管理入口
+- 💪 优化鉴权位置
+
 ## 1.4.2 <Badge type="tip" text="2023年01月11日" vertical="middle" />
 - 🌟 键盘横屏高度设置
 - 🌟 支持应用内打开网址
