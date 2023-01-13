@@ -5,10 +5,10 @@
             "title":"给长辈",
             "content":[
                 {
-                    "text":"aaaaaaaaa"
+                    "text":"aaaaaaaaa\naaaaaaa"
                 },
                 {
-                    "text":"bbbbb"
+                    "text":"bbbbb\tbbbbb"
                 }
             ]
         },
