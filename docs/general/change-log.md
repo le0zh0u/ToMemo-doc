@@ -21,6 +21,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.2 <Badge type="tip" text="2023年01月11日" vertical="middle" />
+- 🌟 键盘横屏高度设置
+- 🌟 支持应用内打开网址
+- 🌟 键盘中删除按钮支持长按删除
+- 💪 优化Memo页面结构
+
 ## 1.4.1 <Badge type="tip" text="2023年01月07日" vertical="middle" />
 - 🌟 进阶版设置自动恢复
 - 🌟 短时记忆编辑后自动保存
