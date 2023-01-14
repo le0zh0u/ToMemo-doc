@@ -3,6 +3,7 @@
     "content":[
         {
             "title":"给长辈",
+            "icon": "👨‍🦳",
             "content":[
                 {
                     "text":"aaaaaaaaa\naaaaaaa"
@@ -14,6 +15,7 @@
         },
         {
             "title":"给领导",
+            "icon": "👨‍💼",
             "content":[
                 {
                     "text":"cccccccc"
