@@ -21,9 +21,11 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.3 <Badge type="warning" text="2023年01月13日" vertical="middle" />
+## 1.4.3 <Badge type="warning" text="2023年01月15日" vertical="middle" />
+- 🌟 新年祝福短语合集，让新年祝福一步到位
 - 🌟 应用内增加代码兑换、订阅管理入口
 - 💪 优化鉴权位置
+- 👉 修复Memo详情页中链接打开方式
 
 ## 1.4.2 <Badge type="tip" text="2023年01月11日" vertical="middle" />
 - 🌟 键盘横屏高度设置
