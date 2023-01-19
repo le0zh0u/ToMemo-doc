@@ -21,7 +21,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.4 <Badge type="warning" text="2023年01月18日" vertical="middle" />
+## 1.4.4 <Badge type="tip" text="2023年01月18日" vertical="middle" />
 - 🌟 新增键盘皮肤 - 钱多多 👍🏻👍🏻👍🏻
 - 👉 下线键盘中长按删除的功能，存在未修复的bug
 
