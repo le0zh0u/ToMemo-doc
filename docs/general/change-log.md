@@ -21,6 +21,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.6 <Badge type="tip" text="2023年01月26日" vertical="middle" />
+- 🌟 记忆宫殿 - 短时记忆智能分组
+
+## 1.4.5 <Badge type="tip" text="2023年01月24日" vertical="middle" />
+- 👉 修复键盘显示+1的问题
+
 ## 1.4.4 <Badge type="tip" text="2023年01月18日" vertical="middle" />
 - 🌟 新增键盘皮肤 - 钱多多 👍🏻👍🏻👍🏻
 - 👉 下线键盘中长按删除的功能，存在未修复的bug
