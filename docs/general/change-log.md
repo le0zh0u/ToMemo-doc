@@ -21,6 +21,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.7 <Badge type="tip" text="2023年01月26日" vertical="middle" />
+- 💪 键盘和快捷指令添加的短时记忆自动关联分组
+- 💪 键盘中短时记忆最新一条展示
+- 💪 在设置-外观中添加键盘皮肤入口
+- 👉 修复分组详情切换到列表时内容消失问题
+
 ## 1.4.6 <Badge type="tip" text="2023年01月26日" vertical="middle" />
 - 🌟 记忆宫殿 - 短时记忆智能分组
 
