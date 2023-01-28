@@ -21,7 +21,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.7 <Badge type="tip" text="2023年01月26日" vertical="middle" />
+## 1.4.8 <Badge type="tip" text="2023年01月28日" vertical="middle" />
+- 💪 新增Memo列表中显示Memo内容设置
+- 👉 修复记忆宫殿名称修改后值未更新的问题
+- 👉 修复记忆宫殿删除后显示问题
+
+## 1.4.7 <Badge type="tip" text="2023年01月27日" vertical="middle" />
 - 💪 键盘和快捷指令添加的短时记忆自动关联分组
 - 💪 键盘中短时记忆最新一条展示
 - 💪 在设置-外观中添加键盘皮肤入口
