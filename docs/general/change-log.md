@@ -21,6 +21,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.9 <Badge type="warning" text="2023年02月02日" vertical="middle" />
+- 💪 默认开启记忆宫殿
+- 💪 移动新年短语到扩展中
+- 👉 修复键盘中剪切板获取的问题
+- 👉 修复分词时提取内容在一个单元格中
+
 ## 1.4.8 <Badge type="tip" text="2023年01月28日" vertical="middle" />
 - 💪 新增Memo列表中显示Memo内容设置
 - 👉 修复记忆宫殿名称修改后值未更新的问题
