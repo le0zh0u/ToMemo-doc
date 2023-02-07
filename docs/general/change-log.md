@@ -21,7 +21,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.9 <Badge type="warning" text="2023年02月07日" vertical="middle" />
+## 1.4.10 <Badge type="warning" text="2023年02月07日" vertical="middle" />
 - 🌟 Memo增加动态变量 - 光标位置、最新剪切板、时间
 - 💪 记忆宫殿过滤规则输入框提供正则表达式工具栏
 - 💪 调整memo进入详情页直接进入编辑状态
