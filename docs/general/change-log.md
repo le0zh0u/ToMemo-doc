@@ -1,7 +1,7 @@
 # 更新记录
 
 ## 构思中 <Badge type="danger" text="Design" vertical="middle" />
-- 演示demo制作
+- 动态变量
 - MacOS应用
 - 智能分组
 
