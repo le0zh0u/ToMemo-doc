@@ -21,6 +21,13 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.4.9 <Badge type="warning" text="2023年02月07日" vertical="middle" />
+- 🌟 Memo增加动态变量 - 光标位置、最新剪切板、时间
+- 💪 记忆宫殿过滤规则输入框提供正则表达式工具栏
+- 💪 调整memo进入详情页直接进入编辑状态
+- 💪 去除部分键盘中动画效果
+- 👉 处理键盘dashboard返回按钮点击不方便问题
+
 ## 1.4.9 <Badge type="tip" text="2023年02月02日" vertical="middle" />
 - 💪 默认开启记忆宫殿
 - 💪 移动新年短语到扩展中
