@@ -21,7 +21,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.11 <Badge type="warning" text="2023年02月09日" vertical="middle" />
+## 1.4.11 <Badge type="warning" text="2023年02月12日" vertical="middle" />
 - 💪 键盘中Memo支持长按复制
 - 💪 清除未标星的短时记忆时，自动清除系统剪切板 - 防止清除完后又加入进来
 - 💪 优化记忆宫殿中短时记忆展示顺序
