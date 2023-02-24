@@ -22,7 +22,8 @@
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
 ## 1.4.12 <Badge type="warning" text="2023年02月15日" vertical="middle" />
-- 🌟 准备支持AI服务
+- 🌟 接入OpenAI，配置指令
+- 🌟 键盘中接入OpenAI的指令
 - 🌟 增加最近更新页面
 - 💪 优化记忆宫殿过滤规则配置条件
 
