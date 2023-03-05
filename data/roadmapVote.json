@@ -23,16 +23,43 @@
             "value": "计划中"
         }
       ],
-      "description": "Mac版本的ToMemo，提升在Mac上使用的效率",
+      "description": "Mac版本的ToMemo",
       "localizedDescription": [
         {
           "language": "en",
-          "value": "ToMemo for Mac enhances productivity when using it on a Mac."
+          "value": "ToMemo for Mac"
         },
         {
             "language": "zh-Hans",
-            "value": "Mac版本的ToMemo，提升在Mac上使用的效率"
+            "value": "Mac版本的ToMemo"
           }
       ]
-    }
+    },
+    {
+        "id": "2",
+        "title": "短时记忆过滤器",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Short-term memory filter"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "短时记忆过滤器"
+          }
+        ],
+        "status": "finished",
+        "isFinished": true,
+        "description": "自定义过滤剪切板内容规则",
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Custom filter clipboard content rules"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "自定义过滤剪切板内容规则"
+            }
+        ]
+      }
   ]
