@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "title": "Mac应用",
+      "localizedTitle": [
+        {
+          "language": "en",
+          "value": "Mac Application"
+        },
+        {
+          "language": "zh-Hans",
+          "value": "Mac应用"
+        }
+      ],
+      "status": "planned",
+      "localizedStatus": [
+        {
+          "language": "en",
+          "value": "Planned"
+        },
+        {
+            "language": "zh-Hans",
+            "value": "计划中"
+        }
+      ],
+      "description": "Mac版本的ToMemo，提升在Mac上使用的效率",
+      "localizedDescription": [
+        {
+          "language": "en",
+          "value": "ToMemo for Mac enhances productivity when using it on a Mac."
+        },
+        {
+            "language": "zh-Hans",
+            "value": "Mac版本的ToMemo，提升在Mac上使用的效率"
+          }
+      ]
+    }
+  ]

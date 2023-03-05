@@ -1,9 +1,11 @@
 # 更新记录
 
 ## 构思中 <Badge type="danger" text="Design" vertical="middle" />
-- 动态变量
 - MacOS应用
-- 智能分组
+- 图片与文件
+- 键盘中的动作库
+- 短语集合
+- 跨平台尝试
 
 ::: tip 温馨提示
 如果有想要的功能，可以私聊我。
