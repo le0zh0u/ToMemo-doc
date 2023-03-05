@@ -12,17 +12,7 @@
           "value": "Mac应用"
         }
       ],
-      "status": "planned",
-      "localizedStatus": [
-        {
-          "language": "en",
-          "value": "Planned"
-        },
-        {
-            "language": "zh-Hans",
-            "value": "计划中"
-        }
-      ],
+      "status": "Planned",
       "description": "Mac版本的ToMemo",
       "localizedDescription": [
         {
@@ -48,7 +38,7 @@
             "value": "短时记忆过滤器"
           }
         ],
-        "status": "finished",
+        "status": "Done",
         "isFinished": true,
         "description": "自定义过滤剪切板内容规则",
         "localizedDescription": [
