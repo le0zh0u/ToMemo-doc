@@ -21,7 +21,16 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.4.12 <Badge type="warning" text="2023年02月15日" vertical="middle" />
+## 1.5.0 <Badge type="warning" text="2023年03月04日" vertical="middle" />
+- 🌟 短时记忆过滤规则
+- 🌟 短时记忆预先处理动作
+- 💪 Memo变量日期优化 - 可以通过菜单栏可视化选择需要的格式
+- 💪 首次创建Memo时，如果没有列表，会自动创建一个
+- 💪 更新OpenAI对话页面的样式
+- 💪 短时记忆增加创建时间和复制次数 - 长按短时记忆
+- 💪 短时记忆自动删除相同内容
+
+## 1.4.12 <Badge type="tip" text="2023年02月15日" vertical="middle" />
 - 🌟 接入OpenAI，配置指令
 - 🌟 键盘中接入OpenAI的指令
 - 🌟 增加最近更新页面
