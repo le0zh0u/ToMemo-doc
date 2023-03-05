@@ -12,7 +12,17 @@
           "value": "Mac版本"
         }
       ],
-      "status": "Planned"
+      "status": "Planned",
+      "localizedStatus": [
+        {
+          "language": "zh-Hans",
+          "value": "计划中"
+        },
+        {
+          "language": "en",
+          "value": "Planned"
+        }
+      ]
     },
     {
         "id": "2",
@@ -28,6 +38,16 @@
           }
         ],
         "status": "Done",
+        "localizedStatus": [
+            {
+              "language": "zh-Hans",
+              "value": "已完成"
+            },
+            {
+              "language": "en",
+              "value": "Done"
+            }
+          ],
         "isFinished": true,
         "description": "自定义过滤剪切板内容规则",
         "localizedDescription": [
