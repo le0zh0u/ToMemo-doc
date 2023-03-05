@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "title": "Mac应用",
+      "title": "Mac版本",
       "localizedTitle": [
         {
           "language": "en",
@@ -9,21 +9,10 @@
         },
         {
           "language": "zh-Hans",
-          "value": "Mac应用"
+          "value": "Mac版本"
         }
       ],
-      "status": "Planned",
-      "description": "Mac版本的ToMemo",
-      "localizedDescription": [
-        {
-          "language": "en",
-          "value": "ToMemo for Mac"
-        },
-        {
-            "language": "zh-Hans",
-            "value": "Mac版本的ToMemo"
-          }
-      ]
+      "status": "Planned"
     },
     {
         "id": "2",
