@@ -25,6 +25,99 @@
       ]
     },
     {
+        "id": "4",
+        "title": "支持图片",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Support for images"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "支持图片"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Actions in keybouard"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "支持假盘中的动作"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Send content in a personalized way on the keyboard"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "在键盘中对内容以个性化的方式发送"
+            }
+        ]
+      },
+      {
+        "id": "6",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Phrase collection"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "短语合集"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Support to subscribe to custom phrase list"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "支持订阅自定义的短语列表"
+            }
+        ]
+      },
+    {
         "id": "2",
         "title": "短时记忆过滤器",
         "localizedTitle": [
