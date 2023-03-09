@@ -23,7 +23,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.0 <Badge type="warning" text="2023年03月04日" vertical="middle" />
+## 1.5.0 <Badge type="tip" text="2023年03月04日" vertical="middle" />
 - 🌟 短时记忆过滤规则
 - 🌟 短时记忆预先处理动作
 - 💪 Memo变量日期优化 - 可以通过菜单栏可视化选择需要的格式
