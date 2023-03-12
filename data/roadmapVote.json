@@ -117,6 +117,40 @@
             }
         ]
       },
+      {
+        "id": "7",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Support Picture in Picture"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "支持画中画"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Auto saving pastboard to short-term memory by PIP"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "通过画中画功能自动保存剪切板内容"
+            }
+        ]
+      },
     {
         "id": "2",
         "title": "短时记忆过滤器",
