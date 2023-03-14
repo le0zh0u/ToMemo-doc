@@ -23,7 +23,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.1 <Badge type="warning" text="DEV" vertical="middle" />
+## 1.5.2 <Badge type="warning" text="DEV" vertical="middle" />
 - 🌟 OpenAI支持ChatGPT3.5
 
 ## 1.5.1 <Badge type="tip" text="2023年03月11日" vertical="middle" />
