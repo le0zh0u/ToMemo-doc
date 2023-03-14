@@ -24,8 +24,11 @@
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
 ## 1.5.1 <Badge type="warning" text="DEV" vertical="middle" />
-- 🌟 新增功能投票
 - 🌟 OpenAI支持ChatGPT3.5
+
+## 1.5.1 <Badge type="tip" text="2023年03月11日" vertical="middle" />
+- 🌟 新增功能投票
+- 👉 修复新建列表无响应维问题
 
 ## 1.5.0 <Badge type="tip" text="2023年03月04日" vertical="middle" />
 - 🌟 短时记忆过滤规则
