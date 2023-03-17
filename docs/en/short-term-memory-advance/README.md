@@ -1,44 +1,45 @@
-# 短时记忆进阶功能
+# Advanced Functionality of Short-term Memory
 
-## 使用快捷指令添加短时记忆
+## Saving to Short-term Memory with a Shortcut
 
-短时记忆提供快捷指令保存的能力，可以通过捷径快速触发保存动作。
+Short-term Memory provides the ability to save with a shortcut, allowing you to quickly trigger a save action.
 
-演示视频操作过程：
-- 选择需要复制的文本内容
-- 点击复制
-- 双击「辅助触控」按钮
-- 自动触发保存快捷指令操作
+Demonstration video operation process:
+- Select the text content that needs to be copied.
+- Click “Copy”.
+- Double-click the “Assistive Touch” button.
+- The save shortcut is automatically triggered.
 
-::: details 演示如下
+::: details Demo
 ![short-term-memory-basic-demo1.gif](/images/short-term-memory/short-term-memory-basic-demo0.gif)
 :::
 
-## 添加快捷指令
-[快捷指令下载地址](https://www.icloud.com/shortcuts/3f4943cad31c4607889d1502caed4c75)
+## Adding a Shortcut
 
-从这个页面中下载分享的快捷指令，并导入到「快捷指令」应用中。
+[Shortcut download address](https://www.icloud.com/shortcuts/3f4943cad31c4607889d1502caed4c75)
 
-此时可以看到一个叫「保存剪切板内容」的快捷指令。
+Download the shared shortcut from this page and import it into the “Shortcuts” application.
 
-## 设置触发动作
+At this time, a shortcut called “Save clipboard content” can be seen.
 
-### 通过辅助触控触发
+## Setting the Trigger Action
 
-通过点击、双击、长按辅助触控等方式触发快捷指令。
+### Trigger via Assistive Touch
 
-::: details 设置过程如下
+Trigger the shortcut by clicking, double-clicking, long-pressing the Assistive Touch, etc.
+
+::: details Process shown 
 ![short-term-memory-assistive-touch-set-demo.gif](/images/short-term-memory/short-term-memory-assistive-touch-set-demo.gif)
 :::
 
-需要开启辅助触控（使用屏幕上小白点）。
+Assistive Touch (using the small white dot on the screen) needs to be turned on.
 
-### 通过轻拍屏幕触发
+### Trigger via Tapping the Screen
 
-通过轻拍两下手机背部触发快捷指令。这个主要适用于不想使用辅助触控的用户。
+Trigger the shortcut by tapping the back of the phone twice. This is mainly applicable to users who do not want to use Assistive Touch.
 
-::: details 设置过程如下
+::: details Process shown below
 ![short-term-memory-tap-back-set-demo.gif](/images/short-term-memory/short-term-memory-tap-back-set-demo.gif)
 :::
 
-*轻拍手机背面触发需要自己调整适应，一开始不一定每次轻拍都能识别到。*
+*The back-tap trigger needs to be adapted to the phone and may not be recognized every time at first.*

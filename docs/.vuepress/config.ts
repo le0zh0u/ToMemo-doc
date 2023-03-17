@@ -97,11 +97,11 @@ export default defineUserConfig({
                 },
                 {
                     text: 'FAQs',
-                    link: '/questions/',
+                    link: '/en/questions/',
                 },
                 {
                     text: 'Cases',
-                    link: '/cases',
+                    link: '/en/cases',
                 },
                 {
                     text: 'Contact',
@@ -112,7 +112,7 @@ export default defineUserConfig({
                     children: [
                         {
                             text: 'Change Log',
-                            link: '/general/change-log',
+                            link: '/en/general/change-log',
                         }, 
                         {
                             text: 'Terms',

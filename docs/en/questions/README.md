@@ -1,51 +1,91 @@
-# 问答集合
+# Questions
 
-## 听说可以连续复制，一次性添加，但是没有效果，应该怎么办？
-连续复制的功能是结合快捷指令使用的，快捷指令是苹果自己的一个应用，如果已经删除了，可以先去App Store下载一下。
+## How to use the New Year’s blessing phrases?
 
-然后参考[「短时记忆+快捷键/使用快捷指令添加短时记忆」](/short-term-memory-advance/)中的详细教程，包含了快捷指令的下载地址，以及辅助触控的结合方式，可以按照演示视频一步步添加。
+After entering “Settings-New Year’s Blessing”, the list will display the New Year’s blessing phrases that have been obtained. The buttons in the upper right corner of the page are `Link` and `Refresh`.
 
-## 我现在快捷键盘只想进去就打开剪切板历史，可以吗？
-可以的，需要在设置中，找到「键盘」部分，然后找到「短时记忆面板留存时长」，选择「一直」就可以了。
+`Link` - Enter the configuration page, where you can choose the data retrieval address from [Github](https://raw.iqiq.io/le0zh0u/ToMemo-doc/happynewyear-data/data/happy_newyear.json) and [Gitlab](https://gitlab.com/leozhou/ToMemo-doc/-/raw/happynewyear-data/data/happy_newyear.json).
 
-这样每次打开键盘会自动进入「短时记忆」，进行快捷粘贴了。
+`Refresh` - When the remote data is updated but the local data is not, you can use this button to re-fetch the data.
 
-## 在iOS16中经常跳出允许粘贴的提示，非常影响体验
-需要前往系统「设置」，找到「ToMemo」。进入设置后，将「从其他App粘贴」功能设置为「允许」
+### List
 
-::: details 设置结果如图
+In the data list, you can `click` and `long press`.
+
+`Click` - Copy the blessing phrase, find a suitable blessing phrase, and manually send it to the corresponding person. The sender information will be automatically replaced here.
+
+`Long press` - You can save it as a Memo with one click, and then send the designated text through Memo in the keyboard.
+
+### Keyboard
+
+The entrance in the keyboard: Click on `the logo in the upper left corner`.
+
+After entering, click on `New Year’s Blessing`, which will display all categories. Clicking on different categories will display different contents.
+
+**Each click randomly selects a phrase from the content of the category. When there are multiple clicks, the previously added content will be automatically overwritten.** The content will automatically replace the sender information.
+
+**If there is content that needs to be modified, there will be a message reminder at the top of the keyboard**. Please pay attention to it.
+
+### Configuration
+
+Click on `the link ` to enter the configuration interface. In addition to configuring the data retrieval address, you can also configure the content that needs to be automatically replaced in the blessing template - the sender.
+
+In many blessing sentences, there are template contents such as `xxx wishes you` and `xxx respectfully`. Since the sender is fixed, after filling it in, the xxx part above will be automatically replaced to facilitate quick sending in the keyboard.
+
+As for the many blessing phrases that contain `the name of the recipient`, since this variable changes too much, it is not included as a configurable content. However, in the keyboard, if the generated text contains the specified character, there will be a prompt message that needs to be checked.
+
+## I heard that you can copy continuously and add it all at once, but it doesn’t work. What should I do?
+
+The continuous copy function is used in conjunction with Shortcuts. Shortcuts is an application made by Apple. If it has been deleted, you can go to the App Store to download it first.
+
+Then refer to the detailed tutorial in [「Short-term Memory + Shortcut Key / Use Shortcuts to Add Short-term Memory」](/short-term-memory-advance/), which includes the download address of Shortcuts and the combination method of AssistiveTouch. Follow the demo video to add step by step.
+
+## Can I set the shortcut keyboard to open the clipboard history when entering it?
+
+Yes, you need to go to “Settings”, find the “Keyboard” section, and then find “Retention Time for Use Panel”. Choose “Always”.
+
+This will automatically enter “short-term memory” every time you open the keyboard, allowing for quick paste.
+
+## In iOS16, the prompt to allow pasting often pops up, which greatly affects the experience.
+
+You need to go to the system “Settings” and find “ToMemo”. After entering the settings, set the “Allow Pasting from Other Apps” function to “Allow”.
+
+::: details
 ![ios16-paste-warning.jpg](/images/questions/ios16-paste-warning.jpg)
 :::
 
-## 键盘添加后，在切换键盘中找不到ToMemo，怎么办？
-这个是因为系统有一些缓存，只要强制关闭当前软件，重新打开，就可以看到了。
+## What should I do if I can’t find ToMemo when switching keyboards after adding it?
 
-如果还是不行，尝试重新添加ToMemo键盘。
+This is because the system has some cache. Just force close the current app and reopen it, and then you will see ToMemo.
 
-## 设置中的留存时长是什么意思？
-现在设置中有两个留存时长，操作原理是一样的。
+If it still doesn’t work, try re-adding the ToMemo keyboard.
 
-**它是「使用后面板留存时长」的简写。**
+## What does the "retention time" in settings mean?
 
-「短时记忆面板留存时长」
-- 如果设置了`1分钟`，在进入ToMemo键盘后，点击闪电进入「短时记忆」，并点击输入的内容A。只要在`1分钟内`，再次唤出ToMemo键盘，会自动进入「短时记忆」，方便快速添加里面的其他内容
-- 如果设置成了`一直`，意味着每次唤出键盘，首先进入「短时记忆」，方便直接粘贴剪切板历史内容。
+There are currently two retention time settings, and the operation principle is the same.
 
-「列表留存时长」
-- 只能在键盘首屏为列表时使用
-- 只要设置的时长大于0，只要在使用ToMemo键盘时，进入列表，点击Memo输入后，会在设置的X分钟内，凡是再次唤出ToMemo键盘，会自动进入上面选择的列表。
+**It is short for “Retention Time for Use Panel”.**
 
-留存时长会相互覆盖的。比如在短时记忆中点击输入后，下一次在列表中选择了一条Memo输入，那么下次进来就根据是否满足列表留存的条件进行判断展示了。
+`Short-term memory panel retention time`
+- If “1 minute” is set, after entering the ToMemo keyboard, click on the lightning icon to enter “short-term memory”, and then click on the input content A. As long as it is within “1 minute”, when you invoke the ToMemo keyboard again, you will automatically enter “short-term memory”, which makes it convenient to quickly add other content inside.
+- If set to “Always”, it means that each time you invoke the keyboard, you will first enter “short-term memory”, which makes it convenient to directly paste clipboard history.
 
-::: details 留存时长演示视频
+`List retention time`
+- Can only be used when the first screen of the keyboard is a list
+- As long as the set time is greater than 0, every time you use the ToMemo keyboard, enter the list, and click on a Memo input, within the X minutes set, every time you invoke the ToMemo keyboard again, it will automatically enter the list selected above.
+
+The retention time settings will overlap with each other. For example, after clicking on an input in short-term memory, the next time you select a Memo input in the list, the display will be judged according to whether it meets the list retention condition when you enter the keyboard next time.
+
+::: details Retention Time Demo Video
 ![retained-interval-demo.gif](/images/questions/retained-interval-demo.gif)
 :::
 
-## 我需要创建大量的Memo，怎么办？
-ToMemo拥有**批量导入**的功能。
+## What if I need to create a large number of Memos?
 
-首选需要一个列表，进入列表详情页，右下角有批量添加的按钮。
+ToMemo has the **Batch Import** function.
 
-点击进入后，按照导入界面中的模板样例整理内容，然后直接粘贴进来。当然也可以在输入框中编辑，右下角有分割线快捷输入按钮。
+Firstly, you need a list. Go to the list details page, and there is a “Batch Add” button in the bottom right corner.
 
-通过预览按钮看一下是否符合预期，然后就可以保存导入了。
+After clicking it, organize the content according to the template example in the import interface, and then directly paste it in. Of course, you can also edit it in the input box, which has a shortcut input button for separators in the lower right corner.
+
+Click the preview button to see if it meets your expectations, and then you can save the import.
