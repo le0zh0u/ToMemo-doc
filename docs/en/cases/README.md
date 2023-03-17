@@ -1,66 +1,83 @@
-# 经典案例
+---
+sidebar: 'auto'
+---
 
-## 中文文案排版
-在中英文混排的文档中，
+# Classic Case
 
-## 记忆宫殿
-随着短时记忆中的内容越来越多，只是列表的方式无法有效地发挥出一些有特征数据的价值。
+## Chinese Text Formatting
 
-比如对于每天复制多个网址的用户，在短时记忆的列表中会掺杂着其他的文本数据，从而影响网址类型文本内容的寻找成本。
+In documents with a mix of Chinese and English, additional spacing is needed for text formatting to enhance the reading experience, especially when Chinese and English are intertwined, spacing should be added at the connection points.
 
-记忆宫殿则可以有效改善这种情况。
+However, this work requires careful attention and is tedious, and it is most comfortable to leave it to a program.
 
-## 新年祝福
-等到新年到来之际，我们会怀着满腔的喜悦发送祝福给身边的亲朋好友。虽然简单的`新年快乐`包含了我们满满的祝福，但是略带文笔的祝福语，可以让对方更加惊喜和喜爱。
+In the settings of Short-term Memory, adding `Chinese Text Formatting` as a pre-processing step can automatically format the text when it is saved to the application, making excellent formatting effortless.
 
-但是优质的祝福文案，在用的时候却迟迟打不出来，再去搜索的效率就太低了，此时就可以用到`新年祝福`短语合集的功能。
+## Memory Palace
 
-数据配置完成后，可以在键盘中快速输出优质的祝福文案。并且会自动将祝福文案中「发送人信息」替换为你的名字，让祝福一步到位。
+As the amount of content in short-term memory grows, simply listing the content cannot effectively extract the value of data with specific characteristics.
 
-详情参见「[常见疑问/新年祝福短语怎么用](/questions/)」
+For example, for users who copy multiple URLs every day, the list in short-term memory will be mixed with other text data, which increases the search cost for text content of URL type.
 
-::: tip 
-来自老婆大人
+The Memory Palace can effectively improve this situation.
+
+## New Year Blessings
+
+As New Year approaches, we send blessings to our loved ones with joy in our hearts. While a simple `Happy New Year` includes our heartfelt wishes, a well-crafted message can make the recipient feel even more surprised and loved.
+
+However, high-quality blessing messages may not come easily when needed, and searching for them can be inefficient. This is where the collection of `New Year Blessing` phrases comes in handy.
+
+After configuring the data, you can quickly output high-quality blessing messages on the keyboard. Moreover, the “sender information” in the message will be automatically replaced with your name, making the blessing even more personalized.
+
+For more information, please refer to 「[Common Questions/How to Use New Year Blessing Phrases](/en/questions/)」 in the app.
+
+::: tip
+From my beloved wife.
 :::
 
-## 双十一取快递
-如果有多个快递到达了驿站或者快递柜，总需要在不同界面找到奇奇怪怪的暗号才能取到自己的东西。如何更快的记下所有暗号？
+## Retrieving Parcels on Double Eleven
 
-::: tip 
-在其他软件中，复制取件码，双击「辅助触控◎」快捷保存，再复制其他取件码，再双击保存。等一次性都存完后，来到快递点，只需要在ToMemo的「短时记忆」中查看之前保存的所有取件码，就可以开心取件了。
+If you have multiple parcels delivered to a post office or a locker during the Double Eleven shopping event, you would need to find the right retrieval codes on different screens. How to remember all these codes quickly?
 
-来自老婆大人
+::: tip
+In other apps, you can copy the retrieval codes and double-click on the “Assistive Touch◎” function to save them quickly. Repeat the process for all codes you need to save. When you arrive at the post office or locker later, you can simply view all the retrieval codes you saved earlier in the “Short-term Memory” function of ToMemo, and retrieve your parcels easily with a big smile.
+
+From my beloved wife.
 :::
 
-## 微信群维护
-一些同学需要运营好几个微信群，加上业务发展，群还在不断增加。
+## Maintaining WeChat Groups
 
-每个群都要发送相同的群规，相同的促销活动文案，相同的互动文案，相同的售后回复文案... 每次都要在老群中翻历史记录，或者在不同软件复制粘贴同样的话术，头都炸了。
+Some students need to manage several WeChat groups, and as their business develops, the number of groups keeps increasing.
 
-::: tip 
-只要将第一个群中的内容保存到ToMemo中作为一条模板类文案，在之后的群中，都只是简单的打开键盘，找到列表，点击Memo，不用再再再爬楼翻找文案了。
+Each group requires the same group rules, promotional copies, interactive copies, and after-sales response copies… Every time, they need to look through the chat history of the old groups, or copy and paste the same language in different software, which can be very frustrating.
 
-来自老婆大人
+::: tip
+By saving the content from the first group as a template text in ToMemo, in the future groups, users only need to open the keyboard, find the list, and click on “Memo”. They do not need to search and scroll through the chat history again.
+
+From my beloved wife.
 :::
 
-## 直播刷屏666
-现在的直播中经常需要通过刷屏的方式跟主播扣号或者抽奖，如何让自己发的占满屏幕呢？
+## Flood the Screen with 666 in Live Stream
 
-::: tip 
-在软件设置中，将「短时记忆」部分的「键盘记忆留存时长」开启（不是关闭即可），然后进入直播间，输入需要的内容（如：一串208）-选中-复制，打开ToMemo键盘，点击「闪电图标」进入「短时记忆面板」，点击刚复制的那条内容到输入框，点击回车或者发送。
+In live streams, it’s common to use flood screens with the same text to interact with the host or participate in lucky draws. How to fill the screen with your own text?
 
-之后就简单了。点击输入框 - 点击内容 - 点击发送。
+::: tip
+In the app settings, turn on the “Keyboard memory retention time” option in the “Short-term memory” section (not turning it off), then enter the desired text in the live stream chat (such as a string of “666”), select it and copy it. Open the ToMemo keyboard, click on the “Lightning” icon to enter the “Short-term memory” panel, click on the just copied text to paste it in the input box, and then press Enter or Send.
 
-因为点击输入框就会自动打开ToMemo键盘，定位在「短时记忆面板」，即点即发，超快~只要两枚大拇指就可以让直播间弹幕都是你。
+After that, it’s simple. Click the input box - click the text - click send.
 
-来自老婆大人
+Because clicking the input box will automatically open the ToMemo keyboard, positioning in the “Short-term memory” panel, you can send messages with one click. Super fast~ With just two thumbs, you can fill the live stream chat with your text.
+
+From my beloved wife.
 :::
 
-## 发送相同信息
-在工作沟通的场景中，需要经常复制粘贴相同的内容发给不同的客户、同事。
+## Sending the Same Information
 
-::: tip 
-只要在发送信息给客户后，复制你认为很可能会重复用到的内容，然后保存到ToMemo中，这样下一次需要发送时，直接切到ToMemo键盘，选中它，快捷发送。
+In work communication scenarios, it’s often necessary to copy and paste the same content to different clients or colleagues.
 
-让平时每次积累，都能持续发光发热。
+::: tip
+After sending the information to the client, copy the content that you think could be repeatedly used and save it in ToMemo. The next time you need to send it, simply switch to the ToMemo keyboard, select it, and quickly send.
+
+Accumulate useful information over time and shine brightly and continuously.
+
+From my beloved wife.
 :::

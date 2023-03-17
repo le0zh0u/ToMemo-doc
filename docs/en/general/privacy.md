@@ -1,29 +1,44 @@
-# 隐私政策
+# Privacy Policy
 
-ToMemo是一款iOS平台的超好用的常用内容备忘、短时内容记录的便签应用，并支持多设备iCloud同步。
+ToMemo is a super easy-to-use note-taking app for iOS that can be used for frequent content memos and short-term content records. It also supports iCloud syncing across multiple devices.
 
-此隐私政策主要适用于ToMemo主程序及内部集成的框架和服务。
+This privacy policy primarily applies to the ToMemo main program and internally integrated frameworks and services.
 
-## 隐私权限
-为了让程序功能正常运行，需要为ToMemo开启下列隐私权限：
+## Privacy Permissions
 
-iCloud权限：通过iCloud将输同步到其他的设备
-剪切板读写：自动获取剪切板变化并保存到短时记忆
-通过以上权限所获取到的数据我们均不会保存和分享。
+In order to allow the program to function properly, the following permissions may be required for ToMemo:
 
-## 收集的数据
-ToMemo不会收集您使用过程产生的核心数据，例如Memo、短时记忆等。
+• iCloud Syncing: Syncing data to other devices through iCloud if multiple device usage is required.
+• Accessing Clipboard: Getting the clipboard and saving it to short-term memory if clipboard history is required.
 
-此外，当您使用某些服务商的服务的时候，可能需要将您自己的秘钥填入到ToMemo主程序中才能正常使用，ToMemo只会将您的秘钥保存在本地和iCloud中，不会将其上传到其他服务器。
+### iCloud Syncing
 
-但为了提供更好的使用体验，ToMemo可能会收集以下数据：
+The data synchronization feature in ToMemo is based on the iCloud service provided by Apple. As you can imagine, this service is quite secure and is trusted by users around the world.
 
-崩溃数据。为了提高程序的稳定性，我们会收集程序的崩溃情况。
+Importantly, this has nothing to do with the services we provide, and no data will be sent to our servers. At the same time, we do not have servers specifically for data synchronization.
 
-## 本隐私政策的变更
-我们可能会不时地更新我们的隐私政策以适应ToMemo最新的情况。因此，我们建议您定期查看本页面以了解最新的内容。
+### Accessing Clipboard
 
-我们将通过在此页面上发布新的隐私政策来通知您任何更改。所有更改在此页面上发布后立即生效。
+Can your clipboard be read without your knowledge?
 
-## 联系我们
-如果您对我们的隐私政策有任何疑问或建议，请通过 [hi@leozhou.me](mailto:hi@leozhou.me) 与我联系。
+No. We have to admit that it is quite convenient to get copied content in the background. However, this is impossible on iOS because reading the clipboard requires the app to be in an active state.
+
+In addition, if you are using iOS 16, the system will prompt you for each clipboard operation and you cannot directly save clipboard data through a widget.
+
+##Data Collection
+
+In short, the ToMemo application itself does not collect any of your data. Yes, we do not use any data tracking technology for growth purposes, and we do not even count how many users we have. We just want to provide a safe environment for storing and using content, and we do not care about the scale of our users or how our app is being used by them.
+
+In addition, when you use the services of certain service providers, you may need to enter your own credentials into the ToMemo main program to use it normally. ToMemo only saves your credentials in local and iCloud, and does not upload them to other servers.
+
+Besides that, please have confidence in our services. All privacy information is forever preserved on your device, and we cannot control it.
+
+## Changes to This Privacy Policy
+
+We may occasionally update our privacy policy to adapt to the latest ToMemo situation. Therefore, we recommend that you regularly check this page for the latest content.
+
+We will notify you of any changes by posting new privacy policies on this page. All changes will take effect immediately after they are published on this page.
+
+## Contact Us
+
+If you have any questions or suggestions about our privacy policy, please contact me at [hi@leozhou.me](mailto:hi@leozhou.me).

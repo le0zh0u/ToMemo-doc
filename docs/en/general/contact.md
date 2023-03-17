@@ -1,34 +1,17 @@
-# 联系我
+# Contact Me
 
-<!-- ## 公测版本
+## Feedback and Suggestions
 
-不定时会上传需要公测的版本，需要事先下载TestFlight。
+If you have any issues or suggestions about the app, **please submit an issue on GitHub first**. Click here to go to the [GitHub issue](https://github.com/le0zh0u/ToMemo-doc/issues) page.
 
-提供一个公开链接：[https://testflight.apple.com/join/8ukHjYtR](https://testflight.apple.com/join/8ukHjYtR)
+## Telegram Group
 
-按需自行下载体验，如果有问题随时联系我。
+Join the [ToMemo Friends](tg://resolve?domain=tomemoapp) group on Telegram.
 
-最近加的人较多，达到人数上限，等后续再陆续解开。 -->
+Subscribe to the [ToMemo Channel](tg://resolve?domain=tomemochannel) on Telegram.
 
-## 问题反馈
+## Contact Me Personally
 
-应用已经上架iOS App Store，如果有使用上的问题或者建议**请优先在 GitHub 提 issue**，👉 点击此处跳转 [GitHub issue](https://github.com/le0zh0u/ToMemo-doc/issues)。
+You can send an email to me at [hi@leozhou.me](mailto:hi@leozhou.me).
 
-## TG交流群
-
-可以加入[ToMemo Friends](tg://resolve?domain=tomemoapp)
-
-同时订阅[ToMemo Channel](tg://resolve?domain=tomemochannel)
-
-## QQ交流群
-
-扫下方二维码加入 QQ 群 `590460568`
-
-![QQ交流群](/images/contact/qq-group.jpg)
-
-## 单独联系我
-
-可以发送邮件给我 [hi@leozhou.me](mailto:hi@leozhou.me)。
-
-也可以在QQ群中联系我。
-
+You can also contact me through Telegram group.
