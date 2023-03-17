@@ -1,32 +1,32 @@
-# 进阶版功能
+# Advanced Features
 
-- 键盘中输入后自动切回上个输入法 👍🏻
-    - 常用内容输入后，自动回归原生键盘，无需冗余操作
-    - 需要多次输入，举手Hold On，即可暂停自动切换
-- 短时记忆条数无上限 👍🏻
-    - 不用担心复制10次之后，以往的内容不见了
-- 自定义键盘高度 
-    - 减少键盘切换抖动，来去更丝滑
-- 键盘一行多列
-    - 键盘中展示更多的内容，提升效率
-- 列表自定义留存时长
-    - 每一次输入，都为下次做好准备
-- 支持Spotlight搜索
-    - 常用的内容在首屏也能一触即达
-- 键盘中展示所有「列表」
-    - 快速定位列表，快速定位emmo
+- Automatically switch back to the previous input method after typing in the keyboard 👍🏻
+	- After inputting frequently used content, the keyboard will automatically return to the native keyboard without redundant operations.
+	- If you need to input multiple times, simply raise your hand and pause the automatic switch.
+- Unlimited number of short-term memories 👍🏻
+	- You don’t have to worry about losing previous content after copying 10 times.
+- Customizable keyboard height
+	- Reduce keyboard switch jitter for smoother transitions.
+- Multiple columns in one row of the keyboard
+	- Display more content in the keyboard to increase efficiency.
+- Customizable retention time for lists
+	- Prepare for the next input every time.
+- Support for Spotlight search
+	- Quickly access frequently used content on the first screen.
+- Display all “lists” in the keyboard
+	- Quickly locate lists and emmo.
 
-## 实验版功能
-实验版功能会随着功能完善逐收拢到进阶版中。
+# Experimental Features
 
-- 短时记忆
-    - 整体功能在实验中，为了下一次更好的体验
-- 键盘内容类型
-    - 合适的键盘内容，让每一次输出事半功倍
-- 自动读取剪切板
-    - 自动监听剪切板变化，自动展示，让粘贴无需长按
-- 左右滑动切换列表
-    - 多Memo、少列表的使用利器，左右滑动即可定位。
-- 支持Emoji表情
-- 日期自定义格式
-- 时间自定义格式
+Experimental features will gradually be integrated into the advanced features as they are improved.
+
+- Keyboard content types
+	- Suitable keyboard content makes every output more efficient.
+- Automatic clipboard reading
+	- Automatically monitor clipboard changes and display them, making pasting easier without the need for long presses.
+- Swipe left and right to switch lists
+	- A useful tool for using multiple memos or fewer lists, simply swipe left or right to locate them.
+- Support for emoji expressions
+- Customizable date format
+- Customizable time format
+- Word divider

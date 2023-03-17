@@ -1,44 +1,79 @@
-# 短时记忆使用
+# Short-term Memory Usage
 
-短时记忆的功能来自`剪切板历史管理`。
+## What is Short-term Memory?
 
-因为ios系统的限制，使得应用无法在后台时获取剪切板数据，无法做到剪切板历史数据的收集。但是在日常的场景中会有多条临时的内容通过复制和粘贴分享给其他人。需要一种能快捷保存临时内容和整理的地方。将这个功能结合进来，变成了「短时记忆」。
+The function of Short-term Memory is derived from the `Clipboard History Management`.
 
-所以让用户便捷的将剪切板内容放入短时记忆，是这一块功能一直探寻的方向之一。
+Each content that is copied to the clipboard can be treated as a short-term memory. It is stored in our mind and can be useful in the short term.
 
-## 基础使用
-### 长按短时记忆记录
-提供拷贝、切换星标、保存为Memo的功能。
+Due to iOS system restrictions, the application cannot collect clipboard history data when running in the background. Therefore, we need a place to quickly save and organize temporary content shared by copying and pasting. Combining this feature with clipboard history management, it becomes “Short-term Memory.”
 
-### 左划删除
-向左划动短时记忆的记录，将删除当前记录。
+Hence, making it convenient for users to put clipboard content into “Short-term Memory” has always been one of the directions in which this feature has been sought.
 
-### 右划标星
-右划短时记忆的记录，将记录加上图标，再次右划可以取消。
+## Basic Usage
 
-**标星主要用于表示当前记录为未来会使用的功能**，当批量删除时，不会删除标记有星标的记录。
+### Long-press Short-term Memory Entry
 
-**没有置顶功能**，如果记录置顶会让最新的记录后置，无法直接获取到最新的记录。
+Provides options to copy, toggle star, and save as memo.
 
-### 批量删除
-点击页面右上角的扩展菜单栏，操作批量删除，会将所有**非星标**的记录批量删除，达到清空剪切板历史的效果。
+### Swipe Left to Delete
 
-<!-- 
-### 演示视频
+Swipe left on the short-term memory record to delete it.
 
-::: details 演示视频
-![short-term-memory-basic-demo.gif](/images/short-term-memory/short-term-memory-basic-demo.gif)
-::: -->
+### Swipe Right to Star
 
-## 短时记忆详情页
+Swipe right on the short-term memory record to add a star icon. Swipe right again to unstar.
 
-进入后可以直接编辑短时记忆
+**The star is mainly used to indicate that the current record is a function that we will use in the future.** When deleted in bulk, the records marked with stars will not be deleted.
 
-### 保存为Memo
-将短时记忆快速变成Memo内容，方便下一次的输入
+**There is no pin function.** If a record is pinned, the latest record will be pushed back, and you will not be able to access the latest record immediately.
 
-### 复制
-直接复制短时记忆内容
+### Bulk Delete
 
-### 保存
-短时记忆修改后，保存下来，键盘中直接可以使用
+Click on the expand menu bar in the upper right corner of the screen, and select bulk delete. All non-starred entries will be deleted, and the clipboard history will be cleared.
+
+## Short-term Memory Filtering Rules
+
+By adding filtering rules, we can reject any unnecessary content and only allow necessary content into our memory.
+
+::: tip
+As long as the clipboard content meets the filtering rules, it will be ignored by the application and will not be saved in the Short-term Memory.
+:::
+
+### Types of Filtering Rules
+
+- Regular Expression
+	- More accurately identifies unwanted content.
+- Containing Content
+	- Automatically filters content that contains specific keywords.
+
+## Pre-processing Actions for Short-term Memory
+
+Adding some preprocessing actions can automate daily tasks and improve efficiency.
+
+### Supported Actions
+
+- Chinese copywriting formatting
+	- Automatically adds spaces for readability when mixing Chinese and English.
+- Delete blank lines
+	- Too many empty lines increase reading costs.
+- Delete spaces
+	- The recognized content will have strange spaces that will affect subsequent use.
+- Convert case
+	- There is no need to manually type long text.
+
+## Short-term Memory Details Page
+
+After entering the details page of the short-term memory, you can directly edit the content.
+
+### Save as Memo
+
+Quickly convert the short-term memory into a Memo content for convenient use in the future.
+
+### Copy
+
+Directly copy the content of the short-term memory.
+
+### Save
+
+After modifying the short-term memory, save it for use in the keyboard.

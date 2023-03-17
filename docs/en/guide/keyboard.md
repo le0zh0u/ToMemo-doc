@@ -1,17 +1,19 @@
-# 添加键盘
+# Adding the Keyboard
 
-## 添加扩展键盘
-在设置页面中，移动到`键盘`部分，找到并点击`添加扩展键盘`按钮。
+## Adding the Keyboard Extension
 
-::: details 添加操作如下
+In the “Settings” section, navigate to the “Keyboard” section and find and click the “Add Keyboard Extension” button.
+
+::: details Steps to Add
 ![icloud-failed-step1.webp](/images/keyboard/keyboard-setting-tomemo.webp)
 
 ![icloud-failed-step1.webp](/images/keyboard/keyboard-enable.webp)
 :::
 
-然后就可以在输入框中输入时切换到ToMemo键盘了。
+Then, you can switch to the ToMemo keyboard when entering text in the input field.
 
-### 允许完全访问
-这个开关对于常规使用ToMemo并不需要开启，但是如果需要键盘读取剪切板内容，则需要开启。
+### Allowing Full Access
 
-可以在[键盘使用](/guide/keyboard-guide)中继续阅读。
+This switch is not necessary for normal ToMemo use, but if you need the keyboard to read the clipboard content, you need to enable it.
+
+You can continue reading in [Using the Keyboard](/guide/keyboard-guide).

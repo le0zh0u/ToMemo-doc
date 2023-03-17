@@ -1,31 +1,37 @@
-# Memo 使用
+# Using Memo
 
-## 基础使用
+## Basic Usage
 
-### 删除
-在Memo的列表中直接左滑，会出现删除的按钮。
+### Deletion
 
-或者通过编辑列表时，进行删除。
+Swipe left on Memo in the list and the delete button will appear.
 
-### 编辑
-在Memo详情页中，点击编辑按钮，可以修改Memo标题、内容以及对应的列表归属。
+Or delete while editing a list.
 
-## 扩展动作
+### Editing
 
-### 复制
-将内容复制到剪切板。
+On the Memo details page, click Edit to modify Memo titles, contents, and corresponding list affiliations.
 
-复制完成后会震动手机，快速确认完成复制。
+## Advanced Actions
 
-### 分词
-将内容进行分词，展示出分词结果。
+### Copy
 
-只要点击分词结果，会自动拼接并复制到剪切板。
+Copy content to clipboard.
 
-### 跳转
-如果内容为网址或者邮箱，点击后会自动跳转到浏览器或者邮件应用打开。
+After copying, your phone will vibrate to confirm completion.
 
-### 分享
-分享按钮在右上角。
+### Word Segmentation
 
-点击后触发系统的内容分享页面，可以自己选择分享的应用或者出发快捷动作。
+Segment content into words and display the results.
+
+Just click on the word segmentation result, and it will automatically concatenate and copy to the clipboard.
+
+### Jumping
+
+If the content is a URL or email, clicking will automatically jump to the browser or mail application to open it.
+
+### Sharing
+
+The share button is located in the upper-right corner.
+
+Clicking on it will trigger the content sharing page of the system, where you can choose to share the application or trigger quick actions.

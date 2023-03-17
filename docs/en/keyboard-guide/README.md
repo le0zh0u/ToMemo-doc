@@ -1,149 +1,162 @@
-# 设置键盘
+# Set up Keyboard
 
-此指南需要已经完成第三方扩展键盘的添加，即可以在输入时选择「ToMemo」。如果对此有疑问请查看[「指南/应用设置/添加键盘」](/guide/settings)
+This guide assumes that you have already added the third-party extension keyboard and can select “ToMemo” when entering text. If you have any questions about this, please see [「Guide/Application Settings/Adding a Keyboard」](/guide/settings).
 
-## 键盘设置基础
-<!-- ::: details 键盘设置如下
-![keyboad-settings.jpg](/images/keyboard/keyboad-settings.jpg)
-::: -->
+## Keyboard Settings Basics
 
-### 展示类型
-此设置与「Memo」中的展示类型功能类似。
-用于设置键盘中展示的内容类型：Memo维度和列表维度。
+### Display Type
 
-#### Memo维度
+This setting is similar to the Display Type feature in the `Memo` section.It is used to set the content type displayed in the keyboard: Memo dimension or list dimension.
 
-::: details 所有Memo
+#### Memo Dimension
+
+::: details All Memos
 ![keyboard-all-memos.jpg](/images/keyboard/keyboard-all-memos.jpg)
 :::
 
-#### 列表维度
-::: details 所有列表
+#### List Dimension
+
+::: details All Lists
 ![keyboard-all-list.jpg](/images/keyboard/keyboard-all-list.jpg)
 :::
 
-### 自动读取剪切板
-因为iOS系统的限制，对于剪切板读取的操作只能在活跃的应用中执行（简单理解成：屏幕中显示出来的应用）。
-在键盘中自动读取剪切板是应用获取监控板数据的一种方式。
+### Auto-Reading Clipboard
 
-**此功能需要开启「允许完全访问」**
+Due to restrictions in the iOS system, clipboard reading operations can only be performed in active applications (i.e., those displayed on the screen).Auto-reading from the keyboard is one way the app can obtain monitored clipboard data.
 
-如果开启自动读取剪切板，需要阅读剪切板使用需知中的内容，并跳转到系统设置中开启「允许完全访问」的权限。
+**This feature requires “Allow Full Access” to be enabled.**
 
-从隐私的角度看，键盘的「允许完全访问」是一个比较大的隐私泄露风险的权限，所以需要自行斟酌一下。
+If you enable auto-reading from the clipboard, you need to read the instructions for using the clipboard and go to the system settings to enable the “Allow Full Access” permission.
 
-识别剪切板变化需要在键盘中监控剪切板，但是这个功能超出了离线输入法的能力范畴，是从系统服务中获取的内容，因此需要开启「允许完全访问」。
+From a privacy standpoint, “Allow Full Access” for the keyboard is a fairly significant privacy risk, so you should weigh the pros and cons of enabling it.
 
-如果只需要使用 快速输入ToMemo应用中添加的内容（懒人短句），这个并不需要开启「允许完全访问」。
+The ability to detect clipboard changes requires monitoring the clipboard in the keyboard, but this functionality is beyond the scope of an offline input method and is obtained from system services, thus requiring “Allow Full Access” to be enabled.
 
-同时，说明一下，ToMemo没有自己的服务器，所以在开启「允许完全访问」后，ToMemo应用包括键盘不会传输任何数据到其他的系统中，请放心使用。
+If you only need to use the content added in the “ToMemo” app’s quick entry function (lazy phrases), you do not need to enable “Allow Full Access”.
 
-#### 常见问题
-**开启「自动读取剪切板」后，键盘中依旧不能识别到剪切板的变化？**
+Also, note that ToMemo does not have its own server, so when “Allow Full Access” is enabled, ToMemo, including the keyboard, does not transmit any data to other systems, so you can use it with confidence.
 
-前提：在系统设置中，给ToMemo键盘开启了「允许完全访问」权限。
+#### Common Issues
 
-方法一：切换到其他的输入法，再切回来。再次复制内容进行尝试。
+**After enabling “Auto-Reading Clipboard”, the keyboard still cannot recognize changes to the clipboard?**
 
-方法二：在键盘设置中关闭ToMemo键盘，然后重新开启。在键盘加载进来后，再次尝试复制文本。
+Prerequisite: “Allow Full Access” permission has been granted to the ToMemo keyboard in the system settings.
 
-### 输入后自动切回上个输入法
-在正常的使用过程中，大部分的情况是一次只要输入一条Memo的内容。然后需要回到上一个输入法继续进行输入。当需要了再次切换回ToMemo键盘进行快捷输入。
+- Method 1: Switch to another input method and then switch back. Try copying text again.
+- Method 2: Turn off the ToMemo keyboard in keyboard settings and then turn it back on. After the keyboard is loaded, try copying text again.
 
-因此，产生了一个需求，每次点击Memo输入后，最好能自动切换回上一个输入法，不然需要手动点击左下角的切换图标，比较麻烦。
+### Automatically Switch Back to Previous Input Method after Inputting
 
-开启此功能后，键盘中左下角可以切换输入法的图标会发生变化。
+In normal use, in most cases, only one Memo needs to be entered at a time. Then you need to return to the previous input method to continue entering text. When you need to enter text quickly using the ToMemo keyboard, you need to switch back.
 
-无刘海屏的机型：
-- 如果是单纯的地球图标，意味着未开启自动切换回上个输入法的功能
-- 如果是地球图标加上向左的箭头，意味着开启自动切换回上个输入法的功能，会在输入完成后自动切换。
+Therefore, there is a need to automatically switch back to the previous input method after clicking on Memo input, otherwise, you need to manually click the switch icon in the lower-left corner, which is more cumbersome.
 
-有刘海屏的机型：
-隐藏了该图标。
+After enabling this function, the icon in the lower-left corner of the keyboard that can switch input methods will change.
 
-#### 本次输入暂停使用自动切换
-虽然大多数情况一次只需要输入一条Memo，但随着「短时记忆」功能的加入，一次性需要多次输入的场景也变多了。
+For devices without a notch:
+- If it is simply a globe icon, it means that the function of automatically switching back to the previous input method has not been enabled.
+- If it is a globe icon with a left arrow, it means that the function of automatically switching back to the previous input method is enabled and will switch automatically after entering text.
 
-所以在开启了自动切换的功能后，键盘中同时会出现一个锁的图标。点击锁即可切换「本次输入暂停使用自动切换」的功能
-- 如果合起来的锁，意味着自动切换功能正常运作
-- 如果打开的锁，意味着当前键盘已经锁定，多次输入后不自动切换。
+For devices with a notch:
+This icon is hidden.
 
-### 左右滑动切换列表
-_此功能在键盘内容类型为「Memo」时可以开启。_
+#### Pause Automatic Switching for this Input
 
-在键盘中，如果**Memo的数量比较多**，但**列表的数量不多**的情况下，一直下滑寻找Memo是一件费力的事情，为了改善这个问题，提供可以横向滑动切换列表的功能，键盘中横向滑动即可切换列表，上下滑动浏览列表中的Memo。
+Although in most cases only one Memo needs to be entered at a time, with the addition of the “Short-Term Memory” function, there are more scenarios in which multiple inputs are needed at once.
 
-::: details 横向滑动示例
+Therefore, after enabling automatic switching, a lock icon will also appear in the keyboard. Click the lock to toggle the “Pause Automatic Switching for this Input” function.
+
+- If the lock is closed, it means the keyboard is locked and will not switch automatically after multiple inputs.
+- If the lock is open, it means that automatic switching is functioning normally.
+
+### Swipe to switch lists
+
+*This feature can be enabled when the keyboard content type is “Memo”.*
+
+If there are many Memos in the keyboard, but not many lists, it can be difficult to search for the Memos by scrolling down all the time. To address this issue, we provide the ability to switch lists by swiping horizontally. You can switch lists by swiping horizontally, and scroll through the Memos in the list by swiping vertically.
+
+::: details Swipe example
 ![keyboard-swipe-list.jpg](/images/keyboard/keyboard-swipe-list.jpg)
 :::
 
-### 列表留存时长
-_此功能在键盘内容类型为「列表」时可以开启。_
+### List retention duration
 
-在日常的使用中，会碰到一个场景：
-``` 场景
-有一个应用宣发的列表，需要将资料发给同事。
-将键盘切换到ToMemo键盘后，进入「应用宣发」列表，
-然后点击「App Store地址」，自动发送应用地址到输入框。
-然后切换回原生输入框，输入一些文字。
-并再次回到ToMemo键盘，需要发送「App 推广文案」。
+_This feature can be enabled when the keyboard content type is “List”._
+
+In daily use, there may be a situation like this:
+``` scenario
+There is a promotion list of an app, and you need to send the materials to your colleagues.
+After switching to the ToMemo keyboard, you enter the "App Promotion" list, 
+click on "App Store Address", which automatically sends the app's address to the input box. 
+Then switch back to the native input and type some text. 
+And then switch back to the ToMemo keyboard and need to send "App Promotion Copywriting".
 ```
-在这个场景下，如果在列表留存的时长内，会自动打开上一次使用的列表，方便用户直接发送「App 推广文案」。
+In this scenario, if the list is retained for a certain time, the last-used list will be automatically opened within the retain duration, which makes it convenient for users to directly send “App Promotion Copywriting”.
 
-### 短时记忆面板留存时长
-_此功能在开启了短时记忆时才会展示。_
+### Short-term memory panel retention duration
 
-在键盘中使用了短时记忆输入后，如果在自定义时长内再次打开键盘，会自动进入短时记忆列表页。
+_This feature is only available when the short-term memory input has been enabled._
 
-如果设置成一直，打开键盘时直接进入短时记忆列表页面。
+After using the short-term memory input in the keyboard, if you open the keyboard again within the customized duration, you will be automatically directed to the short-term memory list page.
 
-关于「留存时长」可以查阅[「常见疑问/设置中的留存时长是什么意思？」](/questions/)
+If this feature is set to “Always”, the keyboard will always open the short-term memory list page by default.
 
-### 一行多列
-对于标题比较短的Memo而言，一行显示一条数据对空间比较浪费，所以可以自定义选择每一行展示的列数。
+Regarding “Retention Duration”, please refer to “FAQ/What does the retention duration in the settings mean?”
 
-这样方便在Memo多的时候，让键盘中的有效信息的展示范围变多，提升使用效率。
+### One row and multiple columns
 
-### 键盘高度
-ToMemo键盘中展示的内容较多，且为了展示更多有效信息，所以键盘默认的高度与原生键盘的高度存在差异。
+For Memos with short titles, showing only one data per row is somewhat wasteful. Hence, users can customize the number of columns displayed per row from this feature.
 
-在默认高度下切换键盘会出现输入框或者键盘上方扩展栏抖动的情况，对于使用体验不友好。
+This feature enables users to modify the structure of the keyboard which can enlarge the effective information display range and increase operating efficiency when there are many Memos.
 
-为了使键盘切换更加顺滑，可以自定义键盘高度。用户可以直接在输入框中输入高度，输入完成后点击界面背景，会自动收起键盘，并调整「键盘占位空间」高度，方便预览。
+### Keyboard height
 
-同时，提供了两个参考高度。
+The ToMemo Keyboard displays more information than a traditional keyboard. And to show the users more effective information, the default keyboard height is different from that of a regular keyboard.
 
-#### 当前键盘
-需要用户点击「键盘高度」输入框后，将键盘切换成需要参考高度的键盘。然后点击「当前键盘」按钮，此时会自动计算需要调节的键盘高度，使得ToMemo键盘与对应键盘高度一致。
+When switching the keyboard at the default height, the input box or the keyboard expansion bar above may shake, which is not user-friendly.
 
-#### 默认
-这个按钮是将键盘重置回默认的高度值。
+To make the keyboard switching smoother, users can customize the keyboard height. Users can directly input the height in the input box, click the background to automatically collapse the keyboard, and adjust the “keyboard space occupancy” height for preview convenience.
 
-::: details 键盘高度设置
+At the same time, two reference heights are provided.
+
+#### Current keyboard
+
+Users need to click the “keyboard height” input box to switch the keyboard to the keyboard with the reference height. Then click the “Current keyboard” button, which will automatically calculate the height adjustment needed to make the ToMemo keyboard consistent with the corresponding keyboard height.
+
+#### Default
+
+This button resets the keyboard to the default height value.
+
+::: details Keyboard height setting
 ![keyboard-height-demo.gif](/images/keyboard/keyboard-height-demo.gif)
 :::
 
-### 按键音
-在键盘中点击时，发出键盘模拟声，有三种类型：
-- 输入
-- 删除
-- 功能按钮
+### Key sound
 
-### 放大显示
-在键盘中，为了展示更多的内容，将键盘按钮设置的较小，为了更好地体验，提供放大显示的能力。
+When clicking on the keyboard, the keyboard simulation sound is made, which has three types:
 
-能将键盘按钮稍微放大一些。
+- Input
+- Delete
+- Function button
 
-### 当前日期、当期时间
-开启后，会在键盘的右下角多出直接输入当前时间、当前日期的按钮。
+### Enlarged display
 
-只要点击就可以快捷输入日期时间。
+In the keyboard, in order to display more content, the keyboard buttons are set small. To provide a better experience, the ability to enlarge buttons is provided.
 
-### 自定义工具栏布局
-开放顶部工具栏中按钮的自定义布局的功能。可以自由调整按钮的位置以及需要开放的按钮。
+Users can slightly enlarge keyboard buttons.
 
-在模拟的顶部工具栏中，
-- 拖动按钮：添加或调整按钮的位置
-- 双击按钮：删除此按钮
-- 编辑完成后，需要点击右上角保存
-- 默认：恢复到系统默认的布局
+### Current date and time
+
+When turned on, the button for directly inputting the current time and date is added to the lower right corner of the keyboard.
+
+You can input date and time quickly by just clicking it.
+
+### Custom toolbar layout
+
+The custom layout of buttons in the top toolbar feature is now available. Users can freely adjust the position of buttons and the buttons that they want to open.
+
+In the simulated top toolbar:
+- Drag the button: Add or adjust the position of the button
+- Double-click on a button: Delete this button
+- After editing, click Save in the upper right corner
+- Default: Restore to the system default layout

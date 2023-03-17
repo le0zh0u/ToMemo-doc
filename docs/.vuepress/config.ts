@@ -130,7 +130,7 @@ export default defineUserConfig({
                 '/en/guide': [
                     {
                         text: 'Guide',
-                        children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/memo','/en/guide/list','/en/guide/short-term-memory', '/en/guide/settings', '/en/guide/advance'],
+                        children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/memo','/en/guide/list','/en/guide/short-term-memory','/en/guide/memory-palace', '/en/guide/settings', '/en/guide/openai', '/en/guide/advance'],
                     },
                 ],
                 '/en/keyboard-guide/': [

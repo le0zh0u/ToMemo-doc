@@ -1,40 +1,32 @@
-# 列表 使用
+# Using Lists
 
-列表是给Memo分组的。
+Lists are used to group Memos.
 
-如果当前Memo还没有合适的组别，可以新建一个「待定」的List，然后放进来，之后再细分。
+If the current Memo doesn’t fit in any existing group, you can create a new “Pending” list and add it there, then refine it later.
 
-## 批量添加
+## Batch Import
 
-在列表详情页的扩展菜单栏中。
+In the list detail page’s expansion menu bar.
 
-通过批量导入模板，将自己的内容填充进去，然后进行预览，确认没有问题后，直接保存。
+You can use the batch import template to fill in your own content, preview it, and save it directly after confirming there are no issues.
 
-<!-- ::: details 
-![import-memo-in-list-demo.gif](/images/list/import-memo-in-list-demo.gif)
-::: -->
-
-模板样例
+Template Example:
 ```
-+++ 此行为标题 This line is title
-此行为内容 This line is content
++++ This line is for the Memo Title
+This line is for Memo Content
 
-+++ 标题只能一行 Title is limited one line
-内容可以多行 Content can be multiple lines
-行1
-行2
++++ Title is limited to one line
+Content can have multiple lines
+Line 1
+Line 2
 
 +++
-此行为内容，因为标题缺失，生成的Memo标题自动使用首行内容填充
-If title is empty, will be filled with content
+This line is for Memo Content, if the title is missing, the generated Memo title will be automatically filled with the first line of content.
+If title is empty, will be filled with content.
 ```
 
-### 来自短时记忆
+### From Short-term Memory
 
-如果从电脑上根据模板编辑好批量导入的内容。然后在电脑上复制，手机中通过苹果自带的接力功能同步过来
+If you have edited the batch import content from a template on your computer. Then, copy it on your computer, and sync it to your phone using Apple’s built-in Continuity feature.
 
-从ToMemo应用中进入短时记忆，会自动将剪切板中的内容保存进来，找到后点击进入该短时记忆详情页，在右上角扩展菜单栏中找到「批量导入到List」功能。点击后进入批量导入页面，选择列表，进行预览，确认没有问题，点击保存后，会自动添加到对应列表中。
-
-<!-- ::: details
-![import-memo-from-memory-demo.gif](/images/list/import-memo-from-memory-demo.gif)
-::: -->
+Enter the Short-term Memory from the ToMemo app. The content saved in the clipboard will be saved automatically. Then find and click on the Short-term Memory detail page, and in the upper right corner of the expansion menu bar, find the “Batch Import to List” function. After clicking, you can enter the batch import page, select the list, preview and confirm there are no issues, then click save. The content will be automatically added to the corresponding list.

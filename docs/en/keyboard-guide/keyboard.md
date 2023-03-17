@@ -1,88 +1,86 @@
-# 键盘使用演示
+# Keyboard Guide
 
-此章节需要先行完成扩展键盘的安装，相关可以跳转到[「指南/应用设置/添加键盘」](/guide/settings)查看
+This section requires the installation of the extended keyboard first. For related instructions, please refer to [「Guide/Application Settings/Add Keyboard」](/guide/settings).
 
-**键盘中图标**
+**Icons in the keyboard**
 ![keyboard-icons-description.jpg](/images/keyboard/keyboard-icons-description.jpg)
 
-## 输入法切换
+## Keyboard Switching
 
-此功能需要在设置中开启[「输入后自动切回上个输入法」](/guide/keyboard)。这个按钮在非刘海屏的机型中会出现。
+This function needs to be enabled in Settings -> Keyboard -> [「Switch back to previous input method after input」](/guide/keyboard). This button will appear on non-notched models.
 
 ![globe](/images/keyboard/globe@2x.png)
-表示未启用自动切换回上个输入法，需要点击此图标进行输入法切换
+In case automatic switching to previous input method is not enabled, please click on this icon to switch the input method.
 
 ![globe.badge.chevron.backward](/images/keyboard/globe.badge.chevron.backward@2x.png)
-表示启用自动切换回上个输入法，点击Memo、剪切板或短时记忆后会自动切换回上个输入法。
+When the automatic switching to previous input method is enabled, tapping on Memo, clipboard or short-term memory will automatically switch back to the previous input method.
 
-### 锁住界面
-**键盘左下角锁的功能代表是否锁住ToMemo键盘的功能。** 让自动切换停一停。
+### Locked View
 
-打开的锁表示，会点击输入后，自动跳转回上一个输入法
+**The lock icon on the lower left corner of the keyboard represents whether the ToMemo keyboard is locked.** 
 
-锁住的锁表示，ToMemo键盘已上锁，本次点击输入不触发自动切换。
+When the lock is open, clicking on the input will automatically switch back to the previous input method. 
 
-<!-- ::: details 演示视频
-![keyboard-auto-switch-demo.gif](/images/keyboard/keyboard-auto-switch-demo.gif)
-::: -->
+When the lock is closed, the ToMemo keyboard is locked and clicking on the input will not trigger automatic switching.
 
-## 分词
-在键盘中开启分词后，点击Memo、剪切板或者短时记忆的内容，可以触发分词的动作，在键盘中会展示分词结果。
-如果当前光标有选择的内容，点击分词按钮后，会自动对选择的内容进行分册
+## Word Segmentation
 
-- 选择需要输入的内容，会直接添加到输入框中。
-- 取消选择后，会自动从输入框中删除。
+After enabling word segmentation in the keyboard, clicking on the content in Memo, clipboard or short-term memory can trigger the word segmentation action and display the word segmentation result in the keyboard. If there is selected content at the current cursor, clicking on the word segmentation button will automatically perform word segmentation on the selected content.
 
-<!-- ::: details 演示视频
-![keyboard-participles-demo.gif](/images/keyboard/keyboard-participles-demo.gif)
-::: -->
+- If the content you want to input is selected, it will be directly added to the input box.
+- If the selection is cancelled, the content will be automatically deleted from the input box.
 
-## 自动读取剪切板
-在键盘设置中有一个「自动读取剪切板」的选项。
+## Automatic Clipboard Reading
 
-### 开启后
-只要键盘使用过程中，会自动读取剪切板内容，监听剪切板的变化，并将每一次变化内容放到「功能结果栏」中。
-- 如果有多台设备使用同一个iCloud账号，并开启了HandOff的功能，在其他设备中复制的内容，也可以在键盘中被读取到，然后直接进行使用。
-- 如果开启了「短时记忆」，会在每次监听到变化后，自动保存到短时记忆中，方便后续再次使用。
+There is an option to “Automatically Read Clipboard” in the keyboard settings.
 
-### 关闭后
-- 键盘不会监听剪切板内容的变化
-- 会导致「短时记忆」的键盘功能受到影响，无法及时获取剪切板变化保存到历史记录中。
+### When Enabled
 
-## 短时记忆
-在键盘首行的功能栏中，闪电符号代表了「短时记忆」功能。
+Whenever the keyboard is used, it will automatically read the clipboard content, monitor clipboard changes, and place each changed content in the “Function Result” column.
 
-**点击闪电符号**，可以展示之前的「短时记忆」的记录，并直接输出到输入框中。
+- If multiple devices are using the same iCloud account and Handoff is enabled, the content copied on other devices can also be read in the keyboard and used directly.
+- If “Short-term Memory” is enabled, it will be automatically saved to the short-term memory after each change is detected, making it easy to use again later.
 
-**长按闪电符号**，可以直接跳转到应用的「短时记忆」界面。
+### When Disabled
 
-在「功能结果栏」中
-- 显示闪电+A的符号，意味着当前这条内容已经成功添加到了「短时记忆」
-- 显示剪切板的符号，意味着监听到剪切板变化，但没有添加到「短时记忆」
-    - 可能是内容与最新的一条「短时记忆」重复 
-    - 可能是短时记忆没有开启
+- The keyboard will not monitor changes in the clipboard content.
+- The “Short-term Memory” keyboard function will be affected and unable to timely obtain and save clipboard changes to the history records.
 
-<!-- ::: details 演示视频
-![keyboard-short-term-memory-debo.gif](/images/keyboard/keyboard-short-term-memory-debo.gif)
-::: -->
+## Short-term Memory
 
-::: tip 提示
-- 短时记忆功能的关闭不会影响自动读取剪切板的功能。只是无法将读取到内容自动保存到短时记忆中。
-- 如果在使用过程不断提示是否允许ToMemo粘贴，可以在设置中设置成始终允许，这样就不会再提示。 - 针对iOS16及以后
+The lightning symbol in the top row of the keyboard toolbar represents the “Short-term Memory” function.
+
+**Clicking on the lightning symbol** can display the previous “Short-term Memory” records and output them directly to the input box.
+
+**Long press on the lightning symbol** can directly jump to the “Short-term Memory” interface of the app.
+
+In the “Function Result” column:
+- The symbol of lightning+A indicates that the current content has been successfully added to “Short-term Memory”.
+- The clipboard symbol indicates the detection of clipboard changes, but they have not been added to “Short-term Memory”.
+	- It may be because the content is the same as the latest “Short-term Memory” record.
+	- It may be because “Short-term Memory” is not enabled.
+
+::: tip Note
+- Disabling the “Short-term Memory” function will not affect the automatic clipboard reading function. It only means that the read content cannot be automatically saved to “Short-term Memory”.
+- If the prompt to allow ToMemo to paste keeps popping up during use, you can set it to always allow in the settings so that it will not prompt again. - Only for iOS 16 and later.
 :::
 
-## 基础功能
-例如隐藏键盘、回车等基础功能不再说明和演示。
+## Basic
 
-### 删除
-基础的删除功能
+Basic functions such as hiding the keyboard, using the return key, etc. are not explained or demonstrated.
 
-**删除至行首**
+### Delete
 
-增加扩展功能，整行删除，方便在输错的时候及时止损。
+Basic delete function is available.
 
-点击键盘中ToMemo的Logo，可以直接打开ToMemo应用
+Long press on the delete button to enter quick delete mode.
 
-::: tip 最后
-希望可以灵活使用键盘中的功能，例如自动切换 + 本次暂停等功能，动态调整本次输出内容的条数，提升内容输出的效率。
+**Delete to the beginning of the line**
+
+An extended function of deleting the entire line is added to facilitate timely loss prevention when making mistakes.
+
+Click on the ToMemo logo in the keyboard to enter the keyboard control panel. More functions will be added in the future.Long press on the ToMemo logo in the keyboard can automatically return to the default page.
+
+::: tip Finally
+We hope that users can flexibly use the functions of the keyboard, such as automatic switching and pausing functions, dynamically adjust the number of outputs, and improve the efficiency of content output.
 :::

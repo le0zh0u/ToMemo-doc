@@ -1,54 +1,52 @@
-# Getting Started
+# Quick Start
 
-## First time
-Open the application for the first time after the application download is complete, you can open the application and then operate step by step
-<!-- ::: details 展示如下
-![首次加载主页](/images/getting-started/first-load-homepage.png)
-::: -->
+## First-time Use
 
-### 新建列表
-每一条Memo需要有一个列表进行归类，所以首先需要创建一条列表。
+After downloading the app, you can open it and follow the instructions to use it.
 
-里面只有两个属性
-- 列表名称
-- 自定义颜色
+### Creating a List
 
-#### 自定义颜色
-应用提供了12中默认颜色，方便区分不同的列表。
+Every Memo needs a list to classify it, so the first step is to create a list.
 
-同时，如果颜色不够用，可以点击自定义颜色那行的右侧圆圈，会弹出调色板进行选择
+The list has only two attributes:
 
-### 新建Memo
+- List name
+- Custom color
 
-在新建Memo的页面中有三个属性：
-- 列表：需要选择归属的列表
-- 标题：展示在列表中
-- 内容：后续快速发送的内容。
+#### Custom Color
 
-标题是可选的，如果未填写标题，会自动使用内容作为标题，即标题和内容的文本是一样的。
+The app provides 12 default colors for easy distinction between different lists.
 
-### 开始使用
-等新建完第一条列表和Memo，已经完成了主体功能的使用。
+If the colors are not enough, you can click on the circle on the right of the “Custom Color” row to bring up a color picker for selection.
 
-回到首页，可以看到已经创建的Memo，只要点击右侧的复制图标，即可复制Memo的内容。
+### Creating a Memo
 
-<!-- ::: details 展示如下
-![homepage-memo-rows](/images/getting-started/homepage-memo-rows.jpg)
-::: -->
+There are three attributes on the new Memo page:
 
-点击复制后，手机会有震动反馈，告知内容已经成功复制到剪切板。
+- List: The list to which the Memo belongs must be selected.
+- Title: The title displayed in the list view.
+- Content: The content sent quickly after input.
 
-::: tip 完成
-基础的创建和使用已经学会了，可以开心地开始进阶功能。
+The title is optional. If no title is specified, the content will be used as the title, i.e., the text of the title and content will be the same.
 
-进阶功能需要在「设置」中按需开启。
+### Getting Started
+
+After creating the first list and Memo, the basic functionality has been used.
+
+Return to the homepage, and you will see the created Memo. By clicking on the copy icon on the right, you can copy the content of the Memo.
+
+After clicking on the copy button, the phone will vibrate to indicate that the content has been successfully copied to the clipboard.
+
+::: tip Completed
+You have learned how to create and use the basic functions, and can happily start using advanced functions.
+
+Advanced features need to be enabled as needed in “Settings”.
 :::
 
+### Multi-device Sync
 
-## 多设备同步
-如果已经有一个设备添加了Memo，在另一台设备中下载了ToMemo。
+If Memo has been added on one device and ToMemo has been downloaded on another device.
 
-需要确认第一台设备中ToMemo的设置是否开启了iCloud功能，需要确认一下。
+You need to confirm whether the iCloud function is enabled in ToMemo settings on the first device.
 
-然后，在另一台设备中，确认ToMemo设置中iCloud状态是否正常。如果没有问题，点击「刷新ToMemo数据」按钮。会自动刷新Memo列表的数据。
-
+Then, on the other device, confirm whether iCloud status in ToMemo settings is normal. If there is no problem, click the “Refresh ToMemo Data” button to automatically refresh the data of the Memo list.
