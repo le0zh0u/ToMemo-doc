@@ -17,7 +17,7 @@ export default defineUserConfig({
             navbar: [
                 {
                     text: '指南',
-                    link: '/guide',
+                    link: '/guide/',
                 },
                 {
                     text: '键盘使用',
@@ -33,26 +33,26 @@ export default defineUserConfig({
                 },
                 {
                     text: '经典案例',
-                    link: '/cases',
+                    link: '/cases/',
                 },
                 {
                     text: '联系我',
-                    link: '/general/contact',
+                    link: '/general/contact/',
                 },
                 {
                     text: '更多',
                     children: [
                         {
                             text: '更新历史',
-                            link: '/general/change-log',
+                            link: '/general/change-log/',
                         }, 
                         {
                             text: '使用条款',
-                            link: '/general/terms',
+                            link: '/general/terms/',
                         }, 
                         {
                             text: '隐私政策',
-                            link: '/general/privacy',
+                            link: '/general/privacy/',
                         },
                     ]
                     
@@ -60,7 +60,7 @@ export default defineUserConfig({
                 
             ],
             sidebar: {
-                '/guide': [
+                '/guide/': [
                     {
                         text: '指南',
                         children: ['/guide/README.md','/guide/getting-started.md', '/guide/memo','/guide/list','/guide/short-term-memory', '/guide/memory-palace', '/guide/settings', '/guide/openai', '/guide/advance'],
@@ -85,7 +85,7 @@ export default defineUserConfig({
             navbar: [
                 {
                     text: 'Guide',
-                    link: '/en/guide',
+                    link: '/en/guide/',
                 },
                 {
                     text: 'Keyboard Guide',
@@ -101,33 +101,33 @@ export default defineUserConfig({
                 },
                 {
                     text: 'Cases',
-                    link: '/en/cases',
+                    link: '/en/cases/',
                 },
                 {
                     text: 'Contact',
-                    link: '/en/general/contact',
+                    link: '/en/general/contact/',
                 },
                 {
                     text: 'More',
                     children: [
                         {
                             text: 'Change Log',
-                            link: '/en/general/change-log',
+                            link: '/en/general/change-log/',
                         }, 
                         {
                             text: 'Terms',
-                            link: '/en/general/terms',
+                            link: '/en/general/terms/',
                         }, 
                         {
                             text: 'Privacy',
-                            link: '/en/general/privacy',
+                            link: '/en/general/privacy/',
                         },
                     ]
                     
                 },
             ],
             sidebar: {
-                '/en/guide': [
+                '/en/guide/': [
                     {
                         text: 'Guide',
                         children: ['/en/guide/README.md','/en/guide/getting-started.md', '/en/guide/memo','/en/guide/list','/en/guide/short-term-memory','/en/guide/memory-palace', '/en/guide/settings', '/en/guide/openai', '/en/guide/advance'],
