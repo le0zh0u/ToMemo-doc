@@ -10,11 +10,12 @@ ToMemo is a superb note app for frequently used content notes and short-time con
 ToMemo's core point: `digital content management`.
 
 This product is, as its name suggests, a memo application. Functionally, it is divided into three parts.
-- The first part, which efficiently organizes high-frequency and long-lasting content for later use in work life, is functionally classified as **Memos**.
-- The second part is to receive unknown categories of content and organize them afterwards, and also to clear the low-lived content, which is functionally classified as **Short-term memory**.
-- The third part is for efficiency
+- Part 1, which efficiently organizes high-frequency and long-lasting content for later use in work life, is functionally classified as **Memos**.
+- Part 2, receive unknown categories of content and organize them afterwards, and also to clear the low-lived content, which is functionally classified as **Short-term memory**.
+- Part 3, efficiency
     - needs to send the above two types of content efficiently to those who need it, providing an **extended keyboard**.
     - Efficient entry of uncategorized content on the phone, providing linkage with the Shortcut app to enable copying followed by double-clicking on the auxiliary touch to quickly add records.
+- Part 4, digital Content Generation with the Power of AI
 
 The ultimate expectation is to improve the efficiency of our work life through the management of content input and output.
 
