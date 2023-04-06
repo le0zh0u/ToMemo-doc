@@ -151,7 +151,41 @@
             }
         ]
       },
-    {
+      {
+        "id": "8",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Calculator in keyboard"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "键盘中内置计算机"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Put a calculator into ToMemo Keyboard"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "在ToMemo键盘中放入一个计算器"
+            }
+        ]
+      },
+      {
         "id": "2",
         "title": "短时记忆过滤器",
         "localizedTitle": [
