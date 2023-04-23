@@ -23,7 +23,23 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.2 <Badge type="warning" text="DEV" vertical="middle" />
+## 1.5.4 <Badge type="warning" text="2023年04月23日"/>
+- 🌟 重做键盘中AI助手的功能
+- 🌟 AI助手和工作站支持自定义顺序
+- 💪 优化AI助手的角色提示输入框
+- 💪 AI回复的消息使用Markdown展示
+
+## 1.5.3 <Badge type="tip" text="DONE"/>
+- 🌟 增加AI迷你工作台，让多位助手围着你转
+- 🌟 为进阶版用户提供OpenAI中继服务 - 国内直连
+- 🌟 支持自定义openai域名
+- 👉 优化接口连接，优化异常提示
+- 👉 支持迷你工作台中，助手排序
+- 👉 优化无需消息的助手，不用输入消息，直接发送就可以有回应
+- 👉 支持openai接口流式返回数据
+- 👉 优化键盘中AI功能，支持流式输出和自动提取内容
+
+## 1.5.2 <Badge type="tip" text="DONE"/>
 - 🌟 OpenAI支持ChatGPT3.5
 
 ## 1.5.1 <Badge type="tip" text="2023年03月11日" vertical="middle" />
