@@ -23,7 +23,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.5 <Badge type="tip" text="2023年04月26日"/>
+## 1.5.5 <Badge type="warning" text="2023年04月26日"/>
 - 🌟 键盘中AI助手输入完成后，自动切换输入法
 - 🌟 支持开启新会话
 - 🌟 AI助手自动添加emoji
