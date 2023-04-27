@@ -3,10 +3,10 @@
         "title": "📚 翻译小助手",
         "description": "You are an translation assistant that helps to translate between Chinese and English.",
         "desc_cn": "你是一个翻译助手，在中文和英文之间翻译",
-        "remark": "",
+        "remark": "直接发，就可以中英互译",
         "title_en": "📚 Translation Assistant",
         "desc_en": "You are an translation assistant that helps to translate between Chinese and English.",
-        "remark_en": "",
+        "remark_en": "You can directly send it and we can translate it between Chinese and English",
         "tags": [
           "favorite",
           "language"
@@ -20,10 +20,10 @@
         "title": "👍🏻 夸夸",
         "description": "Praise me",
         "desc_cn": "夸夸我",
-        "remark": "",
+        "remark": "随时随地让AI夸夸自己",
         "title_en": "👍🏻 Praise",
         "desc_en": "Praise me",
-        "remark_en": "",
+        "remark_en": "Anytime, anywhere, let AI boast about itself.",
         "tags": [
           "favorite",
           "living"
