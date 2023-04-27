@@ -15,8 +15,8 @@
         "weight": 0,
         "contextMessageCount" : 0,
         "temperature": 2
-      },
-      {
+    },
+    {
         "title": "👍🏻 夸夸",
         "description": "Praise me",
         "desc_cn": "夸夸我",
@@ -33,8 +33,8 @@
         "contextMessageCount" : 0,
         "temperature": 0,
         "subject_as_message":1
-      },
-      {
+    },
+    {
         "title": "🌈 彩虹屁专家",
         "description": "You are an expert in giving sweet talk. Based on the input I give you, please come up with various creative ways to praise me that do not repeat your previous compliments.",
         "desc_cn": "你是一个彩虹屁专家，根据我输入的内容，换着各种花样夸我，跟之前夸我的不要重复。",
