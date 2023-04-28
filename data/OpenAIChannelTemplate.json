@@ -14,7 +14,7 @@
         "id": 1001,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 2,
+        "temperature": 0,
         "need_radom_emoji": false
     },
     {
@@ -32,7 +32,7 @@
         "id": 1002,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 0,
+        "temperature": 2,
         "subject_as_message":1,
         "need_radom_emoji": false
     },
@@ -51,7 +51,7 @@
         "id": 1003,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 0,
+        "temperature": 2,
         "need_radom_emoji": false
       },
       {
@@ -69,7 +69,7 @@
         "id": 1004,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 2,
+        "temperature": 0,
         "need_radom_emoji": false
       },
       {
@@ -87,7 +87,7 @@
         "id": 1005,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 0,
+        "temperature": 2,
         "need_radom_emoji": false
       },
       {
@@ -105,7 +105,7 @@
         "id": 1006,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 2,
+        "temperature": 0,
         "need_radom_emoji": false
       },
       {
@@ -123,7 +123,7 @@
         "id": 1007,
         "weight": 0,
         "contextMessageCount" : 0,
-        "temperature": 0,
+        "temperature": 2,
         "need_radom_emoji": false
       },
     {
