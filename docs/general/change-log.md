@@ -23,7 +23,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.6 <Badge type="warning" text="DEV"/>
+## 1.5.7 <Badge type="warning" text="2023年05月14日"/>
+- 🌟 Memo页面增加搜索
+- 👉 修复AI助手重置上下文后仍有记忆的问题
+- 👉 修复键盘中AI助手下Emoji按钮切换问题
+
+## 1.5.6 <Badge type="tip" text="2023年05月07日"/>
 - 🌟 支持远程拉取助手模板，并一键添加到本地
 - 🌟 键盘中增加重置按钮，可以重置AI输入的内容
 - 🌟 AI助手增加多样性属性，AI内容输出不重复
