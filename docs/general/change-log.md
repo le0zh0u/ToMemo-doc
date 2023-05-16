@@ -23,7 +23,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.7 <Badge type="warning" text="2023年05月14日"/>
+## 1.5.7 <Badge type="tip" text="2023年05月14日"/>
 - 🌟 Memo页面增加搜索
 - 👉 修复AI助手重置上下文后仍有记忆的问题
 - 👉 修复键盘中AI助手下Emoji按钮切换问题
