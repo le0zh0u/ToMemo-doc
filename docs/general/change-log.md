@@ -23,6 +23,13 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.5.8 <Badge type="warning" text="2023年05月25日"/>
+- 🌟 键盘中短时记忆保存为Memo
+- 🌟 AI助手内容保存到Memo和短时记忆
+- 🌟 自定义应用首页
+- 🌟 短时记忆合并空行分隔
+- 🌟 AI Service Pro Beta
+
 ## 1.5.7 <Badge type="tip" text="2023年05月14日"/>
 - 🌟 Memo页面增加搜索
 - 👉 修复AI助手重置上下文后仍有记忆的问题
