@@ -23,7 +23,14 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.8 <Badge type="warning" text="2023年05月25日"/>
+## 1.5.10 <Badge type="tip" text="2023年07月03日"/>
+- 🌟 Memo支持子字段
+
+## 1.5.9 <Badge type="tip" text="2023年06月13日"/>
+- 💪 键盘顶部工具栏优化-增加 tab
+- 💪 键盘增加图标说明显示开关
+
+## 1.5.8 <Badge type="tip" text="2023年05月25日"/>
 - 🌟 键盘中短时记忆保存为Memo
 - 🌟 AI助手内容保存到Memo和短时记忆
 - 🌟 自定义应用首页
