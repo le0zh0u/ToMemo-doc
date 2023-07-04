@@ -23,6 +23,9 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
+## 1.5.11 <Badge type="warning" text="DEV"/>
+- 🌟 支持Memo转成子字段
+
 ## 1.5.10 <Badge type="tip" text="2023年07月03日"/>
 - 🌟 Memo支持子字段
 
