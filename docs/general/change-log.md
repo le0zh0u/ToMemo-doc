@@ -23,8 +23,12 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.11 <Badge type="warning" text="DEV"/>
+## 1.5.11 <Badge type="warning" text="2023年07月15日"/>
+- 🌟 自定义应用图标
+
+## 1.5.11 <Badge type="tip" text="2023年07月06日"/>
 - 🌟 支持Memo转成子字段
+- 💪 区分memo子字段属性
 
 ## 1.5.10 <Badge type="tip" text="2023年07月03日"/>
 - 🌟 Memo支持子字段
@@ -32,7 +36,7 @@
 ## 1.5.9 <Badge type="tip" text="2023年06月13日"/>
 - 💪 键盘顶部工具栏优化-增加 tab
 - 💪 键盘增加图标说明显示开关
-
+RPReplay_Final1674369097.MP4
 ## 1.5.8 <Badge type="tip" text="2023年05月25日"/>
 - 🌟 键盘中短时记忆保存为Memo
 - 🌟 AI助手内容保存到Memo和短时记忆
