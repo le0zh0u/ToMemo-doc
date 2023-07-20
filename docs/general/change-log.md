@@ -23,7 +23,13 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.11 <Badge type="warning" text="2023年07月15日"/>
+## 1.5.13 <Badge type="warning" text="2023年07月20日"/>
+- 🌟 分词支持正则表达式提取内容
+- 🌟 Memo子字段支持多种分隔符
+- 👉 修复iOS15下Memo详情页标题展示问题
+- 💪 键盘顶部工具栏自定义归入进阶版功能
+
+## 1.5.12 <Badge type="tip" text="2023年07月15日"/>
 - 🌟 自定义应用图标
 
 ## 1.5.11 <Badge type="tip" text="2023年07月06日"/>
