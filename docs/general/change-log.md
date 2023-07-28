@@ -23,7 +23,14 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.5.13 <Badge type="warning" text="2023年07月20日"/>
+## 1.5.15 <Badge type="tip" text="2023年07月27日"/>
+- 👍🏻 第一个来自社区的应用图标 - Anything to memo，感谢 @Ice Just
+- 🌟 短时记忆支持各种动作，替换删除不在话下
+- 🌟 键盘支持自动回车
+- 💪 优化Memo批量移动的页面
+- 💪 初心皮肤顶部工具栏优化
+
+## 1.5.13 <Badge type="tip" text="2023年07月20日"/>
 - 🌟 分词支持正则表达式提取内容
 - 🌟 Memo子字段支持多种分隔符
 - 👉 修复iOS15下Memo详情页标题展示问题
