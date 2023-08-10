@@ -23,7 +23,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.6.0 <Badge type="warning" text="2023年08月08日"/>
+## 1.6.0 <Badge type="tip" text="2023年08月08日"/>
 - 🌟Memo支持图片
 - 🌟短时记忆支持网址识别
 - 🌟键盘中支持文本内容预览
