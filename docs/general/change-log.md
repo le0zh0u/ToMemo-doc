@@ -22,7 +22,7 @@
 ［修复］修复了某某错误 👉 
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
-## 1.6.2 <Badge type="warning" text="2023年08月22日"/>
+## 1.6.2 <Badge type="tip" text="2023年08月22日"/>
 - 🌟 支持动作库
 - 🌟 短时记忆支持草稿模式
 
