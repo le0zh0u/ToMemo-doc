@@ -129,15 +129,15 @@
             "value": "支持画中画"
           }
         ],
-        "status": "Planned",
+        "status": "finished",
         "localizedStatus": [
           {
             "language": "zh-Hans",
-            "value": "计划中"
+            "value": "已完成"
           },
           {
             "language": "en",
-            "value": "Planned"
+            "value": "Done"
           }
         ],
         "localizedDescription": [
@@ -182,6 +182,40 @@
           {
               "language": "zh-Hans",
               "value": "在ToMemo键盘中放入一个计算器"
+            }
+        ]
+      },
+      {
+        "id": "9",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Custom Action Library"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "自定义动作库"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Add Custom Action"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "添加自定义动作"
             }
         ]
       },
