@@ -130,6 +130,7 @@
           }
         ],
         "status": "finished",
+        "isFinished": true,
         "localizedStatus": [
           {
             "language": "zh-Hans",
