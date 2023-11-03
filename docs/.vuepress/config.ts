@@ -75,7 +75,7 @@ export default defineUserConfig({
                 '/short-term-memory-advance/': [
                     {
                         text: '短时记忆进阶',
-                        children: ['/short-term-memory-advance/README.md'],
+                        children: ['/short-term-memory-advance/README.md', '/short-term-memory-advance/12321-report.md'],
                     },
                 ],
             },
