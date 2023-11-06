@@ -23,7 +23,14 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.6.6 <Badge type="warning" text="2023年11月01日"/>
+## 1.6.6 <Badge type="warning" text="2023年11月06日"/>
+- 💪 短时记忆和动作库结合优化
+- 💪 动作库布局优化
+- 💪 动作库功能优化
+- 💪 键盘增加跳转和搜索
+- 👉 修复动作库bug
+
+## 1.6.6 <Badge type="tip" text="2023年11月01日"/>
 - 🌟 动作库史诗级增强
 - 🌟 动作库二维码/口令导出和导入
 - 💪 优化Memo详情页
