@@ -1,9 +1,8 @@
 
 {
-     "name": "Test",
-     "link": "https://tomemo.top/",
-     "author": "leo",
-     "authorLink":"https://tomemo.top/",
+    "name": "Test",
+    "author": "leo",
+    "authorLink":"https://tomemo.top/",
     "data":[
         {
             "type": "Document",
