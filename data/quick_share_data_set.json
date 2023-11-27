@@ -1,0 +1,39 @@
+
+{
+     "name": "Test",
+     "link": "https://tomemo.top/",
+     "author": "leo",
+     "authorLink":"https://tomemo.top/",
+    "data":[
+        {
+            "type": "Document",
+            "name": "Document1",
+            "url": "http://example.com/doc1",
+            "iconURL": "https://tomemo.top/images/logo-corner.png"
+        },
+        {
+            "type": "Image",
+            "name": "Image1",
+            "url": "http://example.com/image1.jpg",
+            "iconURL": "https://tomemo.top/images/logo-corner.png"
+        },
+        {
+            "type": "Video",
+            "name": "Video1",
+            "url": "http://example.com/video1.mp4",
+            "iconURL": "https://tomemo.top/images/logo-corner.png"
+        },
+        {
+            "type": "Audio",
+            "name": "Audio1",
+            "url": "http://example.com/audio1.mp3",
+            "iconURL": "https://tomemo.top/images/logo-corner.png"
+        },
+        {
+            "type": "Link",
+            "name": "Link1",
+            "url": "http://example.com",
+            "iconURL": "https://tomemo.top/images/logo-corner.png"
+        }
+    ]
+}
