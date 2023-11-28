@@ -5,28 +5,28 @@
     "authorLink":"https://tomemo.top/",
     "data":[
         {
-            "name": "Document1",
-            "url": "http://example.com/doc1",
+            "name": "抖音",
+            "url": "awemesso://",
             "iconURL": "https://tomemo.top/images/logo-corner.png"
         },
         {
-            "name": "Image1",
-            "url": "http://example.com/image1.jpg",
+            "name": "少数派",
+            "url": "sspai://",
             "iconURL": "https://cdn.jim-nielsen.com/ios/512/video-teleprompter-lite-2023-10-19.png"
         },
         {
-            "name": "Video1",
-            "url": "http://example.com/video1.mp4",
+            "name": "支付宝",
+            "url": "alipays://",
             "iconURL": "https://cdn.jim-nielsen.com/ios/512/angry-birds-2-2016-05-31.png"
         },
         {
-            "name": "Audio1",
-            "url": "http://example.com/audio1.mp3",
+            "name": "短信",
+            "url": "sms://",
             "iconURL": "https://cdn.jim-nielsen.com/ios/512/wwdc-2015-07-01.png"
         },
         {
-            "name": "Link1",
-            "url": "http://example.com",
+            "name": "微信读书",
+            "url": "weread://",
             "iconURL": "https://cdn.jim-nielsen.com/ios/512/apple-developer-2022-01-13.png"
         }
     ]
