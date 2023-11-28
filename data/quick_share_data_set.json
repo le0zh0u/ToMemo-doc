@@ -17,17 +17,17 @@
         {
             "name": "Video1",
             "url": "http://example.com/video1.mp4",
-            "iconURL": "https://tomemo.top/images/logo-corner.png"
+            "iconURL": "https://cdn.jim-nielsen.com/ios/512/angry-birds-2-2016-05-31.png"
         },
         {
             "name": "Audio1",
             "url": "http://example.com/audio1.mp3",
-            "iconURL": "https://tomemo.top/images/logo-corner.png"
+            "iconURL": "https://cdn.jim-nielsen.com/ios/512/wwdc-2015-07-01.png"
         },
         {
             "name": "Link1",
             "url": "http://example.com",
-            "iconURL": "https://tomemo.top/images/logo-corner.png"
+            "iconURL": "https://cdn.jim-nielsen.com/ios/512/apple-developer-2022-01-13.png"
         }
     ]
 }
