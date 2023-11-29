@@ -24,7 +24,7 @@
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
 ## 1.6.8 <Badge type="warning" text="2023年11月29日"/>
-- 🌟 短时记忆新UI - ios17
+- 🌟 短时记忆新UI - iOS17
 - 🌟 短时记忆展示全部内容
 - 🌟 快捷分享
 - 💪 Memo新增时制定位置 - 首行/末行
