@@ -7,27 +7,27 @@
         {
             "name": "抖音",
             "url": "awemesso://",
-            "iconURL": "https://tomemo.top/images/logo-corner.png"
+            "iconURL": "https://tomemo.top/images/icons/douyin-Icon.png"
         },
         {
             "name": "少数派",
             "url": "sspai://",
-            "iconURL": "https://cdn.jim-nielsen.com/ios/512/video-teleprompter-lite-2023-10-19.png"
+            "iconURL": "https://tomemo.top/images/icons/sspai-Icon.png"
         },
         {
             "name": "支付宝",
             "url": "alipays://",
-            "iconURL": "https://cdn.jim-nielsen.com/ios/512/angry-birds-2-2016-05-31.png"
+            "iconURL": "https://tomemo.top/images/icons/alipay-Icon.png"
         },
         {
             "name": "短信",
             "url": "sms://",
-            "iconURL": "https://cdn.jim-nielsen.com/ios/512/wwdc-2015-07-01.png"
+            "iconURL": "https://tomemo.top/images/icons/message-Icon.png"
         },
         {
             "name": "微信读书",
             "url": "weread://",
-            "iconURL": "https://cdn.jim-nielsen.com/ios/512/apple-developer-2022-01-13.png"
+            "iconURL": "https://tomemo.top/images/icons/weread-Icon.png"
         }
     ]
 }
