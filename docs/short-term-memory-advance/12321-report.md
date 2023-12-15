@@ -6,6 +6,14 @@
 
 现在只需要少数的几步，**一分钟以内**，就可以完成骚扰电话的举报。
 
+### 开启「12321举报」功能
+
+在「设置」-「短时记忆」中，找打「增强」模块的「12321骚扰电话举报」，确认开启。
+
+::: details
+![enable harass report](./images/enable_harass_report.png)
+:::
+
 ### 接到骚扰电话后复制
 ::: details
 ![get a crank call](./images/get_crank_call.png)
