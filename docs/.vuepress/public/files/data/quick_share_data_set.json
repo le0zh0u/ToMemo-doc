@@ -1,7 +1,7 @@
 
 {
     "name": "Quick Share",
-    "author": "leo",
+    "author": "ToMemo",
     "authorLink":"https://tomemo.top/",
     "data":[
         {
@@ -28,11 +28,6 @@
             "name": "微信读书",
             "url": "weread://",
             "iconURL": "https://tomemo.top/images/icons/weread-Icon.png"
-        },
-        {
-            "name": "快捷指令-Temp'Memo",
-            "url": "shortcuts://run-shortcut?name=Temp′Memo&input=text&text={{params}}",
-            "iconURL": "https://tomemo.top/images/icons/shortcut-Icon.png"
         }
     ]
 }
