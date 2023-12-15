@@ -28,6 +28,12 @@
             "name": "微信读书",
             "url": "weread://",
             "iconURL": "https://tomemo.top/images/icons/weread-Icon.png"
+        },
+        {
+            "name": "Notion",
+            "url": "notion://",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/1d/db/79/1ddb7988-785e-7f36-14de-b9913c1d4736/AppIconProd-0-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.png"
         }
+        
     ]
 }
