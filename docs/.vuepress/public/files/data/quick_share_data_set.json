@@ -21,7 +21,7 @@
         },
         {
             "name": "短信",
-            "url": "sms://{{params}}",
+            "url": "sms://;?&body={{params}}",
             "iconURL": "https://tomemo.top/images/icons/message-Icon.png"
         },
         {
