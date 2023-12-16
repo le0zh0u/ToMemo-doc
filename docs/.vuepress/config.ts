@@ -63,7 +63,7 @@ export default defineUserConfig({
                 '/guide/': [
                     {
                         text: '指南',
-                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/memo','/guide/list','/guide/short-term-memory', '/guide/memory-palace', '/guide/action-library', '/guide/action-library-cases', '/guide/settings', '/guide/openai', '/guide/advance'],
+                        children: ['/guide/README.md','/guide/getting-started.md', '/guide/memo','/guide/list','/guide/short-term-memory', '/guide/memory-palace', '/guide/action-library', '/guide/action-library-cases', '/guide/quick-share', '/guide/settings', '/guide/openai', '/guide/advance'],
                     },
                 ],
                 '/keyboard-guide/': [
