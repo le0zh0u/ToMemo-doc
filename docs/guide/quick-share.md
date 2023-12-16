@@ -39,6 +39,10 @@ ToMemo本身也维护了一个[公开的来源](https://tomemo.top/files/data/qu
 | 名称 | 快捷分享的名称 | 可以是应用名、可以是其他说明，用来区分不同的快捷分享 | 
 | URL-Scheme | 跳转路径 | 点击后，自动打开的链接地址 |
 
+**获取图表地址的快捷指令**
+
+在另一个快捷指令的基础上做了删减，可以从App Store中提取图标的URL地址。
+[快速打开快捷指令](https://www.icloud.com/shortcuts/9eb6e1d92cad4a42a3808d423a4ac80f)
 
 **URL-Scheme**
 
@@ -64,7 +68,7 @@ sms://;?&body={{params}}
 **但是不会刷新已经添加的快捷指令的信息，需要自行手动调整**
 
 
-::: URL-Scheme资源
+::: tip URL-Scheme资源
 
 [含参数的 URL Scheme 收集](https://gist.github.com/JamesHopbourn/046bc341e7debfd0c86e3b388d983c53?permalink_comment_id=4060886)
 
