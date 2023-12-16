@@ -64,3 +64,10 @@ sms://;?&body={{params}}
 **但是不会刷新已经添加的快捷指令的信息，需要自行手动调整**
 
 
+::: URL-Scheme资源
+
+[含参数的 URL Scheme 收集](https://gist.github.com/JamesHopbourn/046bc341e7debfd0c86e3b388d983c53?permalink_comment_id=4060886)
+
+[iOS常用URL Scheme附录](https://cloud.tencent.com/developer/article/1397306)
+
+:::
