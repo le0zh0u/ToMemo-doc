@@ -23,7 +23,13 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.6.10 <Badge type="warning" text="2023年12月20日"/>
+## 1.6.11 <Badge type="warning" text="2023年12月23日"/>
+- 💪 短时记忆界面支持列表设置
+- 💪 初心按钮放大
+- 👉 修复密钥检查逻辑
+- 💪 添加Gemini中继服务
+
+## 1.6.10 <Badge type="tip" text="2023年12月20日"/>
 - 🌟 短时记忆预处理支持动作库
 - 👉 修复Memo保存时未收起弹窗问题
 - 👉 修复配置Gemini Key后键盘中显示问题
