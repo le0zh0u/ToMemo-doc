@@ -23,7 +23,10 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.6.11 <Badge type="warning" text="2023年12月23日"/>
+## 1.6.11 <Badge type="tip" text="2023年12月23日"/>
+- 🌟 文字卡片
+
+## 1.6.11 <Badge type="tip" text="2023年12月23日"/>
 - 💪 短时记忆界面支持列表设置
 - 💪 初心按钮放大
 - 👉 修复密钥检查逻辑
