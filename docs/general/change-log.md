@@ -23,7 +23,7 @@
 -->
 <!-- <Badge type="warning" text="2022年12月13日" vertical="middle" /> -->
 
-## 1.6.11 <Badge type="tip" text="2023年12月23日"/>
+## 1.6.11 <Badge type="tip" text="2023年01月12日"/>
 - 🌟 文字卡片
 
 ## 1.6.11 <Badge type="tip" text="2023年12月23日"/>
