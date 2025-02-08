@@ -1,0 +1,296 @@
+[
+    {
+      "id": "1",
+      "title": "Mac版本",
+      "localizedTitle": [
+        {
+          "language": "en",
+          "value": "Mac Application"
+        },
+        {
+          "language": "zh-Hans",
+          "value": "Mac版本"
+        }
+      ],
+      "status": "Planned",
+      "localizedStatus": [
+        {
+          "language": "zh-Hans",
+          "value": "计划中"
+        },
+        {
+          "language": "en",
+          "value": "Planned"
+        }
+      ]
+    },
+    {
+        "id": "4",
+        "title": "支持图片",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Support for images"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "支持图片"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Actions in keybouard"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "支持键盘中的动作"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Send content in a personalized way on the keyboard"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "在键盘中对内容以个性化的方式发送"
+            }
+        ]
+      },
+      {
+        "id": "6",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Phrase collection"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "短语合集"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Support to subscribe to custom phrase list"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "支持订阅自定义的短语列表"
+            }
+        ]
+      },
+      {
+        "id": "7",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Support Picture in Picture"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "支持画中画"
+          }
+        ],
+        "status": "Done",
+        "isFinished": true,
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "已完成"
+          },
+          {
+            "language": "en",
+            "value": "Done"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Auto saving pastboard to short-term memory by PIP"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "通过画中画功能自动保存剪切板内容"
+            }
+        ]
+      },
+      {
+        "id": "8",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Calculator in keyboard"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "键盘中内置计算机"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Put a calculator into ToMemo Keyboard"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "在ToMemo键盘中放入一个计算器"
+            }
+        ]
+      },
+      {
+        "id": "9",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Custom Action Library"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "自定义动作库"
+          }
+        ],
+        "status": "Planned",
+        "localizedStatus": [
+          {
+            "language": "zh-Hans",
+            "value": "计划中"
+          },
+          {
+            "language": "en",
+            "value": "Planned"
+          }
+        ],
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Add Custom Action"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "添加自定义动作"
+            }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "短时记忆过滤器",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Short-term memory filter"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "短时记忆过滤器"
+          }
+        ],
+        "status": "Done",
+        "localizedStatus": [
+            {
+              "language": "zh-Hans",
+              "value": "已完成"
+            },
+            {
+              "language": "en",
+              "value": "Done"
+            }
+          ],
+        "isFinished": true,
+        "description": "自定义过滤剪切板内容规则",
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Custom filter clipboard content rules"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "自定义过滤剪切板内容规则"
+            }
+        ]
+      },
+      {
+        "id": "3",
+        "localizedTitle": [
+          {
+            "language": "en",
+            "value": "Short-term memory preprocessor"
+          },
+          {
+            "language": "zh-Hans",
+            "value": "短时记忆预先处理动作"
+          }
+        ],
+        "status": "Done",
+        "localizedStatus": [
+            {
+              "language": "zh-Hans",
+              "value": "已完成"
+            },
+            {
+              "language": "en",
+              "value": "Done"
+            }
+          ],
+        "isFinished": true,
+        "description": "自定义添加剪切板内容处理器",
+        "localizedDescription": [
+          {
+            "language": "en",
+            "value": "Custom add clipboard content processor"
+          },
+          {
+              "language": "zh-Hans",
+              "value": "自定义添加剪切板内容处理器"
+            }
+        ]
+      }
+  ]

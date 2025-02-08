@@ -1,0 +1,24 @@
+---
+asIndexPage: true
+title: 动作库
+sidebarTitle: 动作库
+---
+
+import { Cards } from "nextra/components";
+import { InformationCircleIcon, LinkIcon, MarkdownIcon } from "nextra/icons";
+import { MDXRemote } from "nextra/mdx-remote";
+import { createIndexPage, getPageMap } from "nextra/page-map";
+
+# 动作库
+
+The following features are configured via the Next.js configuration and are
+available in all themes.
+
+<MDXRemote
+  compiledSource={await createIndexPage(
+    await getPageMap("/docs/action-library")
+  )}
+  components={{
+    Cards,
+  }}
+/>

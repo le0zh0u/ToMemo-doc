@@ -1,0 +1,22 @@
+---
+asIndexPage: true
+title: AI 服务
+sidebarTitle: AI 服务
+---
+
+import { Cards } from "nextra/components";
+import { InformationCircleIcon, LinkIcon, MarkdownIcon } from "nextra/icons";
+import { MDXRemote } from "nextra/mdx-remote";
+import { createIndexPage, getPageMap } from "nextra/page-map";
+
+# AI 服务
+
+The following features are configured via the Next.js configuration and are
+available in all themes.
+
+<MDXRemote
+  compiledSource={await createIndexPage(await getPageMap("/docs/ai-service"))}
+  components={{
+    Cards,
+  }}
+/>

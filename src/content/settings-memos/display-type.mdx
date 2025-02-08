@@ -1,0 +1,37 @@
+
+import { Image, Tabs } from 'nextra/components'
+
+
+# 展示类型
+
+主要用于控制进入应用后展示的内容是所有 Memo 还是所有列表。
+
+## 所有 Memo
+
+展示所有的 Memo。
+
+<Image src="/images/settings/homepage-all-memos.png" width={300} height={300} alt="首页所有memos" />
+
+
+### 「按列表聚合展示」
+
+除了平铺展示所有 Memo 外，有一个功能选项是「聚合展示」。
+
+将所有 Memo 按照列表进行聚合，按照列表的排序进行分组展示。
+方便快速扫描定位列表后找到对应的 Memo。
+
+### 按列表聚合布局
+
+当开启了「按列表聚合展示」后，有两种列表的布局可以选择。
+
+<Tabs items={['纵向', '横向']}>
+  <Tabs.Tab><Image src="/images/settings/homepage-grouped-memos.png" width={300} height={300} alt="首页所有memos" /></Tabs.Tab>
+  <Tabs.Tab><Image src="/images/settings/homepage-all-list.png" width={300} height={300} alt="首页所有memos" /></Tabs.Tab>
+</Tabs>
+
+
+## 所有列表
+
+展示所有列表，点击列表查看里面的 Memo
+
+<Image src="/images/settings/homepage-all-list.png" width={300} height={300} alt="首页所有memos" />

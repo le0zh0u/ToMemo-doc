@@ -1,113 +1,65 @@
-import { Steps } from 'nextra/components'
-
-# Get Started
-
-## Quick Start with Vercel
-
-You can start by creating your own Nextra site and deploying to Vercel by
-clicking the link:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?demo-description=Markdown%20powered%20docs%20site.%20Built%20with%20Next.js.&demo-image=https%3A%2F%2Fnextra.vercel.app%2Fdemo.png&demo-title=Documentation%20Starter%20Kit&demo-url=https%3A%2F%2Fnextra.vercel.app%2F&project-name=nextjs-docs&repository-name=nextjs-docs&s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&from=templates)
-
-Vercel will create the Nextra repository and deploy the site for you with just a
-few clicks. Once done, every change in the repository will be deployed
-automatically.
-
-## Create Manually
-
-Nextra works like a Next.js plugin, and it accepts a theme config (layout) to
-render the page. To start: [^3]
-
-<Steps>
-### Install Next.js, Nextra and React [^1]
-
-```sh npm2yarn
-npm i react react-dom next nextra
-```
-
-### Install the docs theme [^2]
-
-```sh npm2yarn
-npm i nextra-theme-docs
-```
-
-### Create the following Next.js config and theme config under the root directory
-
-```js filename="next.config.mjs"
-import nextra from 'nextra'
-
-const withNextra = nextra({
-  theme: 'nextra-theme-blog',
-  themeConfig: './theme.config.js'
-})
-export default withNextra()
-```
-
-### Create a `theme.config.js` file for the docs theme
-
-```js filename="theme.config.js"
-export default {
-  project: {
-    link: 'https://github.com/shuding/nextra' // GitHub link in the navbar
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
-  getNextSeoProps: () => ({ titleTemplate: '%s – Nextra' }),
-  navigation: true,
-  darkMode: true,
-  footer: {
-    text: `MIT ${new Date().getFullYear()} © Shu Ding.`
-  },
-  editLink: {
-    text: 'Edit this page on GitHub'
-  },
-  logo: (
-    <>
-      <svg>...</svg>
-      <span>Next.js Static Site Generator</span>
-    </>
-  ),
-  head: (
-    <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Nextra: the next docs builder" />
-      <meta name="og:title" content="Nextra: the next docs builder" />
-    </>
-  ),
-  primaryHue: {
-    dark: 204,
-    light: 212
-  }
-}
-```
-
-> [!NOTE]
->
-> More configuration options for the docs theme can be found
-> [here](/themes/docs/configuration).
-
-### You are good to go! Run `next dev` to start
-
-</Steps>
-
+---
+sidebarTitle: 👋🏻 快速上手
 ---
 
-<span id="sidebar-and-anchor-links" />
+# 快速上手
 
-> [!NOTE]
->
-> Any `.md` or `.mdx` file will turn into a doc page and be displayed in
-> sidebar. You can also create a `_meta.js` file to customize the page order and
-> title. <br /> Check the source code: https://github.com/shuding/nextra for
-> more information.
+## 首次使用
 
-> [!TIP]
->
-> You can also use
-> [`<style jsx>`](https://nextjs.org/docs/basic-features/built-in-css-support#css-in-js)
-> to style elements inside `theme.config.js`.
+应用下载完成后首次打开应用，可以打开应用参照着使用。
 
-[^1]: Install Next.js, Nextra and React.
+::: details 展示如下
+![首次加载主页](/images/getting-started/first-load-homepage.png)
+:::
 
-[^2]: Install the docs theme.
+### 新建列表
 
-[^3]: To start.
+每一条 Memo 需要有一个列表进行归类，所以首先需要创建一条列表。
+
+里面只有两个属性
+
+- 列表名称
+- 自定义颜色
+
+#### 自定义颜色
+
+应用提供了 12 中默认颜色，方便区分不同的列表。
+
+同时，如果颜色不够用，可以点击自定义颜色那行的右侧圆圈，会弹出调色板进行选择
+
+### 新建 Memo
+
+在新建 Memo 的页面中有三个属性：
+
+- 列表：需要选择归属的列表
+- 标题：展示在列表中
+- 内容：后续快速发送的内容。
+- 子字段：开启字段后会将 Memo 的内容根据字段分隔符自动划分成多的子字段，用于快捷提取内容
+
+标题是可选的，如果未填写标题，会自动使用内容作为标题，即标题和内容的文本是一样的。
+
+### 开始使用
+
+等新建完第一条列表和 Memo，已经完成了主体功能的使用。
+
+回到首页，可以看到已经创建的 Memo，只要点击右侧的复制图标，即可复制 Memo 的内容。
+
+::: details 展示如下
+![homepage-memo-rows](/images/getting-started/homepage-memo-rows.jpg)
+:::
+
+点击复制后，手机会有震动反馈，告知内容已经成功复制到剪切板。
+
+::: tip 完成
+基础的创建和使用已经学会了，可以开心地开始进阶功能。
+
+进阶功能需要在「设置」中按需开启。
+:::
+
+## 多设备同步
+
+如果已经有一个设备添加了 Memo，在另一台设备中下载了 ToMemo。
+
+需要确认第一台设备中 ToMemo 的设置是否开启了 iCloud 功能，需要确认一下。
+
+然后，在另一台设备中，确认 ToMemo 设置中 iCloud 状态是否正常。如果没有问题，点击「刷新 ToMemo 数据」按钮。会自动刷新 Memo 列表的数据。

@@ -1,0 +1,20 @@
+---
+asIndexPage: true
+title: Memo 设置
+sidebarTitle: Memo 设置
+---
+
+import { Cards } from "nextra/components";
+import { InformationCircleIcon, LinkIcon, MarkdownIcon } from "nextra/icons";
+import { MDXRemote } from "nextra/mdx-remote";
+import { createIndexPage, getPageMap } from "nextra/page-map";
+
+# Memo 设置
+
+
+<MDXRemote
+  compiledSource={await createIndexPage(await getPageMap("/docs/settings-memos"))}
+  components={{
+    Cards,
+  }}
+/>

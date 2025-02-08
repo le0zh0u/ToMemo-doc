@@ -1,0 +1,33 @@
+
+{
+    "name": "Quick Share",
+    "author": "leo",
+    "authorLink":"https://tomemo.top/",
+    "data":[
+        {
+            "name": "抖音",
+            "url": "awemesso://",
+            "iconURL": "https://tomemo.top/images/icons/douyin-Icon.png"
+        },
+        {
+            "name": "少数派",
+            "url": "sspai://",
+            "iconURL": "https://tomemo.top/images/icons/sspai-Icon.png"
+        },
+        {
+            "name": "支付宝",
+            "url": "alipays://",
+            "iconURL": "https://tomemo.top/images/icons/alipay-Icon.png"
+        },
+        {
+            "name": "短信",
+            "url": "sms://",
+            "iconURL": "https://tomemo.top/images/icons/message-Icon.png"
+        },
+        {
+            "name": "微信读书",
+            "url": "weread://",
+            "iconURL": "https://tomemo.top/images/icons/weread-Icon.png"
+        }
+    ]
+}
