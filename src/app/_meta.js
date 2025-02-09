@@ -10,7 +10,6 @@ const meta = {
   showcase: {
     type: "page",
     title: "Showcase",
-    href: "/docs/guide",
   },
 };
 

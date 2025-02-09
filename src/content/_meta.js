@@ -1,10 +1,9 @@
 const meta = {
   index: "",
-  "get-started": "",
+  "getting-started": "",
   advance: "",
   cases: "",
   questions: "",
-  guide: "",
 
   _: {
     type: "separator",
@@ -18,10 +17,10 @@ const meta = {
   },
   "short-term-memory": "",
   "short-term-memory-advance": "",
-  "short-term-memory-12321-report": "",
   "memory-palace": "",
   "quick-share": "",
   "text-card": "",
+  "short-term-memory-12321-report": "",
   __: {
     type: "separator",
     title: "快捷键盘", // Title is optional
@@ -33,6 +32,7 @@ const meta = {
     type: "separator",
     title: "应用设置", // Title is optional
   },
+  appearance: "",
   "settings-memos": "",
   "settings-short-term-memory": "",
   "settings-extend": "",
@@ -43,6 +43,7 @@ const meta = {
   },
   "action-library": "",
   "ai-service": "",
+  "newyear-pharse": "",
 };
 
 export default meta;

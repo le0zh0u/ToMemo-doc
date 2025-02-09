@@ -1,0 +1,27 @@
+---
+asIndexPage: true
+title: 短时记忆设置
+sidebarTitle: 短时记忆设置
+---
+
+import { Cards } from "nextra/components";
+import { InformationCircleIcon, LinkIcon, MarkdownIcon } from "nextra/icons";
+import { MDXRemote } from "nextra/mdx-remote";
+import { createIndexPage, getPageMap } from "nextra/page-map";
+
+# 短时记忆设置
+
+## 开启短时记忆功能
+
+- 在应用使用过程中，监听到剪切板的变化，并存入短时记忆
+- 在键盘使用过程中，将监听到的剪切板的内容存入短时记忆（需要在键盘设置中自动读取剪切板）
+- 通过触发快捷指令，将剪切板的内容迅速保存入短时记忆
+
+## 更多设置
+
+<MDXRemote
+  compiledSource={await createIndexPage(await getPageMap("/docs/settings-short-term-memory"))}
+  components={{
+    Cards,
+  }}
+/>

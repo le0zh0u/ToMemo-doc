@@ -6,6 +6,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import "nextra-theme-docs/style.css";
 import "./globals.css";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "ToMemo",
@@ -17,7 +18,7 @@ const footer = (
     <div className="flex w-full flex-col items-center">
       <div className="flex gap-2 text-gray-600 dark:text-gray-400">
         <a
-          href="https://github.com/zhouchunjie/ToMemo"
+          href="https://github.com/le0zh0u/ToMemo-doc"
           target="_blank"
           rel="noopener"
           className="hover:text-gray-800 dark:hover:text-gray-200"
@@ -26,7 +27,7 @@ const footer = (
         </a>
         <span>·</span>
         <Link
-          href="/docs/guide/getting-started"
+          href="/docs/getting-started"
           className="hover:text-gray-800 dark:hover:text-gray-200"
         >
           Documentation
@@ -45,7 +46,6 @@ export default async function RootLayout({
   children: ReactNode;
 }) {
   const pageMap = await getPageMap();
-
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head />
@@ -55,10 +55,17 @@ export default async function RootLayout({
             <Navbar
               logo={
                 <div className="flex items-center gap-2">
+                  <Image
+                    src="/logo.png"
+                    alt="ToMemo"
+                    width={32}
+                    height={32}
+                    className="rounded-full"
+                  />
                   <span className="font-bold text-2xl">ToMemo</span>
                 </div>
               }
-              projectLink="https://github.com/zhouchunjie/ToMemo"
+              projectLink="https://github.com/zhouchunjie/ToMemo-doc"
             />
           }
           pageMap={pageMap}

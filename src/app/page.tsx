@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 import { Hero } from "@/components/ui/animated-hero";
-import { AdditionalFeatures } from "@/components/AdditionalFeatures";
 import { CallToAction } from "@/components/CallToAction";
-import DocsGrid from "@/components/DocsGrid";
+import { BentoDemo } from "@/components/BentoGrid";
 
 export const metadata: Metadata = {
   title: "ToMemo - Your Memory Enhancement Assistant",
@@ -15,8 +14,9 @@ export default function Home() {
     <div>
       <div className="max-w-screen-xl mx-auto px-6 pt-16 md:pt-24 pb-8 md:pb-16">
         <Hero />
-        <DocsGrid />
-        <AdditionalFeatures />
+        <BentoDemo />
+        {/* <DocsGrid />
+        <AdditionalFeatures /> */}
         <CallToAction />
       </div>
     </div>

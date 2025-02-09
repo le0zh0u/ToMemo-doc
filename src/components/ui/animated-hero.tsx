@@ -5,6 +5,7 @@ import { MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TextRotate } from "@/components/ui/text-rotate";
 import Floating, { FloatingElement } from "@/components/ui/parallax-floating";
+import Link from "next/link";
 
 const exampleImages = [
   "/images/demo/memory-1.jpg",
@@ -20,17 +21,17 @@ function Hero() {
       <div className="container mx-auto relative">
         <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
           <div className="flex gap-4 flex-col">
-            <h1 className="bg-clip-text text-lg md:text-7xl  bg-gradient-to-b from-foreground to-muted-foreground text-center font-sans font-bold">
-              <span className="text-blue-500">Enhance your</span>
+            <h1 className="bg-clip-text text-lg md:text-7xl bg-gradient-to-b from-foreground to-muted-foreground text-center font-sans font-bold">
+              <span className="text-blue-500">高效管理你的</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
                 <TextRotate
                   texts={[
-                    "Memos",
-                    "Short-term memory",
-                    "iOS Keyboard",
-                    "AI Assistant",
-                    "Text Processor",
+                    "懒人短语",
+                    "短时记忆",
+                    "扩展键盘",
+                    "AI 助手",
+                    "数字内容",
                   ]}
                   mainClassName="overflow-hidden pr-3 text-foreground py-0 pb-2 md:pb-4 rounded-xl"
                   staggerDuration={0.03}
@@ -42,17 +43,35 @@ function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              Boost your memory capacity with ToMemo&apos;s powerful features.
-              Our goal is to help you remember everything that matters, making
-              learning and recall easier than ever.
+              ToMemo 是一款多功能快捷键盘 + 剪切内容记录 + 懒人短语的便签应用，
+              帮助你高效管理和使用数字化内容，提升工作生活效率。
             </p>
           </div>
-          <div className="flex flex-row gap-3">
-            <Button size="lg" className="gap-4" variant="outline">
-              View Features <MoveRight className="w-4 h-4" />
+          <div className="flex flex-row gap-4">
+            <Button
+              asChild
+              size="lg"
+              className="relative group bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-white hover:from-[#60A5FA] hover:to-[#3B82F6]"
+            >
+              <Link
+                href="https://apps.apple.com/cn/app/tomemo-%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%BF%AB%E6%8D%B7%E9%94%AE%E7%9B%98%E7%9A%84%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%E5%BA%94%E7%94%A8/id1610843304"
+                target="_blank"
+                className="flex items-center"
+              >
+                App Store 下载
+                <MoveRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
             </Button>
-            <Button size="lg" className="gap-4">
-              Get Started <MoveRight className="w-4 h-4" />
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="group hover:bg-gradient-to-r hover:from-[#60A5FA]/10 hover:to-[#2563EB]/10"
+            >
+              <Link href="/docs/getting-started" className="flex items-center">
+                立即开始
+                <MoveRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
             </Button>
           </div>
 

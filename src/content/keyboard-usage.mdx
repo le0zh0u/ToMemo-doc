@@ -1,18 +1,24 @@
-# 键盘使用演示
+---
+sidebarTitle: ⌨️ 快捷键盘功能
+---
+
+import { Image } from "nextra/components";
+
+# 键盘功能演示
 
 此章节需要先行完成扩展键盘的安装，相关可以跳转到[「指南/应用设置/添加键盘」](/guide/settings)查看
 
 **键盘中图标**
-![keyboard-icons-description.jpg](/images/keyboard/keyboard-icons-description.jpg)
+<Image src="/images/keyboard/keyboard-icons-description.jpg" alt="键盘图标说明" width={300} height={600} />
 
 ## 输入法切换
 
 此功能需要在设置中开启[「输入后自动切回上个输入法」](/guide/keyboard)。这个按钮在非刘海屏的机型中会出现。
 
-![globe](/images/keyboard/globe@2x.png)
+<Image src="/images/keyboard/globe@2x.png" alt="切换键盘" width={30} height={30} />
 表示未启用自动切换回上个输入法，需要点击此图标进行输入法切换
 
-![globe.badge.chevron.backward](/images/keyboard/globe.badge.chevron.backward@2x.png)
+<Image src="/images/keyboard/globe.badge.chevron.backward@2x.png" alt="返回系统键盘" width={30} height={30} />
 表示启用自动切换回上个输入法，点击 Memo、剪切板或短时记忆后会自动切换回上个输入法。
 
 ### 锁住界面
@@ -23,9 +29,7 @@
 
 锁住的锁表示，ToMemo 键盘已上锁，本次点击输入不触发自动切换。
 
-::: details 演示视频
-![keyboard-auto-switch-demo.gif](/images/keyboard/keyboard-auto-switch-demo.gif)
-:::
+<Image src="/images/keyboard/keyboard-auto-switch-demo.gif" alt="键盘自动切换演示" width={300} height={600} />
 
 ## 分词
 
@@ -35,9 +39,7 @@
 - 选择需要输入的内容，会直接添加到输入框中。
 - 取消选择后，会自动从输入框中删除。
 
-::: details 演示视频
-![keyboard-participles-demo.gif](/images/keyboard/keyboard-participles-demo.gif)
-:::
+<Image src="/images/keyboard/keyboard-participles-demo.gif" alt="键盘分词演示" width={300} height={600} />
 
 ## 自动读取剪切板
 
@@ -70,15 +72,13 @@
   - 可能是内容与最新的一条「短时记忆」重复
   - 可能是短时记忆没有开启
 
-::: details 演示视频
-![keyboard-short-term-memory-debo.gif](/images/keyboard/keyboard-short-term-memory-debo.gif)
-:::
+<Image src="/images/keyboard/keyboard-short-term-memory-debo.gif" alt="键盘短时记忆演示" width={300} height={600} />
 
-::: tip 提示
-
-- 短时记忆功能的关闭不会影响自动读取剪切板的功能。只是无法将读取到内容自动保存到短时记忆中。
-- 如果在使用过程不断提示是否允许 ToMemo 粘贴，可以在设置中设置成始终允许，这样就不会再提示。 - 针对 iOS16 及以后
-  :::
+> [!TIP]
+>
+> - 短时记忆功能的关闭不会影响自动读取剪切板的功能。只是无法将读取到内容自动保存到短时记忆中。
+> - 如果在使用过程不断提示是否允许 ToMemo 粘贴，可以在设置中设置成始终允许，这样就不会再提示。 - 针对 iOS16 及以后
+>
 
 ## 基础功能
 
@@ -97,6 +97,6 @@
 点击键盘中 ToMemo 的 Logo，进入键盘的控制面板，后续会增加更多的功能。
 长按键盘中的 ToMemo 的 Logo，可以自动退回到默认的页面。
 
-::: tip 最后
-希望可以灵活使用键盘中的功能，例如自动切换 + 本次暂停等功能，动态调整本次输出内容的条数，提升内容输出的效率。
-:::
+> [!TIP]
+>
+> 希望可以灵活使用键盘中的功能，例如自动切换 + 本次暂停等功能，动态调整本次输出内容的条数，提升内容输出的效率。
