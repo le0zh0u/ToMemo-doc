@@ -21,7 +21,7 @@ function Hero() {
       <div className="container mx-auto relative">
         <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
           <div className="flex gap-4 flex-col">
-            <h1 className="bg-clip-text text-lg md:text-7xl bg-gradient-to-b from-foreground to-muted-foreground text-center font-sans font-bold">
+            <h1 className="bg-clip-text text-3xl md:text-7xl bg-gradient-to-b from-foreground to-muted-foreground text-center font-sans font-bold">
               <span className="text-blue-500">高效管理你的</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
