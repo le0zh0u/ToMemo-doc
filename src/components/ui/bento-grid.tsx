@@ -3,6 +3,7 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Link } from "nextra-theme-docs";
 
 const BentoGrid = ({
   children,
@@ -40,10 +41,11 @@ const BentoCard = ({
   href: string;
   cta: string;
 }) => (
-  <div
+  <Link
+    href={href}
     key={name}
     className={cn(
-      "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl ",
+      "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl no-underline",
       // light styles
       "bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
       // dark styles
@@ -66,14 +68,16 @@ const BentoCard = ({
       )}
     >
       <Button variant="ghost" asChild size="sm" className="pointer-events-auto">
-        <a href={href}>
+        {/* <a href={href}> */}
+        <div>
           {cta}
           <ArrowRightIcon className="ml-2 h-4 w-4" />
-        </a>
+        </div>
+        {/* </a> */}
       </Button>
     </div>
     <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />
-  </div>
+  </Link>
 );
 
 export { BentoCard, BentoGrid };

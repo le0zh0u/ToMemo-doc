@@ -21,7 +21,7 @@ function Hero() {
       <div className="container mx-auto relative">
         <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
           <div className="flex gap-4 flex-col">
-            <h1 className="bg-clip-text text-3xl md:text-7xl bg-gradient-to-b from-foreground to-muted-foreground text-center font-sans font-bold">
+            <h1 className="bg-clip-text text-4xl md:text-7xl bg-gradient-to-b from-foreground to-muted-foreground text-center font-sans font-bold">
               <span className="text-blue-500">高效管理你的</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
@@ -42,7 +42,7 @@ function Hero() {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
+            <p className="text-base md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
               ToMemo 是一款多功能快捷键盘 + 剪切内容记录 + 懒人短语的便签应用，
               帮助你高效管理和使用数字化内容，提升工作生活效率。
             </p>
@@ -75,7 +75,7 @@ function Hero() {
             </Button>
           </div>
 
-          <div className="hidden md:block absolute inset-0 -z-10 ">
+          <div className="hidden  absolute inset-0 -z-10 ">
             <Floating sensitivity={-0.5}>
               <FloatingElement
                 depth={0.5}

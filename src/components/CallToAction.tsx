@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 export function CallToAction() {
   return (
-    <div className="relative">
+    <div className="relative mt-12 md:mt-0">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-r from-[#60A5FA]/10 via-[#3B82F6]/10 to-[#2563EB]/10 rounded-3xl" />
