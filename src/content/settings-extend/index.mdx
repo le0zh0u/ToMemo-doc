@@ -1,7 +1,7 @@
 ---
 asIndexPage: true
-title: AI 服务
-sidebarTitle: 🤖 AI 服务
+title: 扩展设置
+sidebarTitle: 🔧 扩展设置
 ---
 
 import { Cards } from "nextra/components";
@@ -9,10 +9,11 @@ import { InformationCircleIcon, LinkIcon, MarkdownIcon } from "nextra/icons";
 import { MDXRemote } from "nextra/mdx-remote";
 import { createIndexPage, getPageMap } from "nextra/page-map";
 
-# AI服务
+# 扩展设置
+
 
 <MDXRemote
-  compiledSource={await createIndexPage(await getPageMap("/docs/ai-service"))}
+  compiledSource={await createIndexPage(await getPageMap("/docs/settings-extend"))}
   components={{
     Cards,
   }}

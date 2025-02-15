@@ -1,0 +1,35 @@
+---
+asIndexPage: true
+title: AI 服务
+sidebarTitle: 🤖 AI 服务
+---
+
+import { Cards } from "nextra/components";
+import { InformationCircleIcon, LinkIcon, MarkdownIcon } from "nextra/icons";
+import { MDXRemote } from "nextra/mdx-remote";
+import { createIndexPage, getPageMap } from "nextra/page-map";
+
+# AI 服务
+
+## 开启AI服务
+
+此开关作为AI服务在应用中的总开关，关闭后，将在应用的其他地方无法使用AI服务的功能。
+
+### 影响范围
+
+- AI助手界面
+- 键盘中AI助手辅助输出
+
+## 开启底部Tab页
+
+开启后，会在应用的底部Tab页中显示AI助手的快捷入口。
+
+
+## 更多配置
+
+<MDXRemote
+  compiledSource={await createIndexPage(await getPageMap("/docs/settings-extend/ai-service"))}
+  components={{
+    Cards,
+  }}
+/>

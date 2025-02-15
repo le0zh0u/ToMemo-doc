@@ -1,0 +1,43 @@
+---
+sidebarTitle: 🤖 AI 助手
+---
+
+import { Image } from "nextra/components";
+
+# AI 助手
+
+在ToMemo中为了更好地使用AI服务，我们将AI助手的功能拆分成了两种模式：
+
+## AI助手
+
+在AI助手的对话界面中，可以输入内容，并进行AI对话。
+
+<Image src="/images/ai-service/ai-assistant-conversation.png" alt="AI助手" width={300} height={300} />
+
+
+### 添加
+从界面的右上角，点击「➕」按钮，选择「AI助手」，会进入添加AI助手的页面。
+
+#### 名称
+
+AI助手的名称，在列表中会显示。
+
+#### 角色提示词
+
+俗称`Prompt`。高级的提示词带来更好的体验。
+
+比如“请帮我将以下内容翻译成中文：\{\{CONTENT}}”。
+
+在这个示例中，有一个CONTENT的变量。在使用时，会自动将这个变量替换成你输入的内容。在键盘中会自动将这个变量替换成你选中的文本或者复制的内容。
+
+#### 助手模版
+
+内置了一些助手的模版，我参考了[awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)，里面包含了100多条不同上下文的模板给ChatGPT使用。
+
+我只是从中选择了10条左右，也对中英文做了国际化处理。如果是英文环境下的话，从模板生成的指令，内容是英文的；如果是中文环境下的话，内容则会变成中文。但也有几个内容没有找到合适的中文翻译，保留了英文的Prompt，你可以根据自己的诉求在生成指令后自由调整内容。
+
+## 迷你工作台
+
+在迷你工作台中，可以选择多个AI助手，方便对于一个任务让多个AI进行对话。
+
+<Image src="/images/ai-service/mini-workspace-conversation.png" alt="迷你工作台" width={300} height={300} />
