@@ -4,6 +4,7 @@ const meta = {
   advance: "",
   cases: "",
   questions: "",
+  "contact-me": "",
 
   _: {
     type: "separator",
@@ -44,6 +45,13 @@ const meta = {
   "action-library": "",
   "ai-service": "",
   "newyear-pharse": "",
+
+  _____: {
+    type: "separator",
+    title: "更多", // Title is optional
+  },
+  terms: "",
+  privacy: "",
 };
 
 export default meta;
