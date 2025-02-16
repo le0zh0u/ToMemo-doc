@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-25750797","path":"/en/guide/advance.html","title":"Advanced Features","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1679040912000,"contributors":[{"name":"leozhou","email":"492753662@qq.com","commits":3}]},"filePathRelative":"en/guide/advance.md"}');export{e as data};

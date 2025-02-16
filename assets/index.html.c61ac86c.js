@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0fba0e06","path":"/en/feature/","title":"功能介绍","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667479690000,"contributors":[{"name":"leozhou","email":"492753662@qq.com","commits":1}]},"filePathRelative":"en/feature/README.md"}');export{e as data};

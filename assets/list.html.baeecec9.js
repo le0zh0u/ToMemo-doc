@@ -1,0 +1,12 @@
+import{_ as t,o as i,c as n,a}from"./app.6ae9cb3a.js";const r={};function o(s,e){return i(),n("div",null,e[0]||(e[0]=[a(`<h1 id="using-lists" tabindex="-1"><a class="header-anchor" href="#using-lists" aria-hidden="true">#</a> Using Lists</h1><p>Lists are used to group Memos.</p><p>If the current Memo doesn’t fit in any existing group, you can create a new “Pending” list and add it there, then refine it later.</p><h2 id="batch-import" tabindex="-1"><a class="header-anchor" href="#batch-import" aria-hidden="true">#</a> Batch Import</h2><p>In the list detail page’s expansion menu bar.</p><p>You can use the batch import template to fill in your own content, preview it, and save it directly after confirming there are no issues.</p><p>Template Example:</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>+++ This line is for the Memo Title
+This line is for Memo Content
+
++++ Title is limited to one line
+Content can have multiple lines
+Line 1
+Line 2
+
++++
+This line is for Memo Content, if the title is missing, the generated Memo title will be automatically filled with the first line of content.
+If title is empty, will be filled with content.
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="from-short-term-memory" tabindex="-1"><a class="header-anchor" href="#from-short-term-memory" aria-hidden="true">#</a> From Short-term Memory</h3><p>If you have edited the batch import content from a template on your computer. Then, copy it on your computer, and sync it to your phone using Apple’s built-in Continuity feature.</p><p>Enter the Short-term Memory from the ToMemo app. The content saved in the clipboard will be saved automatically. Then find and click on the Short-term Memory detail page, and in the upper right corner of the expansion menu bar, find the “Batch Import to List” function. After clicking, you can enter the batch import page, select the list, preview and confirm there are no issues, then click save. The content will be automatically added to the corresponding list.</p>`,11)]))}const d=t(r,[["render",o],["__file","list.html.vue"]]);export{d as default};
