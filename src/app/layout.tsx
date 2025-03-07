@@ -65,11 +65,11 @@ export default async function RootLayout({
                   <span className="font-bold text-2xl">ToMemo</span>
                 </div>
               }
-              projectLink="https://github.com/zhouchunjie/ToMemo-doc"
+              projectLink="https://github.com/le0zh0u/ToMemo-doc/tree/feature/nextra"
             />
           }
           pageMap={pageMap}
-          docsRepositoryBase="https://github.com/zhouchunjie/ToMemo-doc"
+          docsRepositoryBase="https://github.com/le0zh0u/ToMemo-doc/tree/feature/nextra"
           editLink="Edit this page on GitHub"
           sidebar={{
             defaultMenuCollapseLevel: 1,
