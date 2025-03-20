@@ -1,0 +1,67 @@
+---
+sidebarTitle: 📥 列表导入
+---
+
+import { Image } from "nextra/components";
+
+# 列表导入
+
+列表导入，可以将CSV格式文件导入到ToMemo中，一列为一个列表，该列下的行都是一个Memo。
+
+<Image src="/images/category-import-add-entrace.png" alt="导入入口" width={300} height={600} />
+
+## 功能入口
+
+在列表的List页面中，点击右上角「更多」按钮，再选择「导入」
+
+## 导入文本
+
+导入的文本来自Excel格式或者csv格式的文件，导入的文件需要符合以下格式：
+
+- 第一行是标题，标题需要和ToMemo中的列表名称一致
+- 第二行开始是列表的内容
+
+<Image src="/images/category-import-add-demo.png" alt="导入示例" width={300} height={600} />
+<Image src="/images/category-import-add-result.png" alt="导入结果" width={300} height={600} />
+
+### 逗号分隔符
+
+```
+标题,内容
+标题1,内容1
+标题2,内容2
+标题3,内容3
+```
+
+### 制表符分隔符
+
+```
+标题	内容
+标题1	内容1
+标题2	内容2
+标题3	内容3
+```
+
+### 分号分隔符
+
+```
+标题;内容
+标题1;内容1
+标题2;内容2
+标题3;内容3
+```
+
+### 换行内容
+
+```
+标题,内容
+标题1,"内容1
+内容2
+内容3"
+标题2,"内容2
+内容2
+内容3"
+标题3,"内容3
+内容2
+内容3"
+```
