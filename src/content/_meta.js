@@ -12,6 +12,7 @@ const meta = {
   },
   memos: "",
   "memos-batch-add": "",
+  "category-import-add": "",
   "##": {
     type: "separator",
     title: "短时记忆", // Title is optional
