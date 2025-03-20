@@ -18,8 +18,8 @@ import { Image, Tabs } from "nextra/components";
 
 导入的文本来自Excel格式或者csv格式的文件，导入的文件需要符合以下格式：
 
-- 第一行是标题，标题需要和ToMemo中的列表名称一致
-- 第二行开始是列表的内容
+- 第一行是行头，行头单元格的内容是列表的名称， 如果列表不存在，会自动创建
+- 第二行开始是列表的内容，每一行代表一个Memo，每一列都归属行头对应的列表
 
 <Tabs items={['导入示例', '导入结果']}>
     <Tabs.Tab><Image src="/images/list/category-import-add-demo.png" alt="导入示例" width={300} height={600} /></Tabs.Tab>
