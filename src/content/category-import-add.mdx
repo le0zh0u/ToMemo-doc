@@ -2,7 +2,7 @@
 sidebarTitle: 📥 列表导入
 ---
 
-import { Image } from "nextra/components";
+import { Image, Tabs } from "nextra/components";
 
 # 列表导入
 
@@ -21,8 +21,12 @@ import { Image } from "nextra/components";
 - 第一行是标题，标题需要和ToMemo中的列表名称一致
 - 第二行开始是列表的内容
 
-<Image src="/images/list/category-import-add-demo.png" alt="导入示例" width={300} height={600} />
-<Image src="/images/list/category-import-add-result.png" alt="导入结果" width={300} height={600} />
+<Tabs items={['导入示例', '导入结果']}>
+    <Image src="/images/list/category-import-add-demo.png" alt="导入示例" width={300} height={300} />
+    <Image src="/images/list/category-import-add-result.png" alt="导入结果" width={300} height={300} />
+</Tabs>
+
+
 
 ### 逗号分隔符
 
