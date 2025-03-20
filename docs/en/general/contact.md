@@ -12,6 +12,6 @@ Subscribe to the [ToMemo Channel](tg://resolve?domain=tomemochannel) on Telegram
 
 ## Contact Me Personally
 
-You can send an email to me at [hi@leozhou.me](mailto:hi@leozhou.me).
+You can send an email to me at [hi@leozhou.xyz](mailto:hi@leozhou.xyz).
 
 You can also contact me through Telegram group.

@@ -11,25 +11,29 @@ ToMemo Pro offers a variety of pricing strategies to meet different needs, such 
 ToMemo’s personalized keyboard skins require payment. After purchasing the selected skin, you can use it unlimitedly under the same account. The payment plan for the skins is **buyout**.
 
 ::: tip Plan Introduction
+
 - Buyout: You only need to pay once and can use it permanently.
 - Subscription: Subscribing monthly allows you to try all features conveniently. Subscribing yearly is the biggest support for us.
-:::
+  :::
 
 ### Prices
 
 #### ToMemo Advanced
+
 - Buyout: 12 CNY
 - Monthly subscription: 2 CNY
 - Annual subscription: 12 CNY
 
 #### Keyboard Skins
+
 - Chuxin: 3 CNY
 - QianDuoDuo: 3 CNY
 
 ::: danger Important Note
+
 - The record after purchase is bound to the App Store account. Switching accounts will require you to confirm the ToMemo Pro purchase certificate again. It is recommended to purchase with the most commonly used account in the store.
 - Due to configurations being unfamiliar in the past, “ToMemo Pro” and “ToMemo Advanced” have been listed separately. They are actually the same version and unlock the same content. Please rest assured to purchase.
-:::
+  :::
 
 ### Service Availability
 
@@ -49,5 +53,4 @@ We will notify you of any changes by posting new Terms of Use on this page. All 
 
 Contact us
 
-If you have any questions or suggestions about our Terms of Use, please contact us at [hi@leozhou.me](mailto:hi@leozhou.me).
-
+If you have any questions or suggestions about our Terms of Use, please contact us at [hi@leozhou.xyz](mailto:hi@leozhou.xyz).

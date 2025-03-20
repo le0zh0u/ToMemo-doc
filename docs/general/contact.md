@@ -12,15 +12,15 @@
 
 ## 问题反馈
 
-应用已经上架iOS App Store，如果有使用上的问题或者建议**请优先在 GitHub 提 issue**，👉 点击此处跳转 [GitHub issue](https://github.com/le0zh0u/ToMemo-doc/issues)。
+应用已经上架 iOS App Store，如果有使用上的问题或者建议**请优先在 GitHub 提 issue**，👉 点击此处跳转 [GitHub issue](https://github.com/le0zh0u/ToMemo-doc/issues)。
 
-## TG交流群
+## TG 交流群
 
 可以加入[ToMemo Friends](tg://resolve?domain=tomemoapp)
 
 同时订阅[ToMemo Channel](tg://resolve?domain=tomemochannel)
 
-## QQ交流群
+## QQ 交流群
 
 扫下方二维码加入 QQ 群 `590460568`
 
@@ -28,7 +28,6 @@
 
 ## 单独联系我
 
-可以发送邮件给我 [hi@leozhou.me](mailto:hi@leozhou.me)。
+可以发送邮件给我 [hi@leozhou.xyz](mailto:hi@leozhou.xyz)。
 
-也可以在QQ群中联系我。
-
+也可以在 QQ 群中联系我。

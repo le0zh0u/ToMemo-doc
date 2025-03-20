@@ -41,4 +41,4 @@ We will notify you of any changes by posting new privacy policies on this page. 
 
 ## Contact Us
 
-If you have any questions or suggestions about our privacy policy, please contact me at [hi@leozhou.me](mailto:hi@leozhou.me).
+If you have any questions or suggestions about our privacy policy, please contact me at [hi@leozhou.xyz](mailto:hi@leozhou.xyz).
