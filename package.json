@@ -18,7 +18,7 @@
     "framer-motion": "^12.4.1",
     "lucide-react": "^0.474.0",
     "motion": "^12.4.1",
-    "next": "15.1.5",
+    "next": "15.1.11",
     "nextra": "^4.0.5",
     "nextra-theme-docs": "^4.0.5",
     "react": "^19.0.0",
