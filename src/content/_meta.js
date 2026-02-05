@@ -23,6 +23,7 @@ const meta = {
   "quick-share": "",
   "text-card": "",
   "short-term-memory-12321-report": "",
+  "short-term-memory-island": "",
   __: {
     type: "separator",
     title: "快捷键盘", // Title is optional
