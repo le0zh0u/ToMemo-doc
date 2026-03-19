@@ -31,6 +31,7 @@ const meta = {
   keyboard: "",
   "keyboard-config": "",
   "keyboard-usage": "",
+  "keyboard-calculator": "",
   ___: {
     type: "separator",
     title: "应用设置", // Title is optional
