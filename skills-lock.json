@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "nextra-writer": {
+      "source": "shipshitdev/library",
+      "sourceType": "github",
+      "computedHash": "72d5522134525f475a2ce694286940a07210a0f2334cefed0f70ad997d15fe7f"
+    }
+  }
+}
